@@ -81,7 +81,7 @@ mongod.exe --dbpath "d:\path\to\your\project\db\storage\ data"
 (I called my project db storage directory >> data)
 Your data will be stored by mongodb there.
 
-6. In the 1st command prompt your commands:
+7. In the 1st command prompt your commands:
 
 	npm start
 	
