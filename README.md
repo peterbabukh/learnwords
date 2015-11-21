@@ -19,7 +19,7 @@ so, for now I will leave it as it is.
 
 TODO:
 - preprocessors: high time to finally implement less, minification, build, tests for further
-development purposes,
+development and production purposes (as the files need minification for sure),
 - change slash navigation for the hash one,
 - create admin authorization and admin page,
 - implement email password-forgot notification,
@@ -30,6 +30,7 @@ development purposes,
 - enhance security,
 - improve design,
 - implement pronunciation audio output,
+- db response optimisation (perform sort on server, thus refactor MainInterfaceView),
 - etc.
 
 

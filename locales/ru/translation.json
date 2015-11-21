@@ -1,0 +1,23 @@
+{
+    "title": "learn English words",
+
+    "nav": {
+        "logOut": "Выйти",
+        "logIn": "Войти, если уже зарегистрирован",
+        "signOut": "Удалить свой аккаунт",
+        "signUp": "Зарегистрироваться за 10 секунд",
+        "submit": "Отправить форму"
+    },
+
+    "conf": {
+        "confirmDeleteAccount": "Ваш аккаунт будет удален! Продолжить?"
+    },
+
+    "text": {
+        "password": "Пароль:",
+        "email": "Email:",
+        "inputName": "Ваше имя:",
+        "invalidEmailOrPassword": "Не правильный пароль или Email!",
+        "suchUserExists": "Пользователь с таким Email уже зарегистрирован!"
+    }
+}

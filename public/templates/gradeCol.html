@@ -1,0 +1,12 @@
+<fieldset class="grade-fieldset">
+	<legend><%= (typeof grade == "number") ? grade + " класс" : "факультатив" %> </legend>
+	<label><input type="checkbox" name="choose-all" class="choose-all-groups" /><%- i18n.text.chooseAll %></label><br />
+	<% for (var i = 0; i < array.length; i++) { %>
+	<br />
+	<label>
+		<input type="checkbox" data-type="<%=display_type%>" data-grade="<%=grade%>"
+			   name="<%=array[i]%>" class="choose-group-input" />
+			<%= (typeof array[i] == "number") ? "Unit " + array[i] : array[i] %>
+	</label>
+	<% }; %>
+</fieldset>

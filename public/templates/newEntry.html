@@ -1,0 +1,22 @@
+<form name="newEntry" class="newEntry">
+	<br /><label><%- text.EnglishWord %><input type="text" name="enWord" class="enWord" /></label>
+	<br /><label><%- text.RussianTranslation %><input type="text" name="ruWord" class="ruWord" /></label>
+	<br /><label><%- text.EnglishSynonymsArray %><input type="text" name="enSynonyms" /></label>
+	<br /><label><%- text.RussianSynonymsArray %><input type="text" name="ruSynonyms" /></label>
+	<br /><label><%- text.typeOrChooseWordGroup %><input type="text" class="new-entry-input" name="wordGroup" value="моя группа"/></label>
+	<ul class="groups-ul">
+		<p><%- text.existingGroups %></p>
+	</ul>
+	<br />
+	<p>
+		<button class="submit-entry" onclick="return false;"><%- text.addItem %></button>
+	</p>
+	<br />
+</form>
+<br />
+<div>
+	<a class="reset-filed"><%- text.baseReload %></a>
+	<span class="division"> | </span>
+	<a class="reset-all"><%- text.fullReload %></a>
+</div>
+<br />

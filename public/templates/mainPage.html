@@ -1,0 +1,92 @@
+<div class="navigation">
+	<div>
+		<a href="/fieldset" class="show-group-button"><%- nav.fieldset %></a>
+	</div>
+	<div>
+		<p><%- text.displayWords %></p>
+		<select name="select-displayorder" size="3">
+			<option class="select-displayorder" value=<%- value.random %>><%- text.inRandomOrder %></option>
+			<option class="select-displayorder" value=<%- value.alphabet %> selected><%- text.inAlphabeticFromBeginning %></option>
+			<option class="select-displayorder" value=<%- value.reverse %>><%- text.inAlphabeticFromEnd %></option>
+		</select>
+	</div>
+	<div>
+		<p><%- text.translateFrom %></p>
+		<select name="select-lang" size="2">
+			<option class="select-lang" value="enWord" selected><%- text.English %></option>
+			<option class="select-lang" value="ruWord"><%- text.Russian %></option>
+		</select>
+	</div>
+	<div>
+		<p><%- text.chooseCheckType %></p>
+		<select name="select-check" size="2">
+			<option class="select-check" value="strict"><%- text.withoutSynonyms %></option>
+			<option class="select-check" value="expand" selected><%- text.withSynonyms %></option>
+		</select>
+	</div>
+</div>
+<div class="display">
+	<div class="display-box">
+		<div class="display-textbox">
+			<p class="display-text"><%- text.wordForTranslation %></p>
+		</div>
+		<div class="display-wrapper">
+			<span class="display-field"></span>
+			<img id="rightanswer-img" src="assets/img/rightanswer.gif" height="60px" alt="Gif animation" />
+		</div>
+	</div>
+	<div class="input-box">
+		<div class="input-textbox">
+			<p class="input-text"><%- text.typeTranslationHere %></p>
+			<span class="hint-word"></span>
+		</div>
+		<div class="input-wrapper">
+			<input class="input-field" name="input-field" type="text" />
+			<button class="hint-button"><%- text.showHint %></button>
+		</div>
+	</div>
+	<div class="enter-box">
+		<div class="enter-textbox">
+			<p class="enter-text"><%- text.clickTo %></p>
+		</div>
+		<div class="enter-wrapper">
+			<button class="enter-button"><%- text.answer %></button>
+		</div>
+	</div>
+</div>
+<div class="counter">
+	<div>
+		<div>
+			<p class="counter-text"><%- text.totallyTranslated %></p>
+		</div>
+		<div class="rightanswer-count">
+			<span>0</span>
+		</div>
+	</div>
+	<div>
+		<div>
+			<p class="counter-text"><%- text.translatedWithoutHint %></p>
+		</div>
+		<div class="nohints-count">
+			<span>0</span>
+			<img id="celebrate-img" src="assets/img/jump.gif" height="60px" alt="Gif animation" />
+		</div>
+	</div>
+	<div>
+		<div>
+			<p class="counter-text"><%- text.usedHints %></p>
+		</div>
+		<div class="usedhints-count">
+			<span>0</span>
+		</div>
+	</div>
+</div>
+<div class="footer">
+	<a href="" class="show-wordlist-button"><%- text.showChosenWordsList %></a>
+	<span class="division"> | </span>
+	<a href="/list"><%- nav.list %></a>
+</div>
+<div class="wordlist-table-box">
+	<button class="hide-table-button"><%- text.hideList %></button>
+	<table class="wordlist-table"></table>
+</div>

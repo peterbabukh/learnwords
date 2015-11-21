@@ -1,0 +1,57 @@
+{
+  "name": "learnwords",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "keywords": [
+    "nodejs project",
+    "learnwords"
+  ],
+  "dependencies": {
+    "assert": "^1.3.0",
+    "async": "^1.4.2",
+    "body-parser": "^1.14.1",
+    "clone": "^1.0.2",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^0.8.2",
+    "cookie-parser": "^1.4.0",
+    "crypto": "0.0.3",
+    "debug": "^2.2.0",
+    "ejs-locals": "^1.0.2",
+    "error": "^7.0.2",
+    "errorhandler": "^1.4.2",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "fs": "0.0.2",
+    "i18next": "^1.10.6",
+    "method-override": "^2.3.5",
+    "mongodb": "^2.0.46",
+    "mongoose": "^4.1.12",
+    "nconf": "^0.8.2",
+    "passport": "^0.3.0",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "^2.3.0",
+    "string": "^3.3.1",
+    "underscore": "^1.8.3",
+    "util": "^0.10.3",
+    "validator": "^4.2.0",
+    "winston": "^1.1.1"
+  },
+  "devDependencies": {
+    "supervisor": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peterbabukh/learnwords3.git"
+  },
+  "author": "Peter Babukh",
+  "contributors": {},
+  "license": "CC BY-NC-SA 3.0",
+  "bugs": {
+    "url": "https://github.com/peterbabukh/learnwords3/issues",
+    "email": "peter_babukh@mail.ru"
+  }
+}

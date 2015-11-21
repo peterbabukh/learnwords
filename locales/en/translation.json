@@ -1,0 +1,23 @@
+{
+    "title": "learn English words",
+
+    "nav": {
+        "logOut": "Log Out",
+        "logIn": "Log In, if already registered",
+        "signOut": "Delete my account",
+        "signUp": "Sign Up in 10 seconds",
+        "submit": "Submit form"
+    },
+
+    "conf": {
+        "confirmDeleteAccount": "Your account will be deleted. Continue?"
+    },
+
+    "text": {
+        "password": "Password:",
+        "email": "Email:",
+        "inputName": "Your name:",
+        "invalidEmailOrPassword": "Wrong password or Email!",
+        "suchUserExists": "User with such Email already exists!"
+    }
+}
