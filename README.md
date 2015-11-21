@@ -38,14 +38,14 @@ development and production purposes (as the files need minification for sure),
 
 LAUNCH of the app:
 
-1. You need to install or have already installed Nodejs. Do it from here https://nodejs.org/en/
+- You need to install or have already installed Nodejs. Do it from here https://nodejs.org/en/
 If you type in the command line:
 
 	node -v
 	
 and see the version of the Nodejs installed, it means that everything works.
 
-2. You need to install npm. Do it from the below link according to the instructions:
+- You need to install npm. Do it from the below link according to the instructions:
 https://docs.npmjs.com/getting-started/installing-node
 If after all you type in the command line:
 
@@ -53,9 +53,9 @@ If after all you type in the command line:
 	
 and see the version of the npm installed, it means that everything works.
 
-3. Clone the repository to your git.
+- Clone the repository to your git.
 
-4. You also have to install MongoDB database. Download it from here:
+- You also have to install MongoDB database. Download it from here:
 https://www.mongodb.org/
 and then follow the instructions here:
 https://docs.mongodb.org/manual/?_ga=1.34887912.83950049.1445246926
@@ -66,14 +66,14 @@ https://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/
 For operating you will need to open 2 command prompts, 1 for the db, and 1 for the project.
 Make sure you do it under administrator's rights.
 
-5. In the 1st command prompt go to the project root directory
+- In the 1st command prompt go to the project root directory
 and type in the command line:
 
 	npm install
 	
 the dependencies from the package.json file will be installed locally.
 
-6. In the 2nd command prompt go to:
+- In the 2nd command prompt go to:
 my e.g.: C:\path\to\mongodb\bin
 
 and execute:
@@ -81,7 +81,7 @@ mongod.exe --dbpath "d:\path\to\your\project\db\storage\ data"
 (I called my project db storage directory >> data)
 Your data will be stored by mongodb there.
 
-7. In the 1st command prompt your commands:
+- In the 1st command prompt your commands:
 
 	npm start
 	
