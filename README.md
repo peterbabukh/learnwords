@@ -39,13 +39,17 @@ LAUNCH of the app:
 
 1. You need to install or have already installed Nodejs. Do it from here https://nodejs.org/en/
 If you type in the command line:
+
 	node -v
+	
 and see the version of the Nodejs installed, it means that everything works.
 
 2. You need to install npm. Do it from the below link according to the instructions:
 https://docs.npmjs.com/getting-started/installing-node
 If after all you type in the command line:
+
 	npm -v
+	
 and see the version of the npm installed, it means that everything works.
 
 3. Clone the repository to your git.
@@ -63,7 +67,9 @@ Make sure you do it under administrator's rights.
 
 5. In the 1st command prompt go to the project root directory
 and type in the command line:
+
 	npm install
+	
 the dependencies from the package.json file will be installed locally.
 
 6. In the 2nd command prompt go to:
@@ -75,9 +81,13 @@ mongod.exe --dbpath "d:\path\to\your\project\db\storage\ data"
 Your data will be stored by mongodb there.
 
 6. In the 1st command prompt your commands:
+
 	npm start
+	
 or
+
 	node server.js
+	
 will start the app running.
 
 
