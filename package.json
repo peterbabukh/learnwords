@@ -3,9 +3,9 @@
   "version": "2.0.0",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
-  "main": "app.js",
+  "main": "server.js",
   "keywords": [
     "nodejs project",
     "learnwords"
