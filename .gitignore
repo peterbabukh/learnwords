@@ -1,4 +1,7 @@
 *.idea
 node_modules
-/data/*
+/data
+/build
+/dist
+jshint.log
 npm-debug.log
