@@ -1,7 +1,16 @@
 It is a simple Backbone, Requirejs, Nodejs, Express, Mongodb, Mongoose project with practical use.
 
 Though this is a ready real app with practical use (see far below), it is a simple app with only basics
-implemented in it. Here I used AMD, BACKBONE, UNDERSCORE templating, REQUIREJS, NODEJS, EXPRESS, MONGODB, MONGOOSE...
+implemented in it. Here I used AMD, BACKBONE, UNDERSCORE, templating, REQUIREJS, NODEJS, EXPRESS, MONGODB, MONGOOSE...
+Checkout Bower and Grunt preprocessors.
+
+Checkout the difference in the efficiency of the project when all the files are only minified with Grunt,
+and when the files are compiled into a single build file with the use of Grunt, Grunt-contrib-requirejs
+and Almond.js. The latter alternative is much more efficient. In the dist folder you can find
+both the minified requirejs files, as well as in the dist/req folder you will find the single build
+file. When testing you only need to change the src in the views/layout file.
+
+Or to play with it you can use the Gruntfile.js to make tasks to your needs and generate all these files yourself.
 
 I wrote this app to learn the above mentioned tools. While reading the code,
 please, take it into account, that first only the front end was written, 
@@ -18,8 +27,8 @@ I am well aware of the fact that the app can be upgraded and extended in many wa
 so, for now I will leave it as it is.
 
 TODO:
-- preprocessors: high time to finally implement less, minification, build, tests for further
-development and production purposes (as the files need minification for sure),
+- preprocessors: high time to finally implement tests for further
+development (as the project is likely to grow for sure),
 - change slash navigation for the hash one,
 - create admin authorization and admin page,
 - implement email password-forgot notification,

@@ -37,6 +37,32 @@ module.exports = function(grunt) {
             }
         },
 
+        // compiles all front-end js files into a single file with grunt-contrib-requirejs
+        // which turns out to be a much better alternative to simple minification
+        // in terms of efficiency and speed
+        requirejs: {
+            compile: {
+                options: {
+                    baseUrl: './<%= appConfig.public %>/js/lib',
+                    mainConfigFile: './<%= appConfig.public %>/js/main.js',
+                    // almond wrapper to support single-file build output
+                    name: '../../../node_modules/almond/almond',
+                    include: ['../main'],
+                    out: "dist/req/<%= pkg.name %>.js",
+                    findNestedDependencies: true,
+                    optimize: 'uglify',
+                    compress: true,
+                    fileExclusionRegExp: /^\./,
+                    locale: "ru",
+                    wrap: true,
+                    //useStrict: false,
+                    //generateSourceMaps: true,
+                    wrapShim: true
+                }
+            }
+
+        },
+
         // minifies images using grunt-contrib-imagemin
         imagemin: {
             dynamic: {
@@ -61,7 +87,8 @@ module.exports = function(grunt) {
 
         // cleans <%= appConfig.build %>, <%= appConfig.dist %> folders before each build
         clean: {
-            all: ['<%= appConfig.build %>', '<%= appConfig.dist %>']
+            all: ['<%= appConfig.build %>', '<%= appConfig.dist %>'],
+            req: ['<%= appConfig.dist %>/req']
         },
 
         // transpiles less files
@@ -130,6 +157,16 @@ module.exports = function(grunt) {
                 tasks: [
                     'build'
                 ]
+            },
+            req: {
+                files: [
+                    'Gruntfile.js',
+                    '<%= appConfig.public %>/templates/*.html',
+                    '<%= appConfig.public %>/js/**/*.js'
+                ],
+                tasks: [
+                    'req'
+                ]
             }
         },
 
@@ -164,6 +201,12 @@ module.exports = function(grunt) {
                 options: {
                     logConcurrentOutput: true
                 }
+            },
+            req: {
+                tasks: ['nodemon:dev', 'watch:req'],
+                options: {
+                    logConcurrentOutput: true
+                }
             }
         },
 
@@ -182,19 +225,33 @@ module.exports = function(grunt) {
     // sets up command line commands to execute all above stuff
     // by doing $ grunt mytask
 
+    // makes a copy of the project where all files are only minified
     grunt.registerTask('build', [
-            'clean:all',
-            //'jshint:all',
-            'less:transpile',
-            'cssmin',
-            'uglify',
-            'copy:all',
-            'imagemin',
-            'htmlclean',
-            'concurrent:dev'
-        ]);
+        'clean:req',
+        //'jshint:all',
+        'less:transpile',
+        'cssmin',
+        'uglify',
+        'copy:all',
+        'imagemin',
+        'htmlclean',
+        'concurrent:dev'
+    ]);
+
+    // Minifies and compiles all files into one single file using almond.js.
+    // Check out the increased efficiency in comparison to the previous alternative.
+    grunt.registerTask('req', [
+        'clean:all',
+        //'jshint:all',
+        'less:transpile',
+        'cssmin',
+        'copy:all',
+        'imagemin',
+        'requirejs',
+        'concurrent:req'
+    ]);
 
     // Default task(s).
-    grunt.registerTask('default', ['build']);
+    grunt.registerTask('default', ['req']);
 
 };
