@@ -1,15 +1,22 @@
-define( function(require) {
+define([
+    'backbone',
+    'app/WordModel',
+    'underscore.string',
+    'i18n!../../js/nls/ru',
+    'text!../../templates/newEntry.html',
+    'helpers/formToJSON',
+    'helpers/some'
+], function(
+    // I chose this syntax instead of var Backbone = require('backbone')
+    // to support minification during build, which otherwise fails
+    Backbone,
+    WordModel,
+    s,
+    i18n,
+    newEntry
+) {
 
     'use strict';
-
-    require('helpers/formToJSON');
-    require('helpers/some');
-
-    var Backbone = require('backbone');
-    var WordModel = require('app/WordModel');
-    var s = require('underscore.string');
-    var i18n = require('i18n!../../js/nls/ru');
-    var newEntry = require('text!../../templates/newEntry.html');
 
     var NewEntryFormView = Backbone.View.extend({
 

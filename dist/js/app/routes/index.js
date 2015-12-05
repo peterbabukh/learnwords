@@ -1,0 +1,1 @@
+define(["app/MainInterfaceView","app/FieldsetView","app/WordsCollectionView"],function(a,b,c){"use strict";return{home:a,fieldset:b,list:c}});

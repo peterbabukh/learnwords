@@ -1,10 +1,14 @@
-define( function(require) {
+define([
+    'app/MainInterfaceView',
+    'app/FieldsetView',
+    'app/WordsCollectionView'
+], function(
+    MainInterfaceView,
+    FieldsetView,
+    WordsCollectionView
+) {
 
     'use strict';
-	
-	var MainInterfaceView = require('app/MainInterfaceView');
-    var FieldsetView = require('app/FieldsetView');
-    var WordsCollectionView = require('app/WordsCollectionView');
 
     return {
         'home': MainInterfaceView,

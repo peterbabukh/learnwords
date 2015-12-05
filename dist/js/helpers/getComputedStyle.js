@@ -1,0 +1,1 @@
+define(function(a){"use strict";return{getStyle:function(a){return window.getComputedStyle?getComputedStyle(a,""):a.currentStyle}}});

@@ -1,0 +1,1 @@
+define(["backbone","i18n!../../js/nls/ru","./routes/index"],function(a,b,c){"use strict";var d=a.Router.extend({routes:{"*path":"default"},"default":function(a){if(c[a]){var b=new c[a];this.showView(b)}},showView:function(a){a.render().el}});return d});

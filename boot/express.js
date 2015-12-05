@@ -34,6 +34,8 @@ module.exports = function (app) {
         store: sessionStore
     }));
 
-    app.use(express.static(path.join(__dirname + '/..', 'public')));
+    // files are passed not from public folder, but from dist folder,
+    // already transpiled and minified by Grunt
+    app.use(express.static(path.join(__dirname + '/..', 'dist')));
     
 };

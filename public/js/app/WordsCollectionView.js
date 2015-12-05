@@ -1,18 +1,32 @@
-define( function(require) {
+define([
+    'backbone',
+    'app/WordModelView',
+    'app/NewEntryFormView',
+    'i18n!../../js/nls/ru',
+    'helpers/getComputedStyle',
+    'app/UserModel',
+    'text!../../templates/wordsCollectionViewHeader.html',
+    'text!../../templates/liTemplate.html',
+    'text!../../templates/tableTemplate.html',
+    'app/WordsCollection',
+    'app/AppHeaderView'
+], function(
+    // I chose this syntax instead of var Backbone = require('backbone')
+    // to support minification during build, which otherwise fails
+    Backbone,
+    WordModelView,
+    NewEntryFormView,
+    i18n,
+    getStyle,
+    User,
+    wordsCollectionViewHeader,
+    liTemplate,
+    tableTemplate,
+    WordsCollection,
+    AppHeaderView
+) {
 
     'use strict';
-
-    var Backbone = require('backbone');
-    var WordModelView = require('app/WordModelView');
-    var NewEntryFormView = require('app/NewEntryFormView');
-    var i18n = require('i18n!../../js/nls/ru');
-    var getStyle = require('helpers/getComputedStyle').getStyle;
-    var User = require('app/UserModel');
-    var wordsCollectionViewHeader = require('text!../../templates/wordsCollectionViewHeader.html');
-    var liTemplate = require('text!../../templates/liTemplate.html');
-    var tableTemplate = require('text!../../templates/tableTemplate.html');
-    var WordsCollection = require('app/WordsCollection');
-    var AppHeaderView = require('app/AppHeaderView');
 
     var WordsCollectionView = Backbone.View.extend({
 
@@ -121,8 +135,8 @@ define( function(require) {
             var cells = document.querySelectorAll('.collection-table tr:first-child td');
             var filter = document.querySelectorAll('.td-filter');
             _.each(filter, function(el, index) {
-                var csPaddings = parseInt( getStyle(el).paddingRight ) * 2;
-                var csBorder = parseInt( getStyle(el).borderRight );
+                var csPaddings = parseInt( getStyle.getStyle(el).paddingRight ) * 2;
+                var csBorder = parseInt( getStyle.getStyle(el).borderRight );
                 el.width = cells[index].offsetWidth - csPaddings - csBorder + 'px';
             });
         },

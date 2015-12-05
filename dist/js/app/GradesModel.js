@@ -1,0 +1,1 @@
+define(["backbone"],function(a){"use strict";var b=a.Model.extend({urlRoot:"/grades"});return b});

@@ -1,9 +1,9 @@
-define( function(require) {
+define([
+	'backbone',
+	'app/WordModel'
+], function(Backbone, WordModel) {
 
 	'use strict';
-
-	var Backbone = require('backbone');
-	var WordModel = require('app/WordModel');
 
 	var WordsCollection = Backbone.Collection.extend({
 

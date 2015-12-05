@@ -1,14 +1,21 @@
-define( function(require) {
+define([
+    'backbone',
+    'underscore.string',
+    'i18n!../../js/nls/ru',
+    'text!../../templates/wordItem.html',
+    'text!../../templates/wordItemHeader.html',
+    'helpers/some'
+], function(
+    // I chose this syntax instead of var Backbone = require('backbone')
+    // to support minification during build, which otherwise fails
+    Backbone,
+    s,
+    i18n,
+    wordItem,
+    wordItemHeader
+) {
 
     'use strict';
-
-    require('helpers/some');
-
-    var Backbone = require('backbone');
-    var s = require('underscore.string');
-    var i18n = require('i18n!../../js/nls/ru');
-    var wordItem = require('text!../../templates/wordItem.html');
-    var wordItemHeader = require('text!../../templates/wordItemHeader.html');
 
     var WordItemView = Backbone.View.extend({
 

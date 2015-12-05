@@ -1,0 +1,1 @@
+define(["backbone","app/WordModel"],function(a,b){"use strict";var c=a.Collection.extend({model:b,url:"/words",comparator:function(a){return a.get("enWord")},fetchCollection:function(){var a=this;this.fetch({reset:!0,success:function(b,c,d){a.trigger("successOnFetch")},error:function(b,c,d){a.trigger("errorOnFetch")}})}});return c});

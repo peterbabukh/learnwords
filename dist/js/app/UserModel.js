@@ -1,0 +1,1 @@
+define(["backbone","app/WordsCollection"],function(a,b){"use strict";var c=a.Model.extend({urlRoot:"/user",defaults:{words:new b},parse:function(a){return a.words=new b(a.words),a}});return c});

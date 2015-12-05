@@ -1,8 +1,8 @@
-define( function(require) {
+define([
+	'backbone'
+], function(Backbone) {
 
 	'use strict';
-
-	var Backbone = require('backbone');
 
 	var UserModel = Backbone.Model.extend({
 

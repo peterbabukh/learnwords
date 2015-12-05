@@ -1,8 +1,6 @@
-define( function(require) {
+define(['backbone'], function(Backbone) {
 
     'use strict';
-
-    var Backbone = require('backbone');
 
     var WordModel = Backbone.Model.extend({
 

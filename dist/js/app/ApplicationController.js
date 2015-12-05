@@ -1,0 +1,1 @@
+define(["backbone","app/ApplicationRouter"],function(a,b){"use strict";var c=a.Model.extend({initialize:function(){a.View.prototype.goTo=function(a){c.navigate(a,{trigger:!0})},a.Model.prototype.idAttribute="_id";var c=new b;a.history.start({pushState:!0})}});return c});
