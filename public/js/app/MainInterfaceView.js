@@ -360,6 +360,7 @@ define([
 
         appendHeader: function() {
             var appHeaderView = new AppHeaderView();
+            // used prepend instead of append for further adaptive css purposes
             this.$el.prepend( appHeaderView.render().el );
 
             // need it to remove this view upon removal of this.$el

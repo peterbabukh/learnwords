@@ -206,15 +206,14 @@
 	}
 
 
-    /* application header styles */
+	/* application header styles */
 
-    .app-header {
-        position: static;
-        text-align: center;
-        margin: 0 auto 10px;
-        padding-top: 0;
-        padding-right: 0;
-    }
+	.app-header {
+		position: static;
+		text-align: center;
+		padding-top: 0;
+		padding-right: 10px;
+	}
 
 }
 
@@ -330,14 +329,14 @@
 		display: none;
 	}
 
+
 	/* application header styles */
 
 	.app-header {
 		position: static;
 		text-align: center;
-		margin: 5px auto 20px;
-        padding-top: 0;
-        padding-right: 0;
+		padding-top: 0;
+		padding-right: 10px;
 	}
 
 

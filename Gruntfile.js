@@ -96,8 +96,8 @@ module.exports = function(grunt) {
             transpile: {
                 files: {
                     '<%= appConfig.build %>/<%= pkg.name %>.css': [
-                        '<%= appConfig.public %>/**/*.css',
-                        '<%= appConfig.public %>/**/*.less'
+                        '<%= appConfig.public %>/**/main.css',
+                        '<%= appConfig.public %>/**/adaptive.css'
                     ]
                 }
             }
@@ -227,7 +227,7 @@ module.exports = function(grunt) {
 
     // makes a copy of the project where all files are only minified
     grunt.registerTask('build', [
-        'clean:req',
+        'clean:all',
         //'jshint:all',
         'less:transpile',
         'cssmin',
@@ -241,7 +241,7 @@ module.exports = function(grunt) {
     // Minifies and compiles all files into one single file using almond.js.
     // Check out the increased efficiency in comparison to the previous alternative.
     grunt.registerTask('req', [
-        'clean:all',
+        'clean:req',
         //'jshint:all',
         'less:transpile',
         'cssmin',
