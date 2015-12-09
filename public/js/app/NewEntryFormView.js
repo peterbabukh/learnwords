@@ -39,6 +39,11 @@ define( function(require) {
 
             var obj = form.serializeObject();
 
+            // secures the input data by escaping
+            _.each(_.keys(obj), function(key) {
+                obj[key] = _.escape(obj[key]);
+            });
+
             if ( !this.validateObject(obj) ) {
                 alert( i18n.alert.suchModelExists );
                 return;
