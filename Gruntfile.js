@@ -51,13 +51,13 @@ module.exports = function(grunt) {
                     out: "dist/req/<%= pkg.name %>.js",
                     findNestedDependencies: true,
                     optimize: 'uglify',
-                    compress: true,
-                    fileExclusionRegExp: /^\./,
-                    locale: "ru",
-                    wrap: true,
+                    compress: true
+                    //fileExclusionRegExp: /^\./,
+                    //locale: "ru",
+                    //wrap: true,
                     //useStrict: false,
                     //generateSourceMaps: true,
-                    wrapShim: true
+                    //wrapShim: true
                 }
             }
 

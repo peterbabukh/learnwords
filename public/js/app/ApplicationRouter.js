@@ -1,10 +1,10 @@
-define([
-    'backbone',
-    'i18n!../../js/nls/ru',
-    './routes/index'
-], function(Backbone, i18n, routes) {
+define( function(require) {
 
     'use strict';
+
+    var Backbone = require('backbone');
+    var i18n = require('i18n!../../js/nls/ru');
+    var routes = require('./routes/index');
 
     var ApplicationRouter = Backbone.Router.extend({
 

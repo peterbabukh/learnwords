@@ -1,26 +1,15 @@
-define([
-    'backbone',
-    'app/UserModel',
-    'i18n!../../js/nls/ru',
-    'underscore.string',
-    'text!../../templates/mainPage.html',
-    'text!../../templates/trTemplate.html',
-    'app/WordsCollection',
-    'app/AppHeaderView'
-], function(
-    // I chose this syntax instead of var Backbone = require('backbone')
-    // to support minification during build, which otherwise fails
-    Backbone,
-    User,
-    i18n,
-    s,
-    mainPage,
-    trTemplate,
-    WordsCollection,
-    AppHeaderView
-) {
+define( function(require) {
 
     'use strict';
+
+    var Backbone = require('backbone');
+    var User = require('app/UserModel');
+    var i18n = require('i18n!../../js/nls/ru');
+    var s = require('underscore.string');
+    var mainPage = require('text!../../templates/mainPage.html');
+    var trTemplate = require('text!../../templates/trTemplate.html');
+    var WordsCollection = require('app/WordsCollection');
+    var AppHeaderView = require('app/AppHeaderView');
 
     var MainInterfaceView = Backbone.View.extend({
 

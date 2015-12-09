@@ -1,9 +1,10 @@
-define([
-    'backbone',
-    'app/ApplicationRouter'
-], function(Backbone, ApplicationRouter) {
+define( function(require) {
 
     'use strict';
+
+    var Backbone = require('backbone');
+    var ApplicationRouter = require('app/ApplicationRouter');
+
 
     var ApplicationController = Backbone.Model.extend({
 

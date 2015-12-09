@@ -1,28 +1,16 @@
-define([
-    'backbone',
-    'app/WordsCollection',
-    'i18n!../../js/nls/ru',
-    'text!../../templates/fieldset.html',
-    'text!../../templates/gradeCol.html',
-    'text!../../templates/gradeTree.html',
-    'app/GradesModel',
-    'app/UserModel',
-    'app/AppHeaderView'
-], function(
-    // I chose this syntax instead of var Backbone = require('backbone')
-    // to support minification during build, which otherwise fails
-    Backbone,
-    WordsCollection,
-    i18n,
-    fieldset,
-    gradeCol,
-    gradeTree,
-    GradesModel,
-    User,
-    AppHeaderView
-) {
+define( function(require) {
 
     'use strict';
+
+    var Backbone = require('backbone');
+    var WordsCollection = require('app/WordsCollection');
+    var i18n = require('i18n!../../js/nls/ru');
+    var fieldset = require('text!../../templates/fieldset.html');
+    var gradeCol = require('text!../../templates/gradeCol.html');
+    var gradeTree = require('text!../../templates/gradeTree.html');
+    var GradesModel = require('app/GradesModel');
+    var User = require('app/UserModel');
+    var AppHeaderView = require('app/AppHeaderView');
 
     var FieldsetView = Backbone.View.extend({
 
