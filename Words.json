@@ -1352,9 +1352,9 @@
     {
         "wordGroup": "человек",
         "enWord": "man",
-        "ruWord": "мужчина, человек",
+        "ruWord": "мужчина",
         "enSynonyms": "man, male",
-        "ruSynonyms": "мужчина",
+        "ruSynonyms": "мужчина, человек",
         "grade": 4,
         "lesson": 2.2
     },

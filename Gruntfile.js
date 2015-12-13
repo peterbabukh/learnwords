@@ -91,13 +91,12 @@ module.exports = function(grunt) {
             req: ['<%= appConfig.dist %>/req']
         },
 
-        // transpiles less files
+        // transpiles less and css files into one file
         less: {
             transpile: {
                 files: {
                     '<%= appConfig.build %>/<%= pkg.name %>.css': [
-                        '<%= appConfig.public %>/**/main.css',
-                        '<%= appConfig.public %>/**/adaptive.css'
+                        '<%= appConfig.public %>/**/*.less'
                     ]
                 }
             }
