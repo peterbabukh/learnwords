@@ -119,10 +119,8 @@ module.exports = function(grunt) {
             all: {
                 files: [{
                     expand: true,
-                    cwd: '<%= appConfig.public %>/js',
-                    dest: '<%= appConfig.dist %>/js',
-                    //cwd: '<%= appConfig.public %>/assets',
-                    //dest: '<%= appConfig.dist %>/assets',
+                    cwd: '<%= appConfig.public %>/assets',
+                    dest: '<%= appConfig.dist %>/assets',
                     src: [
                         '**', '!*.{png,jpg,gif}'
                     ],
