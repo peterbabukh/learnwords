@@ -1,1 +1,144 @@
-define(["backbone","underscore.string","i18n!../../js/nls/ru","text!../../templates/wordItem.html","text!../../templates/wordItemHeader.html","helpers/some"],function(a,b,c,d,e){"use strict";var f=a.View.extend({tagName:"tr",className:"table-item",initialize:function(){this.model.on("destroy",this.remove,this),this.model.on("change",this.render,this)},events:{"click .delete":"deleteModel","click .edit":"editModel","click .saveEdits":"saveEdits"},template:_.template(d),render:function(){return this.$el.html(this.template(this.model.toJSON())),this},deleteModel:function(){var a=this,b=confirm(c.conf.confirmModelDelete);return b&&("tr-header"==this.$el.prev().attr("class")&&this.$el.prev().remove(),this.model.destroy({data:{id:a.model.get("_id")},success:function(a,b,c){},error:function(a,b,c){console.log(error)}})),!1},editModel:function(){var a=this.$el.prev().attr("class");if("tr-header"!=a){this.$el.find("td.enWord, td.ruWord, td.enSynonyms, td.ruSynonyms, td.wordGroup").attr("contenteditable",!0).css("background-color","#faffaf"),this.$el.find("td").first().focus(),this.$el.find(".enSynonyms, .ruSynonyms").css("display","");var b=_.template(e);this.$el.before(b(c))}},saveEdits:function(){var a={},d=this.$el.find("td").some(function(a){return b.isBlank($(a).text())});if(d)return alert(c.alert.fillAllInputs),"tr-header"==this.$el.prev().attr("class")&&this.$el.prev().remove(),this.render(),this.$el.find(".edit").click(),void(a=null);this.validateEdits();var e=this.$el.find("td.enWord, td.ruWord, td.enSynonyms, td.ruSynonyms, td.wordGroup");_.each(e,function(c){a[$(c).attr("class")]=b.clean($(c).text())}),this.$el.find("td.enWord, td.ruWord, td.enSynonyms, td.ruSynonyms, td.wordGroup").attr("contenteditable",!1).css("background-color",""),this.$el.find(".enSynonyms, .ruSynonyms").css("display","none"),"tr-header"==this.$el.prev().attr("class")&&this.$el.prev().remove(),this.model.save(a)},validateEdits:function(){var a=b.clean(this.$el.find("td.enWord").text()),c=b.clean(this.$el.find("td.ruWord").text()),d=this.$el.find("td.enSynonyms"),e=this.$el.find("td.ruSynonyms");$(d).text(this.addSynonym(a,d)),$(e).text(this.addSynonym(c,e))},addSynonym:function(a,c){var d=c.text().split(","),e=d.some(function(c){return b.clean(c)==a});return e?void 0:a+", "+c.text()}});return f});
+define( function(require) {
+
+    'use strict';
+
+    require('helpers/some');
+
+    var Backbone = require('backbone');
+    var s = require('underscore.string');
+    var i18n = require('i18n!../../js/nls/ru');
+    var wordItem = require('text!../../templates/wordItem.html');
+    var wordItemHeader = require('text!../../templates/wordItemHeader.html');
+
+    var WordItemView = Backbone.View.extend({
+
+        tagName: 'tr',
+
+        className: 'table-item',
+
+        initialize: function() {
+            this.model.on('destroy', this.remove, this);
+            this.model.on('change', this.render, this);
+        },
+
+        events: {
+            'click .delete': 'deleteModel',
+            'click .edit': 'editModel',
+            'click .saveEdits': 'saveEdits'
+        },
+
+        template: _.template( wordItem ),
+
+        render: function() {
+            this.$el.html( this.template( this.model.toJSON() ) );
+            return this;
+        },
+
+        deleteModel: function() {
+            var self = this;
+            var conf = confirm( i18n.conf.confirmModelDelete );
+
+            if (conf) {
+                if ( this.$el.prev().attr('class') == 'tr-header' ) {
+                    this.$el.prev().remove();
+                }
+
+                this.model.destroy({
+                    // pass id to mongodb
+                    data: { 'id': self.model.get('_id') },
+                    success: function (model, response, options) {
+                    },
+                    error: function (model, xhr, options) {
+                        console.log(error);
+                    }
+                });
+            }
+
+            return false;
+
+        },
+
+        editModel: function() {
+            var prevElement = this.$el.prev().attr('class');
+            if ( prevElement == 'tr-header' ) return;
+
+            this.$el.find('span')
+                .attr('contenteditable', true)
+                .css('background-color', '#faffaf');
+
+            this.$el.find('span')
+                .first()
+                .focus();
+
+            this.$el.find('td.enSynonyms, td.ruSynonyms').css({display: 'table-cell'});
+
+            var header = _.template( wordItemHeader );
+
+            this.$el.before( header( i18n ) );
+        },
+
+        saveEdits: function() {
+            var obj = {};
+
+            var blank = this.$el.find('span').some(function(elem) {
+                return s.isBlank( $(elem).text() );
+            });
+
+            if ( blank ) {
+                alert( i18n.alert.fillAllInputs );
+                if ( this.$el.prev().attr('class') == 'tr-header' ) {
+                    this.$el.prev().remove();
+                }
+                this.render();
+                this.$el.find('.edit').click();
+                obj = null;
+                return;
+            }
+
+            this.validateEdits();
+
+            var data = this.$el.find('span');
+
+            _.each(data, function(el) {
+                obj[ $(el).attr('class') ] = s.clean( $(el).text() );
+            });
+
+            this.$el.find('span')
+                .attr('contenteditable', false)
+                .css('background-color', '');
+
+            this.$el.find('td.enSynonyms, td.ruSynonyms').css('display', 'none');
+
+            if ( this.$el.prev().attr('class') == 'tr-header' ) {
+                this.$el.prev().remove();
+            }
+
+            this.model.save(obj);
+        },
+
+        validateEdits: function() {
+            var enWord = s.clean( this.$el.find('.enWord span').text() );
+            var ruWord = s.clean( this.$el.find('.ruWord span').text() );
+            var enSynonyms = this.$el.find('.enSynonyms span');
+            var ruSynonyms = this.$el.find('.ruSynonyms span');
+            $(enSynonyms).text( this.addSynonym(enWord, enSynonyms) );
+            $(ruSynonyms).text( this.addSynonym(ruWord, ruSynonyms) );
+        },
+
+        addSynonym: function(word, syn) {
+            var synToArray = syn.text().split(',');
+
+            var match = synToArray.some(function(el) {
+                return s.clean( el ) == word;
+            });
+
+            if ( !match ) {
+                return word + ', ' + syn.text();
+            }
+        }
+
+    });
+
+    return WordItemView;
+
+});

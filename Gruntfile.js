@@ -88,12 +88,23 @@ module.exports = function(grunt) {
         // cleans <%= appConfig.build %>, <%= appConfig.dist %> folders before each build
         clean: {
             all: ['<%= appConfig.build %>', '<%= appConfig.dist %>'],
-            req: ['<%= appConfig.dist %>/req']
+            req: ['<%= appConfig.dist %>/req'],
+            css: [
+                '<%= appConfig.dist %>/css',
+                '<%= appConfig.build %>/css'
+            ]
         },
 
         // transpiles less and css files into one file
         less: {
             transpile: {
+                files: {
+                    '<%= appConfig.build %>/<%= pkg.name %>.css': [
+                        '<%= appConfig.public %>/**/*.less'
+                    ]
+                }
+            },
+            css: {
                 files: {
                     '<%= appConfig.build %>/<%= pkg.name %>.css': [
                         '<%= appConfig.public %>/**/*.less'
@@ -108,8 +119,10 @@ module.exports = function(grunt) {
             all: {
                 files: [{
                     expand: true,
-                    cwd: '<%= appConfig.public %>/assets',
-                    dest: '<%= appConfig.dist %>/assets',
+                    cwd: '<%= appConfig.public %>/js',
+                    dest: '<%= appConfig.dist %>/js',
+                    //cwd: '<%= appConfig.public %>/assets',
+                    //dest: '<%= appConfig.dist %>/assets',
                     src: [
                         '**', '!*.{png,jpg,gif}'
                     ],
@@ -166,6 +179,14 @@ module.exports = function(grunt) {
                 tasks: [
                     'req'
                 ]
+            },
+            css: {
+                files: [
+                    '<%= appConfig.public %>/css/*.less'
+                ],
+                tasks: [
+                    'css'
+                ]
             }
         },
 
@@ -206,6 +227,12 @@ module.exports = function(grunt) {
                 options: {
                     logConcurrentOutput: true
                 }
+            },
+            css: {
+                tasks: ['nodemon:dev', 'watch:css'],
+                options: {
+                    logConcurrentOutput: true
+                }
             }
         },
 
@@ -215,7 +242,7 @@ module.exports = function(grunt) {
                 jshintrc: '.jshintrc',
                 reporterOutput: 'jshint.log'
             },
-            all: ['Gruntfile.js', '<%= appConfig.public %>/js/**/*.js'],
+            all: ['Gruntfile.js', '<%= appConfig.public %>/js/**/*.js']
         }
 
     });
@@ -242,12 +269,19 @@ module.exports = function(grunt) {
     grunt.registerTask('req', [
         'clean:req',
         //'jshint:all',
-        'less:transpile',
-        'cssmin',
-        'copy:all',
-        'imagemin',
+        //'less:transpile',
+        //'cssmin',
+        //'copy:all',
+        //'imagemin',
         'requirejs',
         'concurrent:req'
+    ]);
+
+    grunt.registerTask('css', [
+        'clean:css',
+        'less:css',
+        'cssmin',
+        'concurrent:css'
     ]);
 
     // Default task(s).

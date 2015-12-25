@@ -11,6 +11,7 @@ var router = express.Router();
 
 // skips Favicon requests
 router.use(skipFavicon);
+
 // checks if session exists
 router.use(checkSession);
 
@@ -42,7 +43,6 @@ router.post('/words', require('./words').post);
 
 router.get('/resetFiled', require('./resetFiled').get);
 router.get('/resetAll', require('./resetAll').get);
-
 
 router.get('*', function(req, res){
     res.redirect('/');

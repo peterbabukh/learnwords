@@ -1,1 +1,15 @@
-define(["backbone"],function(a){"use strict";var b=a.Model.extend({urlRoot:"/grades"});return b});
+define( function(require) {
+
+	'use strict';
+
+	var Backbone = require('backbone');
+
+	var UserModel = Backbone.Model.extend({
+
+		urlRoot: '/grades'
+
+	});
+
+	return UserModel;
+
+});

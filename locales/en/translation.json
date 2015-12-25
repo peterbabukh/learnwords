@@ -18,6 +18,7 @@
         "email": "Email:",
         "inputName": "Your name:",
         "invalidEmailOrPassword": "Wrong password or Email!",
-        "suchUserExists": "User with such Email already exists!"
+        "suchUserExists": "User with such Email already exists!",
+        "upgradeYourBrowser": "This version of IE is not supported. Please, upgrade it."
     }
 }

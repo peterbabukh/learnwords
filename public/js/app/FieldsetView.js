@@ -23,7 +23,7 @@ define( function(require) {
         },
 
         events: {
-            'click .checkbox-select': 'checkoutCheckboxes',
+            'click .checkbox-select-box': 'createGrades',
             'click .choose-all-groups': 'selectAllCheckboxes',
             'click .submit-form': 'submitForm',
             'click .lesson-list': 'toggleLessonList'
@@ -82,7 +82,8 @@ define( function(require) {
         createGrades: function() {
             var self = this;
             var template;
-            var currentSelect = self.$el.find('option[selected]').val();
+            var currentSelect = self.$el.find('option:selected').val();
+            console.log(currentSelect);
             var grades = this.valuesToArray( 'grade' );
 
             // as we have both number and string grade names
@@ -102,14 +103,6 @@ define( function(require) {
                 });
                 $('.checkbox-container').append( gradeBox );
             });
-        },
-
-        checkoutCheckboxes: function(event) {
-            event = event || window.event;
-            var target = event.target || event.srcElement;
-            this.$el.find('option').attr('selected', false);
-            $(target).attr('selected', true);
-            this.createGrades();
         },
 
         // select/disselect all checkboxes logic

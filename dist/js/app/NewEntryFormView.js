@@ -1,1 +1,109 @@
-define(["backbone","app/WordModel","underscore.string","i18n!../../js/nls/ru","text!../../templates/newEntry.html","helpers/formToJSON","helpers/some"],function(a,b,c,d,e){"use strict";var f=a.View.extend({events:{"blur .enWord":"transferEnData","blur .ruWord":"transferRuData","click .submit-entry":"addNewEntry"},template:_.template(e),render:function(){return this.$el.append(this.template(d)),this},addNewEntry:function(a){a=a||window.event,a.preventDefault();var c=a.target||a.srcElement,e=$(c).closest("form");if(!this.validateForm(e))return void alert(d.alert.fillAllInputs);var f=e.serializeObject();if(!this.validateObject(f))return void alert(d.alert.suchModelExists);$(".res").empty(),e.find('input[type="text"]').not('[name="wordGroup"]').val("");var g=new b(f);this.collection.push(g),g.save({creator:"user"})},validateObject:function(a){var b=!0;return this.collection.each(function(d){(c.clean(a.enWord.toLowerCase())==c.clean(d.get("enWord").toLowerCase())||c.clean(a.ruWord.toLowerCase())==c.clean(d.get("ruWord").toLowerCase()))&&(b=!1)}),b===!0},validateForm:function(a){var b=$(a).find('input[type*="text"]').some(function(a){return c.isBlank($(a).val())});return b?!1:!0},transferEnData:function(){this.transferData(".enWord",'input[name="enSynonyms"]')},transferRuData:function(){this.transferData(".ruWord",'input[name="ruSynonyms"]')},transferData:function(a,b){var d=this.$el.find(a).val(),e=this.$el.find(b).val();if(!c.isBlank(d))if(c.isBlank(e))this.$el.find(b).val(d+", ");else{if(-1!=e.indexOf(d+","))return;this.$el.find(b).val(d+", "+e)}}});return f});
+define( function(require) {
+
+    'use strict';
+
+    require('helpers/formToJSON');
+    require('helpers/some');
+
+    var Backbone = require('backbone');
+    var WordModel = require('app/WordModel');
+    var s = require('underscore.string');
+    var i18n = require('i18n!../../js/nls/ru');
+    var newEntry = require('text!../../templates/newEntry.html');
+
+    var NewEntryFormView = Backbone.View.extend({
+
+        events: {
+            'blur .enWord': 'transferEnData',
+            'blur .ruWord': 'transferRuData',
+            'click .submit-entry': 'addNewEntry'
+        },
+
+        template: _.template( newEntry ),
+
+        render: function() {
+            this.$el.append( this.template( i18n ) );
+            return this;
+        },
+
+        addNewEntry: function(event) {
+            event = event || window.event;
+            event.preventDefault();
+            var target = event.target || event.srcElement;
+            var form = $(target).closest('form');
+
+            if ( !this.validateForm(form) ) {
+                alert( i18n.alert.fillAllInputs );
+                return;
+            }
+
+            var obj = form.serializeObject();
+
+            // secures the input data by escaping
+            _.each(_.keys(obj), function(key) {
+                obj[key] = _.escape(obj[key]);
+            });
+
+            if ( !this.validateObject(obj) ) {
+                alert( i18n.alert.suchModelExists );
+                return;
+            }
+
+            $('.res').empty();
+            form.find('input[type="text"]')
+                .not('[name="wordGroup"]')
+                .val('');
+            var wordModel = new WordModel( obj );
+            this.collection.push(wordModel);
+            wordModel.save({
+                creator: 'user'
+            });
+        },
+
+        validateObject: function(obj) {
+            var status = true;
+            this.collection.each(function(elem) {
+                if ( s.clean( obj['enWord'].toLowerCase() ) ==
+                    s.clean( elem.get('enWord').toLowerCase() ) ||
+                    s.clean( obj['ruWord'].toLowerCase() ) ==
+                    s.clean( elem.get('ruWord').toLowerCase() ) ) {
+                    status = false;
+                }
+            });
+            return status === true;
+        },
+
+        validateForm: function(form) {
+            var blank = $(form)
+                .find('input[type*="text"]')
+                .some(function(elem) {
+                    return s.isBlank( $(elem).val() );
+                });
+            return blank ? false : true;
+        },
+
+        transferEnData: function() {
+            this.transferData('.enWord', 'input[name="enSynonyms"]');
+        },
+
+        transferRuData: function() {
+            this.transferData('.ruWord', 'input[name="ruSynonyms"]');
+        },
+
+        transferData: function(word, syn) {
+            var data = this.$el.find( word ).val();
+            var text = this.$el.find( syn ).val();
+            if ( s.isBlank( data ) ) return;
+            if ( !s.isBlank( text ) ) {
+                if ( text.indexOf(data + ',') != -1 ) return;
+                this.$el.find( syn ).val( data + ', ' + text );
+            } else {
+                this.$el.find( syn ).val( data + ', ' );
+            }
+        }
+
+    });
+
+    return NewEntryFormView;
+
+});

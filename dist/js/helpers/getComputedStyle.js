@@ -1,1 +1,11 @@
-define(function(a){"use strict";return{getStyle:function(a){return window.getComputedStyle?getComputedStyle(a,""):a.currentStyle}}});
+
+define( function(require) {
+
+    'use strict';
+
+    return {
+        getStyle: function(elem) {
+            return window.getComputedStyle ? getComputedStyle(elem, "") : elem.currentStyle;
+        }
+    }
+});

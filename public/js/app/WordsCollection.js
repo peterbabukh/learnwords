@@ -15,6 +15,13 @@ define( function(require) {
 			return model.get('enWord');
 		},
 
+		// prevents caching of fetched data
+		fetch: function (options) {
+			options = options || {};
+			options.cache = false;
+			return Backbone.Collection.prototype.fetch.call(this, options);
+		},
+
 		// handle success / error when fetch() fires
 		fetchCollection: function () {
 

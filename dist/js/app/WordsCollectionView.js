@@ -1,1 +1,253 @@
-define(["backbone","app/WordModelView","app/NewEntryFormView","i18n!../../js/nls/ru","helpers/getComputedStyle","app/UserModel","text!../../templates/wordsCollectionViewHeader.html","text!../../templates/liTemplate.html","text!../../templates/tableTemplate.html","app/WordsCollection","app/AppHeaderView"],function(a,b,c,d,e,f,g,h,i,j,k){"use strict";var l=a.View.extend({el:$(".content-box"),initialize:function(){this.user=new f,this.childViews=[]},events:{"click .groups-li":"selectGroup","click .td-filter":"filterTable","click .reset-filed":"resetFiledItems","click .reset-all":"resetAllItems"},render:function(){var a=this;return this.childViews.length&&this.onClose(),this.user.fetch({success:function(b,c,d){a.collection=new j(b.get("words").models),a.collection.on("add",a.handleSuccess,a)},error:function(b,c,d){a.handleError()}}).done(function(){a.handleSuccess()}),this},handleSuccess:function(){var a=_.template(g,d);this.$el.html(a),this.showNewEntryForm(),this.createGroupList(),this.createTable(),this.setOpacity(this.opacityIndex),this.appendHeader()},handleError:function(){alert(d.msg.systemErrorMessage),console.log(d.msg.systemErrorMessage),this.goTo("/list"),window.location.reload()},showNewEntryForm:function(){var a=new c;a.collection=this.collection,this.$el.append(a.render().el),this.childViews.push(a)},createGroupList:function(){var a=_.template(h),b=_.uniq(_.pluck(_.sortBy(this.collection.toJSON(),"wordGroup"),"wordGroup"));_.each(b,function(b){$(".groups-ul").append(a({li:b.trim()}))})},createTable:function(){var a=_.template(i);this.$el.append(a(d)),this.collection.each(function(a){a.set("i18n",d);var c=new b({model:a});this.childViews.push(c),$(".collection-table").append(c.render().el)},this),this.setHeadWidth()},setHeadWidth:function(){var a=document.querySelectorAll(".collection-table tr:first-child td"),b=document.querySelectorAll(".td-filter");_.each(b,function(b,c){var d=2*parseInt(e.getStyle(b).paddingRight),f=parseInt(e.getStyle(b).borderRight);b.width=a[c].offsetWidth-d-f+"px"})},selectGroup:function(a){a=a||window.event;var b=a.target||a.srcElement;$(".new-entry-input").val($(b).text())},filterTable:function(a){a=a||window.event;var b,c;switch(b=a.target||a.srcElement,b=$(b).closest("td"),c=$(b)[0].cellIndex){case 0:this.collection.comparator=function(a){return a.get("enWord")},this.collection.sort();break;case 1:this.collection.comparator=function(a){return a.get("ruWord")},this.collection.sort();break;case 2:this.collection.comparator=function(a){return a.get("wordGroup")},this.collection.sort();break;default:this.collection.comparator=function(a){return a.get("enWord")}}this.opacityIndex=c,$(".fixed-head, .collection-table-container").remove(),this.createTable(),this.setOpacity(this.opacityIndex)},opacityIndex:0,setOpacity:function(a){var b=this.$el.find(".filter-arrow");_.each(b,function(a){$(a).css({opacity:1})&&$(a).css({opacity:.2})}),$(b[a]).css({opacity:1})},resetFiledItems:function(){var a=this,b=confirm(d.conf.baseReloadFirstWarning.join(" "));if(b){var c=confirm(d.conf.baseReloadSecondWarning.join(" "));c&&$.when(a.goTo("/resetFiled")).then(function(){window.location.reload()})}},resetAllItems:function(){var a=this,b=confirm(d.conf.fullReloadFirstWarning.join(" "));if(b){var c=confirm(d.conf.fullReloadSecondWarning.join(" "));c&&$.when(a.goTo("/resetAll")).then(function(){window.location.reload()})}},appendHeader:function(){var a=new k;this.$el.prepend(a.render().el),this.childViews.push(a)},onClose:function(){var a=this.childViews;_.each(a,function(a){a.close()})}});return l});
+define( function(require) {
+
+    'use strict';
+
+    var Backbone = require('backbone');
+    var WordModelView = require('app/WordModelView');
+    var NewEntryFormView = require('app/NewEntryFormView');
+    var i18n = require('i18n!../../js/nls/ru');
+    var getStyle = require('helpers/getComputedStyle').getStyle;
+    var User = require('app/UserModel');
+    var wordsCollectionViewHeader = require('text!../../templates/wordsCollectionViewHeader.html');
+    var liTemplate = require('text!../../templates/liTemplate.html');
+    var tableTemplate = require('text!../../templates/tableTemplate.html');
+    var WordsCollection = require('app/WordsCollection');
+    var AppHeaderView = require('app/AppHeaderView');
+
+    var WordsCollectionView = Backbone.View.extend({
+
+        el: $('.content-box'),
+
+        initialize: function() {
+            this.user = new User();
+            this.childViews = [];
+        },
+
+        events: {
+            'click .groups-li': 'selectGroup',
+            'click .td-filter': 'filterTable',
+            'click .reset-filed': 'resetFiledItems',
+            'click .reset-all': 'resetAllItems'
+        },
+
+        render: function() {
+            var self = this;
+
+            // removes not needed child views
+            if ( this.childViews.length ) {
+                this.onClose();
+            }
+
+            this.user.fetch({
+                success: function (user, response, options) {
+                    self.collection = new WordsCollection( user.get('words').models );
+                    self.collection.on('add', self.handleSuccess, self);
+                    //self.listenTo(self.collection, 'successOnFetch', self.handleSuccess);
+                    //self.listenTo(self.collection, 'errorOnFetch', self.handleError);
+                },
+                error: function (user, response, options) {
+                    self.handleError();
+                }
+            }).done(function(){
+                self.handleSuccess();
+            });
+
+            return this;
+        },
+
+        handleSuccess: function () {
+            // adds navigation links
+            var pageHeader = _.template( wordsCollectionViewHeader, i18n );
+            this.$el.html( pageHeader );
+
+            // adds new entry form
+            this.showNewEntryForm();
+            this.createGroupList();
+
+            // adds list of all words
+            this.createTable();
+
+            // sets opacity to filter arrows
+            this.setOpacity( this.opacityIndex );
+
+            // adds AppHeader block, reserved for service options to be added
+            // in future, like other kinds of authorization, contact info, etc.,
+            // styled with css position absolute.
+            this.appendHeader();
+
+        },
+
+        handleError: function () {
+            alert( i18n.msg.systemErrorMessage );
+            console.log( i18n.msg.systemErrorMessage );
+            this.goTo('/list');
+            window.location.reload();
+        },
+
+        showNewEntryForm: function() {
+            var newEntryFormView = new NewEntryFormView();
+            newEntryFormView.collection = this.collection;
+            this.$el.append( newEntryFormView.render().el );
+
+            // need it to remove this view upon removal of this.$el
+            this.childViews.push( newEntryFormView );
+        },
+
+        createGroupList: function() {
+            var template = _.template( liTemplate );
+            var groups = _.uniq( _.pluck( _.sortBy( this.collection.toJSON(), 'wordGroup' ), 'wordGroup' ) );
+
+            _.each( groups, function(elem) {
+                $('.groups-ul').append( template({ li: elem.trim() }) );
+            } );
+        },
+
+        createTable: function() {
+            var table = _.template( tableTemplate );
+            this.$el.append( table( i18n ) );
+            this.collection.each(function(elem) {
+                elem.set('i18n', i18n);
+                var wordModelView = new WordModelView( { model: elem } );
+
+                // need it to remove this view upon removal of this.$el
+                this.childViews.push( wordModelView );
+
+                $('.collection-table').append( wordModelView.render().el );
+            }, this);
+            this.setHeadWidth();
+        },
+
+        setHeadWidth: function() {
+            var cells = document.querySelectorAll('.collection-table tr:first-child td');
+            var filter = document.querySelectorAll('.td-filter');
+
+            _.each(filter, function(el, index) {
+                var csPaddings = parseInt( getStyle(el).paddingRight ) * 2 || 0;
+                var csBorder = parseInt( getStyle(el).borderRight ) || 1;
+                var cellWidth = cells[index].offsetWidth - csPaddings - csBorder + 'px';
+                $(el).css({ width: cellWidth });
+            });
+
+        },
+
+        selectGroup: function(event) {
+            event = event || window.event;
+            var target = event.target || event.srcElement;
+            $('.new-entry-input').val( $(target).text() );
+        },
+
+        filterTable: function(event) {
+            event = event || window.event;
+            var target,
+                index;
+
+            target = event.target || event.srcElement;
+            target = $(target).closest('td');
+            index = $(target)[0].cellIndex;
+
+            switch( index ) {
+                case 0:
+                    this.collection.comparator = function(model){
+                        return model.get('enWord');
+                    };
+                    this.collection.sort();
+                    break;
+                case 1:
+                    this.collection.comparator = function(model){
+                        return model.get('ruWord');
+                    };
+                    this.collection.sort();
+                    break;
+                case 2:
+                    this.collection.comparator = function(model){
+                        return model.get('wordGroup');
+                    };
+                    this.collection.sort();
+                    break;
+                default:
+                    this.collection.comparator = function(model){
+                        return model.get('enWord');
+                    };
+            }
+
+            this.opacityIndex = index;
+            // delete existing table to replace it with rearranged rows
+            $('.fixed-head, .collection-table-container').remove();
+            this.createTable();
+            this.setOpacity( this.opacityIndex );
+
+        },
+
+        opacityIndex: 0,
+
+        // sets opacity to sprite arrow
+        setOpacity: function(index) {
+            var array = this.$el.find('.filter-arrow');
+
+            _.each(array, function(elem) {
+                if ( $(elem).css({ opacity: 1.0 }) ) {
+                    $(elem).css({ opacity: 0.2});
+                }
+            });
+
+            $(array[index]).css({
+                opacity: 1.0
+            });
+
+        },
+
+        // renew the db.user.words.creator = 'admin'
+        resetFiledItems: function() {
+            var self = this;
+            var conf = confirm( i18n.conf.baseReloadFirstWarning.join(' ') );
+            if (conf) {
+                var conf_rep = confirm( i18n.conf.baseReloadSecondWarning.join(' ') );
+                if (conf_rep) {
+
+                    $.when(self.goTo('/resetFiled')).then(function() {
+                        window.location.reload();
+                    });
+
+                }
+            }
+
+        },
+
+        // renew the whole subdoc 'words' on db
+        resetAllItems: function() {
+            var self = this;
+            var conf = confirm( i18n.conf.fullReloadFirstWarning.join(' ') );
+            if (conf) {
+                var conf_rep = confirm( i18n.conf.fullReloadSecondWarning.join(' ') );
+                if (conf_rep) {
+
+                    $.when(self.goTo('/resetAll')).then(function() {
+                        window.location.reload();
+                    });
+
+                }
+            }
+        },
+
+        appendHeader: function() {
+            var appHeaderView = new AppHeaderView();
+            // used prepend instead of append for further adaptive css purposes
+            this.$el.prepend( appHeaderView.render().el );
+            // need it to remove this view upon removal of this.$el
+            this.childViews.push( appHeaderView );
+        },
+
+        // Removes the children views' and their children views' elements
+        // from DOM and thus prevents memory leaks
+        onClose: function() {
+            var arr = this.childViews;
+            _.each(arr, function(view){
+                view.close();
+            });
+        }
+
+    });
+
+    return WordsCollectionView;
+
+});

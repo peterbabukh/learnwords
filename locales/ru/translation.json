@@ -18,6 +18,7 @@
         "email": "Email:",
         "inputName": "Ваше имя:",
         "invalidEmailOrPassword": "Не правильный пароль или Email!",
-        "suchUserExists": "Пользователь с таким Email уже зарегистрирован!"
+        "suchUserExists": "Пользователь с таким Email уже зарегистрирован!",
+        "upgradeYourBrowser": "Извините, старый IE не поддерживается. Используйте другой браузер."
     }
 }

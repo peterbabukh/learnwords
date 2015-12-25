@@ -87,7 +87,6 @@ module.exports = function (app) {
                         // set the user's local credentials
                         // it is registration by email and password, NOT by name
                         //so here username is email
-                        newUser.name = req.body.name || 'Anonimous user';
                         newUser.username = username;
                         newUser.salt = Math.random() + '';
                         newUser.hashedPassword = newUser.encryptPassword(password);

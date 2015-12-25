@@ -181,29 +181,17 @@ define( function(require) {
         },
 
         // changes the selected option in DOM
-        selectOptions: function(event) {
-            event = event || window.event;
-            var target = event.target || event.srcElement;
-
+        selectOptions: function() {
             this.$el.find('.hint-word').css({ display: 'none' });
 
-            $(target).closest('select')
-                .find('option')
-                .attr('selected', false);
-            $(target).attr('selected', true);
-
-            this.findSelectedValues();
-            this.resetSelection();
-        },
-
-        // gets values of selected options from DOM
-        findSelectedValues: function() {
-            var order = this.$el.find('option.select-displayorder[selected]').val();
-            var lang = this.$el.find('option.select-lang[selected]').val();
+            var order = this.$el.find('.select-displayorder option:selected').val();
+            var lang = this.$el.find('.select-lang option:selected').val();
             this.values = {
                 order: order,
                 lang: lang
             };
+
+            this.resetSelection();
         },
 
         // displays hint word
@@ -261,7 +249,7 @@ define( function(require) {
 
         // checks if the answer is correct
         checkAnswer: function() {
-            var checkMode = $('option.select-check[selected]').val();
+            var checkMode = $('.select-check option:selected').val();
             var singleAnswer = this.wordObject.answerWord;
             var synonyms = this.wordObject.synonyms;
 
@@ -331,7 +319,7 @@ define( function(require) {
             $('.wordlist-table').empty();
 
             template = _.template( trTemplate );
-            lang = $('option.select-lang[selected]').val();
+            lang = $('.select-lang option:selected').val();
             array = _.sortBy( this.proxyCollection, lang );
             _.each( array, function(obj) {
                 var o = {};

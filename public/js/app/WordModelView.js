@@ -62,15 +62,15 @@ define( function(require) {
             var prevElement = this.$el.prev().attr('class');
             if ( prevElement == 'tr-header' ) return;
 
-            this.$el.find('td.enWord, td.ruWord, td.enSynonyms, td.ruSynonyms, td.wordGroup')
+            this.$el.find('span')
                 .attr('contenteditable', true)
                 .css('background-color', '#faffaf');
 
-            this.$el.find('td')
+            this.$el.find('span')
                 .first()
                 .focus();
 
-            this.$el.find('.enSynonyms, .ruSynonyms').css('display', '');
+            this.$el.find('td.enSynonyms, td.ruSynonyms').css({display: 'table-cell'});
 
             var header = _.template( wordItemHeader );
 
@@ -80,7 +80,7 @@ define( function(require) {
         saveEdits: function() {
             var obj = {};
 
-            var blank = this.$el.find('td').some(function(elem) {
+            var blank = this.$el.find('span').some(function(elem) {
                 return s.isBlank( $(elem).text() );
             });
 
@@ -97,17 +97,17 @@ define( function(require) {
 
             this.validateEdits();
 
-            var data = this.$el.find('td.enWord, td.ruWord, td.enSynonyms, td.ruSynonyms, td.wordGroup');
+            var data = this.$el.find('span');
 
             _.each(data, function(el) {
                 obj[ $(el).attr('class') ] = s.clean( $(el).text() );
             });
 
-            this.$el.find('td.enWord, td.ruWord, td.enSynonyms, td.ruSynonyms, td.wordGroup')
+            this.$el.find('span')
                 .attr('contenteditable', false)
                 .css('background-color', '');
 
-            this.$el.find('.enSynonyms, .ruSynonyms').css('display', 'none');
+            this.$el.find('td.enSynonyms, td.ruSynonyms').css('display', 'none');
 
             if ( this.$el.prev().attr('class') == 'tr-header' ) {
                 this.$el.prev().remove();
@@ -117,10 +117,10 @@ define( function(require) {
         },
 
         validateEdits: function() {
-            var enWord = s.clean( this.$el.find('td.enWord').text() );
-            var ruWord = s.clean( this.$el.find('td.ruWord').text() );
-            var enSynonyms = this.$el.find('td.enSynonyms');
-            var ruSynonyms = this.$el.find('td.ruSynonyms');
+            var enWord = s.clean( this.$el.find('.enWord span').text() );
+            var ruWord = s.clean( this.$el.find('.ruWord span').text() );
+            var enSynonyms = this.$el.find('.enSynonyms span');
+            var ruSynonyms = this.$el.find('.ruSynonyms span');
             $(enSynonyms).text( this.addSynonym(enWord, enSynonyms) );
             $(ruSynonyms).text( this.addSynonym(ruWord, ruSynonyms) );
         },

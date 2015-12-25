@@ -120,11 +120,14 @@ define( function(require) {
         setHeadWidth: function() {
             var cells = document.querySelectorAll('.collection-table tr:first-child td');
             var filter = document.querySelectorAll('.td-filter');
+
             _.each(filter, function(el, index) {
-                var csPaddings = parseInt( getStyle(el).paddingRight ) * 2;
-                var csBorder = parseInt( getStyle(el).borderRight );
-                el.width = cells[index].offsetWidth - csPaddings - csBorder + 'px';
+                var csPaddings = parseInt( getStyle(el).paddingRight ) * 2 || 0;
+                var csBorder = parseInt( getStyle(el).borderRight ) || 1;
+                var cellWidth = cells[index].offsetWidth - csPaddings - csBorder + 'px';
+                $(el).css({ width: cellWidth });
             });
+
         },
 
         selectGroup: function(event) {
@@ -183,11 +186,14 @@ define( function(require) {
 
             _.each(array, function(elem) {
                 if ( $(elem).css({ opacity: 1.0 }) ) {
-                    $(elem).css({ opacity: 0.2 });
+                    $(elem).css({ opacity: 0.2});
                 }
             });
 
-            $(array[index]).css({ opacity: 1.0 });
+            $(array[index]).css({
+                opacity: 1.0
+            });
+
         },
 
         // renew the db.user.words.creator = 'admin'

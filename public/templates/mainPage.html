@@ -4,24 +4,24 @@
 	</div>
 	<div>
 		<p><%- text.displayWords %></p>
-		<select name="select-displayorder" size="3">
-			<option class="select-displayorder" value=<%- value.random %>><%- text.inRandomOrder %></option>
-			<option class="select-displayorder" value=<%- value.alphabet %> selected><%- text.inAlphabeticFromBeginning %></option>
-			<option class="select-displayorder" value=<%- value.reverse %>><%- text.inAlphabeticFromEnd %></option>
+		<select class="select-displayorder" size="3">
+			<option value=<%- value.random %>><%- text.inRandomOrder %></option>
+			<option value=<%- value.alphabet %> selected><%- text.inAlphabeticFromBeginning %></option>
+			<option value=<%- value.reverse %>><%- text.inAlphabeticFromEnd %></option>
 		</select>
 	</div>
 	<div>
 		<p><%- text.translateFrom %></p>
-		<select name="select-lang" size="2">
-			<option class="select-lang" value="enWord" selected><%- text.English %></option>
-			<option class="select-lang" value="ruWord"><%- text.Russian %></option>
+		<select class="select-lang" size="2">
+			<option value="enWord" selected><%- text.English %></option>
+			<option value="ruWord"><%- text.Russian %></option>
 		</select>
 	</div>
 	<div>
 		<p><%- text.chooseCheckType %></p>
-		<select name="select-check" size="2">
-			<option class="select-check" value="strict"><%- text.withoutSynonyms %></option>
-			<option class="select-check" value="expand" selected><%- text.withSynonyms %></option>
+		<select class="select-check" size="2">
+			<option value="strict"><%- text.withoutSynonyms %></option>
+			<option value="expand" selected><%- text.withSynonyms %></option>
 		</select>
 	</div>
 </div>

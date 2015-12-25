@@ -1,1 +1,26 @@
-define(["backbone","app/WordsCollection"],function(a,b){"use strict";var c=a.Model.extend({urlRoot:"/user",defaults:{words:new b},parse:function(a){return a.words=new b(a.words),a}});return c});
+define( function(require) {
+
+	'use strict';
+
+	var Backbone = require('backbone');
+	var WordsCollection = require('app/WordsCollection');
+
+	var UserModel = Backbone.Model.extend({
+
+		urlRoot: '/user',
+
+		defaults: {
+			words: new WordsCollection()
+		},
+
+		// parse the response to get clean collection
+		parse: function(response) {
+			response.words = new WordsCollection(response.words);
+			return response;
+		}
+
+	});
+
+	return UserModel;
+
+});
