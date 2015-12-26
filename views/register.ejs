@@ -11,17 +11,17 @@
 <div id="learnwords" class="layout-box">
     <div class="content-box">
         <form name="signupForm" class="signupForm" action="/signup" method="post">
-            <p>
+            <div>
+                <%= t('text.itIsSignupPage') %>
+            </div>
+            <div>
                 <% if (message) {%>
                 <span class="login-form-msg"><%= message %></span>
                 <% } %>
-            </p>
-            <div>
-                <a href="/login"><%= t('nav.logIn') %></a>
             </div>
             <div>
                 <label class="login-label"><%= t('text.password') %><input type="password" name="password"
-                required minlength="6" maxlength="20" placeholder="password"/></label>
+                                                                           required minlength="6" maxlength="20" placeholder="password"/></label>
             </div>
             <div>
                 <label class="login-label"><%= t('text.email') %>
@@ -30,9 +30,13 @@
             <div>
                 <input class="login-submit" type="submit" value='<%= t("nav.submit") %>' />
             </div>
+            <br />
+            <hr />
+            <div>
+                <a href="/login"><%= t('nav.logIn') %></a>
+            </div>
         </form>
     </div>
 </div>
 </body>
 </html>
-

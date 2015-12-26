@@ -1,1 +1,1 @@
-define(function(a){"use strict";var b=a("backbone"),c=a("app/WordsCollection"),d=b.Model.extend({urlRoot:"/user",defaults:{words:new c},parse:function(a){return a.words=new c(a.words),a}});return d});
+define(function(a){"use strict";var b=a("backbone"),c=a("app/WordsCollection"),d=b.Model.extend({urlRoot:"/user",defaults:{words:new c},fetch:function(a){return a=a||{},a.cache=!1,b.Model.prototype.fetch.call(this,a)},parse:function(a){return a.words=new c(a.words),a}});return d});

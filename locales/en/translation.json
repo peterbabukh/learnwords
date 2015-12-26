@@ -3,9 +3,9 @@
 
     "nav": {
         "logOut": "Log Out",
-        "logIn": "Log In, if already registered",
+        "logIn": "Go to Log In page",
         "signOut": "Delete my account",
-        "signUp": "Sign Up in 10 seconds",
+        "signUp": "Go to Sign Up page",
         "submit": "Submit form"
     },
 
@@ -19,6 +19,8 @@
         "inputName": "Your name:",
         "invalidEmailOrPassword": "Wrong password or Email!",
         "suchUserExists": "User with such Email already exists!",
+        "itIsLoginPage": "Fill in this form to Log In",
+        "itIsSignupPage": "Fill in this form to Sign Up",
         "upgradeYourBrowser": "This version of IE is not supported. Please, upgrade it."
     }
 }

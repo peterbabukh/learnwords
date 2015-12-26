@@ -83,7 +83,6 @@ define( function(require) {
             var self = this;
             var template;
             var currentSelect = self.$el.find('option:selected').val();
-            console.log(currentSelect);
             var grades = this.valuesToArray( 'grade' );
 
             // as we have both number and string grade names
