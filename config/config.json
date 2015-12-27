@@ -1,7 +1,8 @@
 {
    "port": 3000,
    "mongoose": {
-       "uri": "mongodb://localhost:27017/data"
+       //"uri": "mongodb://localhost:27017/data"
+       "uri": "mongodb://heroku_r59hxbvc:o41u88iqd19d6slido9bmitjs1@ds037095.mongolab.com:37095/heroku_r59hxbvc"
    },
    "session": {
        "secret": "f'[8dEe;-]d4lf9{xcLGH'+d3D}]K3jhkFl78+-7df",
