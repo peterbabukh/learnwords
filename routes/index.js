@@ -1,7 +1,7 @@
 var express = require('express');
 var passport = require('passport');
 var checkSession = require('../middleware/checkSession');
-var skipFavicon = require('../middleware/skipFavicon');
+//var skipFavicon = require('../middleware/skipFavicon');
 
 // middleware, checking if the user logged in
 var requireLogin = require('../middleware/requireLogin');
@@ -10,7 +10,7 @@ var requireLogin = require('../middleware/requireLogin');
 var router = express.Router();
 
 // skips Favicon requests
-router.use(skipFavicon);
+//router.use(skipFavicon);
 
 // checks if session exists
 router.use(checkSession);

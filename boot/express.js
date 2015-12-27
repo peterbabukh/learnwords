@@ -5,18 +5,16 @@ var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
 var session = require('express-session');
 var path = require('path');
-
-//var favicon = require('serve-favicon');
+var favicon = require('serve-favicon');
 
 module.exports = function (app) {
+
+    app.use(favicon(__dirname + '/../dist/assets/img/favicon.ico'));
 
     // view engine setup
     app.engine('ejs', require('ejs-locals'));
     app.set('views', path.join(__dirname + '/..', 'views'));
     app.set('view engine', 'ejs');
-
-    // uncomment after placing your favicon in /public
-    //app.use(favicon(__dirname + '/public/css/img/favicon.ico'));
 
     app.use(cookieParser());
     app.use(bodyParser.json({limit: '50mb'}));
@@ -37,5 +35,5 @@ module.exports = function (app) {
     // files are passed not from public folder, but from dist folder,
     // already transpiled and minified by Grunt
     app.use(express.static(path.join(__dirname + '/..', 'dist')));
-    
+
 };
