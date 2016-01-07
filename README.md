@@ -1,10 +1,12 @@
 It is a simple Backbone, Requirejs, Nodejs, Express, Mongodb, Mongoose project with practical use.
 
-Though this is a ready real app with practical use (see far below), it is a simple app with only basics
-implemented in it. Here I used AMD, BACKBONE, UNDERSCORE, templating, REQUIREJS, NODEJS, EXPRESS, MONGODB, MONGOOSE...
-Checkout Bower and Grunt preprocessors.
+As I deployed it on Heroku, you can see it in action by the link http://peterbabukh.herokuapp.com
 
-Checkout the difference in the efficiency of the project when all the files are only minified with Grunt,
+Though this is a ready real app with practical use (see far below), it is a simple app with only basics
+implemented in it. Here I used AMD, BACKBONE, UNDERSCORE, templating, REQUIREJS, NODEJS, EXPRESS, PASSPORTJS, MONGODB, MONGOOSE...
+Check out Bower and Grunt preprocessors.
+
+Check out the difference in the efficiency of the project when all the files are only minified with Grunt,
 and when the files are compiled into a single build file with the use of Grunt, Grunt-contrib-requirejs
 and Almond.js. The latter alternative is much more efficient. In the dist folder you can find
 both the minified requirejs files, as well as in the dist/req folder you will find the single build
