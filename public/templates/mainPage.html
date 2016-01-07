@@ -29,9 +29,9 @@
 	<div class="display-box">
 		<div class="display-textbox">
 			<p class="display-text"><%- text.wordForTranslation %></p>
+			<span class="display-field"></span>
 		</div>
 		<div class="display-wrapper">
-			<span class="display-field"></span>
 			<img id="rightanswer-img" src="assets/img/rightanswer.gif" height="60px" alt="Gif animation" />
 		</div>
 	</div>
@@ -88,5 +88,7 @@
 </div>
 <div class="wordlist-table-box">
 	<button class="hide-table-button"><%- text.hideList %></button>
-	<table class="wordlist-table"></table>
+	<div class="wordlist-table-container">
+		<table class="wordlist-table"></table>
+	</div>
 </div>
