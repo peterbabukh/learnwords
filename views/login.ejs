@@ -5,6 +5,8 @@
     <title><%= t('title') %></title>
     <!-- Here we pass already transpiled and minified single css file from dist folder -->
     <link rel="stylesheet" type="text/css" href="./css/learnwords.css" />
+    <!-- Google reCaptcha -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>
@@ -27,6 +29,7 @@
                 <label class="login-label"><%= t('text.email') %>
                     <input type="email" name="username" required placeholder="email" /></label>
             </div>
+            <div class="g-recaptcha" data-sitekey="6Ld6vBQTAAAAABu1v2KbVv9ZfnpqZxA1A1aHFA5y"></div>
             <div>
                 <input class="login-submit" type="submit" value='<%= t("nav.submit") %>' />
             </div>
