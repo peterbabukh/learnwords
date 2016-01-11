@@ -1,1 +1,1 @@
-define(function(a){"use strict";var b=a("backbone"),c=(a("i18n!../../js/nls/ru"),a("./routes/index")),d=b.Router.extend({routes:{"*path":"default"},"default":function(a){if(c[a]){var b=new c[a];this.showView(b)}},showView:function(a){a.render().el}});return d});
+define(function(a){"use strict";var b=a("backbone"),c=(a("i18n!../../js/nls/locales"),a("./routes/index")),d=b.Router.extend({routes:{"*path":"default"},"default":function(a){if(c[a]){var b=new c[a];this.showView(b)}},showView:function(a){a.render().el}});return d});

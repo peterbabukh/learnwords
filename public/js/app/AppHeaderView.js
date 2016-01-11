@@ -3,7 +3,7 @@ define( function(require) {
     'use strict';
 
     var Backbone = require('backbone');
-    var i18n = require('i18n!../../js/nls/ru');
+    var i18n = require('i18n!../../js/nls/locales');
     var appHeaderTemplate = require('text!../../templates/appHeaderTemplate.html');
 
     var AppHeaderView = Backbone.View.extend({
