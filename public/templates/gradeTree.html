@@ -1,5 +1,7 @@
 <fieldset class="grade-fieldset">
-	<legend><%= (typeof grade == "number") ? grade + " класс" : "факультатив" %> </legend>
+	<% var gradeLocale = i18n.text.gradeLocale %>
+	<% var optionalLocale = i18n.text.optionalLocale %>
+	<legend><%= (typeof grade == "number") ? grade + gradeLocale : optionalLocale %> </legend>
 	<label><input type="checkbox" name="choose-all" class="choose-all-groups" /><%- i18n.text.chooseAll %></label><br />
 	<br />
 	<% var lessons = array.slice() %>

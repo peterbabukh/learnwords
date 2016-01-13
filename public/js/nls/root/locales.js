@@ -92,7 +92,9 @@ define({
 		"existingGroups": "Список уже заведенных групп:",
 		"addItem": "Добавить позицию",
 		"baseReload": " Перезагрузить только базовую версию ",
-		"fullReload": " Перезагрузить всё "
+		"fullReload": " Перезагрузить всё ",
+		"gradeLocale": " класс",
+		"optionalLocale": "факультатив"
 	},
 
 	"value": {

@@ -23,7 +23,7 @@
             </div>
             <div>
                 <label class="login-label"><%= t('text.password') %><input type="password" name="password"
-                                                                           required minlength="6" maxlength="20" placeholder="password"/></label>
+                required minlength="6" pattern=".{6,50}" title="<%- t('text.inputLength') %>" maxlength="50" placeholder="password"/></label>
             </div>
             <div>
                 <label class="login-label"><%= t('text.email') %>

@@ -22,6 +22,7 @@
         "itIsLoginPage": "Fill in this form to Log In",
         "itIsSignupPage": "Fill in this form to Sign Up",
         "upgradeYourBrowser": "This version of IE is not supported. Please, upgrade it.",
-        "invalidRecaptcha": "ReCaptcha failed, try again."
+        "invalidRecaptcha": "ReCaptcha failed, try again.",
+        "inputLength": "From 6 to 50 characters."
     }
 }

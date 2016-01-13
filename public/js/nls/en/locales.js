@@ -92,7 +92,9 @@ define({
 		"existingGroups": "Existing word groups:",
 		"addItem": "Add a new item",
 		"baseReload": " Reset base version only ",
-		"fullReload": " Reset all "
+		"fullReload": " Reset all ",
+		"gradeLocale": " grade",
+		"optionalLocale": "optional"
 	},
 
 	"value": {
