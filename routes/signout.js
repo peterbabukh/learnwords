@@ -14,17 +14,17 @@ exports.get = function(req, res) {
         // saves the user to fix changes
         user.save(function(err) {
             if (err) return console.log(err);
-        });
 
-        // remove the user
-        User.remove({'_id': req.session.user._id}, function (err) {
-            if (err) return console.log(err);
-
-            req.session.destroy(function(err) {
+            // remove the user
+            User.remove({'_id': req.session.user._id}, function (err) {
                 if (err) return console.log(err);
 
-                return res.redirect('/');
+                req.session.destroy(function(err) {
+                    if (err) return console.log(err);
 
+                    return res.redirect('/');
+
+                });
             });
         });
     });
