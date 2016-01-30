@@ -25,9 +25,6 @@ exports.get = function(req, res) {
                 _.each(Words, function(item) {
                     item._user_id = user._id;
                     var word = new WordSchema(item);
-                    word.save(function(err){
-                        if (err) return console.log(err);
-                    });
                     user.words.push( word );
                 });
 

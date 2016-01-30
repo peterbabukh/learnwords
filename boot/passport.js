@@ -32,7 +32,6 @@ module.exports = function (app) {
             googleReCaptcha(req.body["g-recaptcha-response"], function(success) {
                 if (!success) {
 
-                    console.log('Invalid recaptcha');
                     return done(null, false,
                         req.flash('message', i18n.t('text.invalidRecaptcha') ) );
 
@@ -85,7 +84,6 @@ module.exports = function (app) {
                 // if recaptcha fails...
                 if (!success) {
 
-                    console.log('Invalid recaptcha');
                     return done(null, false,
                         req.flash('message', i18n.t('text.invalidRecaptcha')));
 
@@ -123,9 +121,6 @@ module.exports = function (app) {
                                 _.each(Words, function (item) {
                                     item._user_id = newUser._id;
                                     var word = new WordSchema(item);
-                                    word.save(function (err) {
-                                        if (err) return console.log(err);
-                                    });
                                     newUser.words.push(word);
                                 });
 
