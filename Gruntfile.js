@@ -156,6 +156,19 @@ module.exports = function(grunt) {
             }
         },
 
+        // minify json
+        minjson: {
+            compile: {
+                files: {
+                    // Minify one json file
+                    'Words.json': 'UnminifiedWords.json'//,
+                    // Concat/minify one.json and all json files within the data folder
+                    // If more than one json file is matched, json will be wrapped in brackets []
+                    //'all.min.json': ['one.json', 'data/*.json']
+                }
+            }
+        },
+
         // watch all frontend files for any time they get modified
         watch: {
             scripts: {
@@ -280,6 +293,10 @@ module.exports = function(grunt) {
         'less:css',
         'cssmin',
         'concurrent:css'
+    ]);
+
+    grunt.registerTask('words', [
+        'minjson'
     ]);
 
     // Default task(s).

@@ -68,6 +68,7 @@
     "grunt-contrib-watch": "0.6.1",
     "grunt-htmlclean": "2.7.6",
     "grunt-karma": "0.12.1",
+    "grunt-minjson": "^0.4.0",
     "grunt-nodemon": "0.4.0",
     "grunt-shell-spawn": "0.3.10",
     "grunt-simple-mocha": "0.4.0",

@@ -1,0 +1,6906 @@
+[
+    {
+        "wordGroup": "задания",
+        "enWord": "listen",
+        "ruWord": "слушать",
+        "enSynonyms": "listen",
+        "ruSynonyms": "слушать",
+        "grade": 4,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "listen",
+        "ruWord": "слушать",
+        "enSynonyms": "listen",
+        "ruSynonyms": "слушать",
+        "grade": 3,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "read",
+        "ruWord": "читать",
+        "enSynonyms": "read",
+        "ruSynonyms": "читать",
+        "grade": 4,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "read",
+        "ruWord": "читать",
+        "enSynonyms": "read",
+        "ruSynonyms": "читать",
+        "grade": 3,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "answer",
+        "ruWord": "отвечать",
+        "enSynonyms": "answer",
+        "ruSynonyms": "отвечать, ответить",
+        "grade": 4,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "answer",
+        "ruWord": "отвечать",
+        "enSynonyms": "answer",
+        "ruSynonyms": "отвечать, ответить",
+        "grade": 3,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "point",
+        "ruWord": "показывать",
+        "enSynonyms": "point, show",
+        "ruSynonyms": "показывать, показать",
+        "grade": 3,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "choose",
+        "ruWord": "выбирать",
+        "enSynonyms": "choose",
+        "ruSynonyms": "выбирать, выбрать",
+        "grade": 4,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "sing",
+        "ruWord": "петь",
+        "enSynonyms": "sing",
+        "ruSynonyms": "петь",
+        "grade": 4,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "write",
+        "ruWord": "писать",
+        "enSynonyms": "write",
+        "ruSynonyms": "писать, написать",
+        "grade": 4,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "write",
+        "ruWord": "писать",
+        "enSynonyms": "write",
+        "ruSynonyms": "писать, написать",
+        "grade": 3,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "correct",
+        "ruWord": "исправлять",
+        "enSynonyms": "correct",
+        "ruSynonyms": "исправлять, исправить",
+        "grade": 4,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "mistake",
+        "ruWord": "ошибка",
+        "enSynonyms": "mistake",
+        "ruSynonyms": "ошибка",
+        "grade": 4,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "mistake",
+        "ruWord": "ошибка",
+        "enSynonyms": "mistake",
+        "ruSynonyms": "ошибка",
+        "grade": 3,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "speak",
+        "ruWord": "говорить",
+        "enSynonyms": "speak, talk",
+        "ruSynonyms": "говорить, разговаривать",
+        "grade": 4,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "speak",
+        "ruWord": "говорить",
+        "enSynonyms": "speak, talk",
+        "ruSynonyms": "говорить, разговаривать",
+        "grade": 3,
+        "lesson": 7.7
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "say",
+        "ruWord": "сказать",
+        "enSynonyms": "say, tell",
+        "ruSynonyms": "сказать",
+        "grade": 3,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "letter",
+        "ruWord": "буква",
+        "enSynonyms": "letter",
+        "ruSynonyms": "буква, письмо",
+        "grade": 4,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "look",
+        "ruWord": "смотреть",
+        "enSynonyms": "look, watch",
+        "ruSynonyms": "смотреть",
+        "grade": 4,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "look",
+        "ruWord": "смотреть",
+        "enSynonyms": "look, watch",
+        "ruSynonyms": "смотреть",
+        "grade": 3,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "make",
+        "ruWord": "делать",
+        "enSynonyms": "make, do",
+        "ruSynonyms": "делать",
+        "grade": 4,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "make",
+        "ruWord": "делать",
+        "enSynonyms": "make, do",
+        "ruSynonyms": "делать",
+        "grade": 3,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "sound",
+        "ruWord": "звук",
+        "enSynonyms": "sound",
+        "ruSynonyms": "звук, звучать, здоровый",
+        "grade": 4,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "ask",
+        "ruWord": "спросить",
+        "enSynonyms": "ask",
+        "ruSynonyms": "спросить, попросить, спрашивать, просить",
+        "grade": 4,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "ask",
+        "ruWord": "спросить",
+        "enSynonyms": "ask",
+        "ruSynonyms": "спросить, попросить, спрашивать, просить",
+        "grade": 3,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "true",
+        "ruWord": "правильный",
+        "enSynonyms": "true, right",
+        "ruSynonyms": "правильный, верный",
+        "grade": 4,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "sentence",
+        "ruWord": "предложение",
+        "enSynonyms": "sentence",
+        "ruSynonyms": "предложение",
+        "grade": 4,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "sentence",
+        "ruWord": "предложение",
+        "enSynonyms": "sentence",
+        "ruSynonyms": "предложение",
+        "grade": 3,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "word",
+        "ruWord": "слово",
+        "enSynonyms": "word",
+        "ruSynonyms": "слово",
+        "grade": 4,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "word",
+        "ruWord": "слово",
+        "enSynonyms": "word",
+        "ruSynonyms": "слово",
+        "grade": 3,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "say",
+        "ruWord": "сказать",
+        "enSynonyms": "say, tell",
+        "ruSynonyms": "сказать",
+        "grade": 4,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "complete",
+        "ruWord": "дополнить",
+        "enSynonyms": "complete",
+        "ruSynonyms": "дополнить, заполнить",
+        "grade": 4,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "match",
+        "ruWord": "подобрать пару",
+        "enSynonyms": "match",
+        "ruSynonyms": "подобрать, подбирать, подобрать пару, подбирать пару, соединить",
+        "grade": 4,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "match",
+        "ruWord": "подобрать пару",
+        "enSynonyms": "match",
+        "ruSynonyms": "подобрать, подбирать, подобрать пару, подбирать пару, соединить",
+        "grade": 3,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "good",
+        "ruWord": "хороший",
+        "enSynonyms": "good",
+        "ruSynonyms": "хороший, хорошо",
+        "grade": 4,
+        "lesson": 1.2
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "nice",
+        "ruWord": "милый",
+        "enSynonyms": "nice",
+        "ruSynonyms": "милый, хороший, хорошо",
+        "grade": 4,
+        "lesson": 1.2
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "bad",
+        "ruWord": "плохой",
+        "enSynonyms": "bad",
+        "ruSynonyms": "плохой, плохо",
+        "grade": 4,
+        "lesson": 1.2
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "naughty",
+        "ruWord": "непослушный",
+        "enSynonyms": "naughty",
+        "ruSynonyms": "непослушный",
+        "grade": 4,
+        "lesson": 1.2
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "kind",
+        "ruWord": "добрый",
+        "enSynonyms": "kind",
+        "ruSynonyms": "добрый",
+        "grade": 4,
+        "lesson": 1.2
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "clever",
+        "ruWord": "умный",
+        "enSynonyms": "clever, smart",
+        "ruSynonyms": "умный",
+        "grade": 4,
+        "lesson": 1.2
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "funny",
+        "ruWord": "смешной",
+        "enSynonyms": "funny",
+        "ruSynonyms": "смешной, смешно",
+        "grade": 4,
+        "lesson": 1.2
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "lazy",
+        "ruWord": "ленивый",
+        "enSynonyms": "lazy",
+        "ruSynonyms": "ленивый",
+        "grade": 4,
+        "lesson": 1.2
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "short",
+        "ruWord": "короткий",
+        "enSynonyms": "short",
+        "ruSynonyms": "короткий, низкий",
+        "grade": 4,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "short",
+        "ruWord": "низкий",
+        "enSynonyms": "short",
+        "ruSynonyms": "низкий, короткий",
+        "grade": 4,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "dark",
+        "ruWord": "темный",
+        "enSynonyms": "dark",
+        "ruSynonyms": "темный, темно",
+        "grade": 4,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "long",
+        "ruWord": "длинный",
+        "enSynonyms": "long, tall",
+        "ruSynonyms": "длинный",
+        "grade": 4,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "fair",
+        "ruWord": "светлый",
+        "enSynonyms": "fair",
+        "ruSynonyms": "светлый",
+        "grade": 4,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "тело",
+        "enWord": "hair",
+        "ruWord": "волосы",
+        "enSynonyms": "hair",
+        "ruSynonyms": "волосы",
+        "grade": 4,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "tall",
+        "ruWord": "высокий",
+        "enSynonyms": "tall",
+        "ruSynonyms": "высокий",
+        "grade": 4,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "человек",
+        "enWord": "boy",
+        "ruWord": "мальчик",
+        "enSynonyms": "boy",
+        "ruSynonyms": "мальчик",
+        "grade": 4,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "человек",
+        "enWord": "girl",
+        "ruWord": "девочка",
+        "enSynonyms": "girl",
+        "ruSynonyms": "девочка, девушка",
+        "grade": 4,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "red",
+        "ruWord": "красный",
+        "enSynonyms": "red",
+        "ruSynonyms": "красный, рыжий",
+        "grade": 4,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "red",
+        "ruWord": "рыжий",
+        "enSynonyms": "red",
+        "ruSynonyms": "рыжий, красный",
+        "grade": 4,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "brown",
+        "ruWord": "коричневый",
+        "enSynonyms": "brown",
+        "ruSynonyms": "коричневый, карий",
+        "grade": 4,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "brown",
+        "ruWord": "карий",
+        "enSynonyms": "brown",
+        "ruSynonyms": "карий, коричневый",
+        "grade": 4,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "blue",
+        "ruWord": "синий",
+        "enSynonyms": "blue",
+        "ruSynonyms": "синий, голубой",
+        "grade": 4,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "green",
+        "ruWord": "зеленый",
+        "enSynonyms": "green",
+        "ruSynonyms": "зеленый",
+        "grade": 4,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "grey",
+        "ruWord": "серый",
+        "enSynonyms": "grey, gray",
+        "ruSynonyms": "серый, седой",
+        "grade": 4,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "тело",
+        "enWord": "eyes",
+        "ruWord": "глаза",
+        "enSynonyms": "eyes",
+        "ruSynonyms": "глаза",
+        "grade": 4,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "отдых",
+        "enWord": "picnic",
+        "ruWord": "пикник",
+        "enSynonyms": "picnic, outing",
+        "ruSynonyms": "пикник",
+        "grade": 4,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "отдых",
+        "enWord": "picnic",
+        "ruWord": "пикник",
+        "enSynonyms": "picnic, outing",
+        "ruSynonyms": "пикник",
+        "grade": 3,
+        "lesson": 5.9
+    },
+    {
+        "wordGroup": "тело",
+        "enWord": "nose",
+        "ruWord": "нос",
+        "enSynonyms": "nose",
+        "ruSynonyms": "нос",
+        "grade": 4,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "тело",
+        "enWord": "ears",
+        "ruWord": "уши",
+        "enSynonyms": "ears",
+        "ruSynonyms": "уши",
+        "grade": 4,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "отдых",
+        "enWord": "rollerblade",
+        "ruWord": "ролики",
+        "enSynonyms": "rollerblade",
+        "ruSynonyms": "ролики, роликовые коньки",
+        "grade": 4,
+        "lesson": 1.4
+    },
+    {
+        "wordGroup": "транспорт",
+        "enWord": "bike",
+        "ruWord": "велосипед",
+        "enSynonyms": "bike",
+        "ruSynonyms": "велосипед, мотоцикл",
+        "grade": 4,
+        "lesson": 1.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "ride a bike",
+        "ruWord": "кататься на велосипеде",
+        "enSynonyms": "ride a bike",
+        "ruSynonyms": "кататься на велосипеде, кататься на мотоцикле",
+        "grade": 4,
+        "lesson": 1.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "sing",
+        "ruWord": "петь",
+        "enSynonyms": "sing",
+        "ruSynonyms": "петь",
+        "grade": 4,
+        "lesson": 1.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "dance",
+        "ruWord": "танцевать",
+        "enSynonyms": "dance",
+        "ruSynonyms": "танцевать",
+        "grade": 4,
+        "lesson": 1.4
+    },
+    {
+        "wordGroup": "отдых",
+        "enWord": "song",
+        "ruWord": "песня",
+        "enSynonyms": "song",
+        "ruSynonyms": "песня",
+        "grade": 4,
+        "lesson": 1.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "draw",
+        "ruWord": "рисовать",
+        "enSynonyms": "draw, paint",
+        "ruSynonyms": "рисовать, чертить, рисунок",
+        "grade": 4,
+        "lesson": 1.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "draw",
+        "ruWord": "рисовать",
+        "enSynonyms": "draw, paint",
+        "ruSynonyms": "рисовать, чертить, рисунок",
+        "grade": 3,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "swim",
+        "ruWord": "плавать",
+        "enSynonyms": "swim",
+        "ruSynonyms": "плавать, плыть",
+        "grade": 4,
+        "lesson": 1.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "ski",
+        "ruWord": "кататься на лыжах",
+        "enSynonyms": "ski",
+        "ruSynonyms": "кататься на лыжах, лыжа",
+        "grade": 4,
+        "lesson": 1.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "ski",
+        "ruWord": "кататься на лыжах",
+        "enSynonyms": "ski",
+        "ruSynonyms": "кататься на лыжах, лыжа",
+        "grade": 3,
+        "lesson": 8.5
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "skate",
+        "ruWord": "кататься на коньках",
+        "enSynonyms": "skate",
+        "ruSynonyms": "кататься на коньках, конек, скейт, конёк",
+        "grade": 4,
+        "lesson": 1.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "skate",
+        "ruWord": "кататься на коньках",
+        "enSynonyms": "skate",
+        "ruSynonyms": "кататься на коньках, конек, скейт, конёк",
+        "grade": 3,
+        "lesson": 8.5
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "speak English",
+        "ruWord": "говорить на английском",
+        "enSynonyms": "speak English",
+        "ruSynonyms": "говорить на английском, разговаривать на английском, говорить по-английски",
+        "grade": 4,
+        "lesson": 1.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "climb",
+        "ruWord": "лазить",
+        "enSynonyms": "climb",
+        "ruSynonyms": "лазить, лазать, карабкаться, взбираться",
+        "grade": 4,
+        "lesson": 1.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "climb",
+        "ruWord": "лазить",
+        "enSynonyms": "climb",
+        "ruSynonyms": "лазить, лазать, карабкаться, взбираться",
+        "grade": 3,
+        "lesson": 4.5
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "find",
+        "ruWord": "находить",
+        "enSynonyms": "find",
+        "ruSynonyms": "находить, найти",
+        "grade": 4,
+        "lesson": 1.5
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "warm",
+        "ruWord": "теплый",
+        "enSynonyms": "warm",
+        "ruSynonyms": "теплый",
+        "grade": 4,
+        "lesson": 1.5
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "warm",
+        "ruWord": "теплый",
+        "enSynonyms": "warm",
+        "ruSynonyms": "теплый",
+        "grade": 3,
+        "lesson": 8.1
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "windy",
+        "ruWord": "ветренный",
+        "enSynonyms": "windy",
+        "ruSynonyms": "ветренный",
+        "grade": 4,
+        "lesson": 1.5
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "favourite",
+        "ruWord": "любимый",
+        "enSynonyms": "favourite",
+        "ruSynonyms": "любимый",
+        "grade": 4,
+        "lesson": 1.5
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "favourite",
+        "ruWord": "любимый",
+        "enSynonyms": "favourite",
+        "ruSynonyms": "любимый",
+        "grade": 3,
+        "lesson": 8.9
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "walk",
+        "ruWord": "гулять",
+        "enSynonyms": "walk, go for a walk",
+        "ruSynonyms": "гулять, идти пешком",
+        "grade": 4,
+        "lesson": 1.5
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "window",
+        "ruWord": "окно",
+        "enSynonyms": "window",
+        "ruSynonyms": "окно",
+        "grade": 4,
+        "lesson": 1.5
+    },
+    {
+        "wordGroup": "погода",
+        "enWord": "winter",
+        "ruWord": "зима",
+        "enSynonyms": "winter",
+        "ruSynonyms": "зима",
+        "grade": 4,
+        "lesson": 1.5
+    },
+    {
+        "wordGroup": "погода",
+        "enWord": "winter",
+        "ruWord": "зима",
+        "enSynonyms": "winter",
+        "ruSynonyms": "зима",
+        "grade": 3,
+        "lesson": 8.3
+    },
+    {
+        "wordGroup": "погода",
+        "enWord": "weather",
+        "ruWord": "погода",
+        "enSynonyms": "weather",
+        "ruSynonyms": "погода",
+        "grade": 4,
+        "lesson": 1.5
+    },
+    {
+        "wordGroup": "погода",
+        "enWord": "weather",
+        "ruWord": "погода",
+        "enSynonyms": "weather",
+        "ruSynonyms": "погода",
+        "grade": 3,
+        "lesson": 8.2
+    },
+    {
+        "wordGroup": "погода",
+        "enWord": "season",
+        "ruWord": "время года",
+        "enSynonyms": "season",
+        "ruSynonyms": "время года, сезон",
+        "grade": 4,
+        "lesson": 1.5
+    },
+    {
+        "wordGroup": "погода",
+        "enWord": "season",
+        "ruWord": "время года",
+        "enSynonyms": "season",
+        "ruSynonyms": "время года, сезон",
+        "grade": 3,
+        "lesson": 8.1
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "happy",
+        "ruWord": "счастливый",
+        "enSynonyms": "happy",
+        "ruSynonyms": "счастливый, добольный, рад",
+        "grade": 4,
+        "lesson": 1.5
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "listen to music",
+        "ruWord": "слушать музыку",
+        "enSynonyms": "listen to music",
+        "ruSynonyms": "слушать музыку",
+        "grade": 4,
+        "lesson": 1.6
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "watch TV",
+        "ruWord": "смотреть ТВ",
+        "enSynonyms": "watch TV, watch television",
+        "ruSynonyms": "смотреть ТВ, смотреть телевизор",
+        "grade": 4,
+        "lesson": 1.6
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "play computer games",
+        "ruWord": "играть в компьютерные игры",
+        "enSynonyms": "play computer games",
+        "ruSynonyms": "играть в компьютерные игры",
+        "grade": 4,
+        "lesson": 1.6
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "do homework",
+        "ruWord": "делать домашнюю работу",
+        "enSynonyms": "do homework",
+        "ruSynonyms": "делать домашнюю работу",
+        "grade": 4,
+        "lesson": 1.6
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "go for a walk",
+        "ruWord": "идти гулять",
+        "enSynonyms": "go for a walk, walk",
+        "ruSynonyms": "идти гулять, ходить гулять, гулять",
+        "grade": 4,
+        "lesson": 1.6
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "Monday",
+        "ruWord": "понедельник",
+        "enSynonyms": "Monday",
+        "ruSynonyms": "понедельник",
+        "grade": 4,
+        "lesson": 1.7
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "Tuesday",
+        "ruWord": "вторник",
+        "enSynonyms": "Tuesday",
+        "ruSynonyms": "вторник",
+        "grade": 4,
+        "lesson": 1.7
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "Wednesday",
+        "ruWord": "среда",
+        "enSynonyms": "Wednesday",
+        "ruSynonyms": "среда",
+        "grade": 4,
+        "lesson": 1.7
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "Thursday",
+        "ruWord": "четверг",
+        "enSynonyms": "Thursday",
+        "ruSynonyms": "четверг",
+        "grade": 4,
+        "lesson": 1.7
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "Friday",
+        "ruWord": "пятница",
+        "enSynonyms": "Friday",
+        "ruSynonyms": "пятница",
+        "grade": 4,
+        "lesson": 1.7
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "Saturday",
+        "ruWord": "суббота",
+        "enSynonyms": "Saturday",
+        "ruSynonyms": "суббота",
+        "grade": 4,
+        "lesson": 1.7
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "Sunday",
+        "ruWord": "воскресенье",
+        "enSynonyms": "Sunday",
+        "ruSynonyms": "воскресенье",
+        "grade": 4,
+        "lesson": 1.7
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "phrase",
+        "ruWord": "фраза",
+        "enSynonyms": "phrase",
+        "ruSynonyms": "фраза",
+        "grade": 4,
+        "lesson": 1.7
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "purple",
+        "ruWord": "фиолетовый",
+        "enSynonyms": "purple",
+        "ruSynonyms": "фиолетовый",
+        "grade": 4,
+        "lesson": 1.7
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "go to school",
+        "ruWord": "ходить в школу",
+        "enSynonyms": "go to school",
+        "ruSynonyms": "ходить в школу, идти в школу",
+        "grade": 4,
+        "lesson": 1.7
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "fun",
+        "ruWord": "весело",
+        "enSynonyms": "fun",
+        "ruSynonyms": "весело",
+        "grade": 4,
+        "lesson": 1.7
+    },
+    {
+        "wordGroup": "тело",
+        "enWord": "mouth",
+        "ruWord": "рот",
+        "enSynonyms": "mouth",
+        "ruSynonyms": "рот",
+        "grade": 4,
+        "lesson": 1.9
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "little",
+        "ruWord": "маленький",
+        "enSynonyms": "little, small",
+        "ruSynonyms": "маленький, мало",
+        "grade": 4,
+        "lesson": 1.9
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "see",
+        "ruWord": "видеть",
+        "enSynonyms": "see",
+        "ruSynonyms": "видеть",
+        "grade": 4,
+        "lesson": 1.9
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "see",
+        "ruWord": "видеть",
+        "enSynonyms": "see",
+        "ruSynonyms": "видеть",
+        "grade": 3,
+        "lesson": 5.6
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "run",
+        "ruWord": "бегать",
+        "enSynonyms": "run",
+        "ruSynonyms": "бегать, бежать",
+        "grade": 4,
+        "lesson": 1.9
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "jump",
+        "ruWord": "прыгать",
+        "enSynonyms": "jump, leap, hop",
+        "ruSynonyms": "прыгать, прыжок",
+        "grade": 4,
+        "lesson": 1.9
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "fall asleep",
+        "ruWord": "заснуть",
+        "enSynonyms": "fall asleep",
+        "ruSynonyms": "заснуть",
+        "grade": 4,
+        "lesson": 1.9
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "sleep",
+        "ruWord": "спать",
+        "enSynonyms": "sleep",
+        "ruSynonyms": "спать, сон",
+        "grade": 3,
+        "lesson": 5.6
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "lion",
+        "ruWord": "лев",
+        "enSynonyms": "lion",
+        "ruSynonyms": "лев",
+        "grade": 4,
+        "lesson": 1.9
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "lion",
+        "ruWord": "лев",
+        "enSynonyms": "lion",
+        "ruSynonyms": "лев",
+        "grade": 3,
+        "lesson": 9.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "mouse",
+        "ruWord": "мышь",
+        "enSynonyms": "mouse",
+        "ruSynonyms": "мышь",
+        "grade": 4,
+        "lesson": 1.9
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "let",
+        "ruWord": "разрешать",
+        "enSynonyms": "let",
+        "ruSynonyms": "разрешать, разрешить, позволять",
+        "grade": 4,
+        "lesson": 1.9
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "hot",
+        "ruWord": "горячий",
+        "enSynonyms": "hot",
+        "ruSynonyms": "горячий, жаркий, острый",
+        "grade": 4,
+        "lesson": 1.9
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "hot",
+        "ruWord": "горячий",
+        "enSynonyms": "hot",
+        "ruSynonyms": "горячий, жаркий, острый, жарко",
+        "grade": 3,
+        "lesson": 8.1
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "hot",
+        "ruWord": "горячий",
+        "enSynonyms": "hot",
+        "ruSynonyms": "горячий, жаркий, острый",
+        "grade": 3,
+        "lesson": 5.6
+    },
+    {
+        "wordGroup": "семья",
+        "enWord": "grandmother",
+        "ruWord": "бабушка",
+        "enSynonyms": "grandmother, granny",
+        "ruSynonyms": "бабушка",
+        "grade": 4,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "семья",
+        "enWord": "grandfather",
+        "ruWord": "дедушка",
+        "enSynonyms": "grandfather, grandad",
+        "ruSynonyms": "дедушка",
+        "grade": 4,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "семья",
+        "enWord": "aunt",
+        "ruWord": "тетя",
+        "enSynonyms": "aunt",
+        "ruSynonyms": "тетя, тётя",
+        "grade": 4,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "семья",
+        "enWord": "uncle",
+        "ruWord": "дядя",
+        "enSynonyms": "uncle",
+        "ruSynonyms": "дядя",
+        "grade": 4,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "семья",
+        "enWord": "cousin",
+        "ruWord": "двоюродный брат",
+        "enSynonyms": "cousin",
+        "ruSynonyms": "двоюродный брат, кузен, кузина, двоюродная сестра",
+        "grade": 4,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "семья",
+        "enWord": "son",
+        "ruWord": "сын",
+        "enSynonyms": "son",
+        "ruSynonyms": "сын",
+        "grade": 4,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "семья",
+        "enWord": "daughter",
+        "ruWord": "дочь",
+        "enSynonyms": "daughter",
+        "ruSynonyms": "дочь",
+        "grade": 4,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "семья",
+        "enWord": "parents",
+        "ruWord": "родители",
+        "enSynonyms": "parents",
+        "ruSynonyms": "родители",
+        "grade": 4,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "семья",
+        "enWord": "children",
+        "ruWord": "дети",
+        "enSynonyms": "children",
+        "ruSynonyms": "дети",
+        "grade": 4,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "семья",
+        "enWord": "sister",
+        "ruWord": "сестра",
+        "enSynonyms": "sister",
+        "ruSynonyms": "сестра",
+        "grade": 4,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "семья",
+        "enWord": "brother",
+        "ruWord": "брат",
+        "enSynonyms": "brother",
+        "ruSynonyms": "брат",
+        "grade": 4,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "beautiful",
+        "ruWord": "красивый",
+        "enSynonyms": "beautiful",
+        "ruSynonyms": "красивый",
+        "grade": 4,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "профессии",
+        "enWord": "job",
+        "ruWord": "работа",
+        "enSynonyms": "job, work",
+        "ruSynonyms": "работа",
+        "grade": 4,
+        "lesson": 2.2
+    },
+    {
+        "wordGroup": "профессии",
+        "enWord": "doctor",
+        "ruWord": "врач",
+        "enSynonyms": "doctor",
+        "ruSynonyms": "врач, доктор",
+        "grade": 4,
+        "lesson": 2.2
+    },
+    {
+        "wordGroup": "профессии",
+        "enWord": "driver",
+        "ruWord": "водитель",
+        "enSynonyms": "driver",
+        "ruSynonyms": "водитель",
+        "grade": 4,
+        "lesson": 2.2
+    },
+    {
+        "wordGroup": "профессии",
+        "enWord": "vet",
+        "ruWord": "ветеринар",
+        "enSynonyms": "vet",
+        "ruSynonyms": "ветеринар, ветеран",
+        "grade": 4,
+        "lesson": 2.2
+    },
+    {
+        "wordGroup": "профессии",
+        "enWord": "cook",
+        "ruWord": "повар",
+        "enSynonyms": "cook, chef",
+        "ruSynonyms": "повар, готовить",
+        "grade": 4,
+        "lesson": 2.2
+    },
+    {
+        "wordGroup": "профессии",
+        "enWord": "farmer",
+        "ruWord": "фермер",
+        "enSynonyms": "farmer",
+        "ruSynonyms": "фермер",
+        "grade": 4,
+        "lesson": 2.2
+    },
+    {
+        "wordGroup": "профессии",
+        "enWord": "business-man",
+        "ruWord": "бизнесмен",
+        "enSynonyms": "business-man, business man",
+        "ruSynonyms": "бизнесмен, бизнесмэн",
+        "grade": 4,
+        "lesson": 2.2
+    },
+    {
+        "wordGroup": "профессии",
+        "enWord": "shop-assistant",
+        "ruWord": "продавец",
+        "enSynonyms": "shop-assistant, salesman, saleswoman, street vendor",
+        "ruSynonyms": "продавец",
+        "grade": 4,
+        "lesson": 2.2
+    },
+    {
+        "wordGroup": "профессии",
+        "enWord": "dentist",
+        "ruWord": "дантист",
+        "enSynonyms": "dentist",
+        "ruSynonyms": "дантист, стоматолог",
+        "grade": 4,
+        "lesson": 2.2
+    },
+    {
+        "wordGroup": "профессии",
+        "enWord": "dentist",
+        "ruWord": "стоматолог",
+        "enSynonyms": "dentist",
+        "ruSynonyms": "стоматолог, дантист",
+        "grade": 4,
+        "lesson": 2.2
+    },
+    {
+        "wordGroup": "профессии",
+        "enWord": "teacher",
+        "ruWord": "учитель",
+        "enSynonyms": "teacher",
+        "ruSynonyms": "учитель",
+        "grade": 4,
+        "lesson": 2.2
+    },
+    {
+        "wordGroup": "профессии",
+        "enWord": "teacher",
+        "ruWord": "учитель",
+        "enSynonyms": "teacher",
+        "ruSynonyms": "учитель",
+        "grade": 3,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "профессии",
+        "enWord": "worker",
+        "ruWord": "рабочий",
+        "enSynonyms": "worker",
+        "ruSynonyms": "рабочий",
+        "grade": 4,
+        "lesson": 2.2
+    },
+    {
+        "wordGroup": "человек",
+        "enWord": "man",
+        "ruWord": "мужчина",
+        "enSynonyms": "man, male",
+        "ruSynonyms": "мужчина, человек",
+        "grade": 4,
+        "lesson": 2.2
+    },
+    {
+        "wordGroup": "человек",
+        "enWord": "woman",
+        "ruWord": "женщина",
+        "enSynonyms": "woman, female",
+        "ruSynonyms": "женщина",
+        "grade": 4,
+        "lesson": 2.2
+    },
+    {
+        "wordGroup": "семья",
+        "enWord": "husband",
+        "ruWord": "муж",
+        "enSynonyms": "husband",
+        "ruSynonyms": "муж",
+        "grade": 4,
+        "lesson": 2.3
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "house",
+        "ruWord": "дом",
+        "enSynonyms": "house",
+        "ruSynonyms": "дом",
+        "grade": 4,
+        "lesson": 2.3
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "house",
+        "ruWord": "дом",
+        "enSynonyms": "house",
+        "ruSynonyms": "дом",
+        "grade": 3,
+        "lesson": 6.1
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "room",
+        "ruWord": "комната",
+        "enSynonyms": "room",
+        "ruSynonyms": "комната",
+        "grade": 4,
+        "lesson": 2.3
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "room",
+        "ruWord": "комната",
+        "enSynonyms": "room",
+        "ruSynonyms": "комната",
+        "grade": 3,
+        "lesson": 6.2
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "puppy",
+        "ruWord": "щенок",
+        "enSynonyms": "puppy",
+        "ruSynonyms": "щенок",
+        "grade": 4,
+        "lesson": 2.3
+    },
+    {
+        "wordGroup": "транспорт",
+        "enWord": "rocket",
+        "ruWord": "ракета",
+        "enSynonyms": "rocket",
+        "ruSynonyms": "ракета",
+        "grade": 4,
+        "lesson": 2.4
+    },
+    {
+        "wordGroup": "отдых",
+        "enWord": "ball",
+        "ruWord": "мяч",
+        "enSynonyms": "ball",
+        "ruSynonyms": "мяч",
+        "grade": 4,
+        "lesson": 2.4
+    },
+    {
+        "wordGroup": "отдых",
+        "enWord": "toy",
+        "ruWord": "игрушка",
+        "enSynonyms": "toy",
+        "ruSynonyms": "игрушка, игрушечный",
+        "grade": 4,
+        "lesson": 2.4
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "desk",
+        "ruWord": "парта",
+        "enSynonyms": "desk",
+        "ruSynonyms": "парта, стол",
+        "grade": 4,
+        "lesson": 2.4
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "desk",
+        "ruWord": "парта",
+        "enSynonyms": "desk",
+        "ruSynonyms": "парта, стол",
+        "grade": 3,
+        "lesson": 7.4
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "desk",
+        "ruWord": "парта",
+        "enSynonyms": "desk",
+        "ruSynonyms": "парта, стол",
+        "grade": 3,
+        "lesson": 6.2
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "computer",
+        "ruWord": "компьютер",
+        "enSynonyms": "computer",
+        "ruSynonyms": "компьютер",
+        "grade": 3,
+        "lesson": 6.2
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "telephone",
+        "ruWord": "телефон",
+        "enSynonyms": "telephone, phone",
+        "ruSynonyms": "телефон",
+        "grade": 3,
+        "lesson": 6.2
+    },
+    {
+        "wordGroup": "канцтовары",
+        "enWord": "pen",
+        "ruWord": "ручка",
+        "enSynonyms": "pen",
+        "ruSynonyms": "ручка",
+        "grade": 4,
+        "lesson": 2.4
+    },
+    {
+        "wordGroup": "канцтовары",
+        "enWord": "pen",
+        "ruWord": "ручка",
+        "enSynonyms": "pen",
+        "ruSynonyms": "ручка",
+        "grade": 3,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "канцтовары",
+        "enWord": "ruler",
+        "ruWord": "линейка",
+        "enSynonyms": "ruler",
+        "ruSynonyms": "линейка",
+        "grade": 4,
+        "lesson": 2.4
+    },
+    {
+        "wordGroup": "канцтовары",
+        "enWord": "ruler",
+        "ruWord": "линейка",
+        "enSynonyms": "ruler",
+        "ruSynonyms": "линейка",
+        "grade": 3,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "канцтовары",
+        "enWord": "rubber",
+        "ruWord": "стерка",
+        "enSynonyms": "rubber",
+        "ruSynonyms": "стерка, стёрка, стирка",
+        "grade": 4,
+        "lesson": 2.4
+    },
+    {
+        "wordGroup": "канцтовары",
+        "enWord": "rubber",
+        "ruWord": "стерка",
+        "enSynonyms": "rubber",
+        "ruSynonyms": "стерка, стёрка, стирка",
+        "grade": 3,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "канцтовары",
+        "enWord": "bag",
+        "ruWord": "сумка",
+        "enSynonyms": "bag",
+        "ruSynonyms": "сумка, портфель",
+        "grade": 4,
+        "lesson": 2.4
+    },
+    {
+        "wordGroup": "канцтовары",
+        "enWord": "bag",
+        "ruWord": "сумка",
+        "enSynonyms": "bag",
+        "ruSynonyms": "сумка, портфель",
+        "grade": 3,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "eleven",
+        "ruWord": "одиннадцать",
+        "enSynonyms": "eleven",
+        "ruSynonyms": "одиннадцать",
+        "grade": 4,
+        "lesson": 2.5
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "eleven",
+        "ruWord": "одиннадцать",
+        "enSynonyms": "eleven",
+        "ruSynonyms": "одиннадцать",
+        "grade": 3,
+        "lesson": 4.10
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "twelve",
+        "ruWord": "двенадцать",
+        "enSynonyms": "twelve",
+        "ruSynonyms": "двенадцать",
+        "grade": 4,
+        "lesson": 2.5
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "twelve",
+        "ruWord": "двенадцать",
+        "enSynonyms": "twelve",
+        "ruSynonyms": "двенадцать",
+        "grade": 3,
+        "lesson": 4.10
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "thirteen",
+        "ruWord": "тринадцать",
+        "enSynonyms": "thirteen",
+        "ruSynonyms": "тринадцать",
+        "grade": 4,
+        "lesson": 2.5
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "thirteen",
+        "ruWord": "тринадцать",
+        "enSynonyms": "thirteen",
+        "ruSynonyms": "тринадцать",
+        "grade": 3,
+        "lesson": 4.10
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "fourteen",
+        "ruWord": "четырнадцать",
+        "enSynonyms": "fourteen",
+        "ruSynonyms": "четырнадцать",
+        "grade": 4,
+        "lesson": 2.5
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "fourteen",
+        "ruWord": "четырнадцать",
+        "enSynonyms": "fourteen",
+        "ruSynonyms": "четырнадцать",
+        "grade": 3,
+        "lesson": 4.10
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "fifteen",
+        "ruWord": "пятнадцать",
+        "enSynonyms": "fifteen",
+        "ruSynonyms": "пятнадцать",
+        "grade": 4,
+        "lesson": 2.5
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "fifteen",
+        "ruWord": "пятнадцать",
+        "enSynonyms": "fifteen",
+        "ruSynonyms": "пятнадцать",
+        "grade": 3,
+        "lesson": 4.10
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "sixteen",
+        "ruWord": "шестнадцать",
+        "enSynonyms": "sixteen",
+        "ruSynonyms": "шестнадцать",
+        "grade": 4,
+        "lesson": 2.5
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "sixteen",
+        "ruWord": "шестнадцать",
+        "enSynonyms": "sixteen",
+        "ruSynonyms": "шестнадцать",
+        "grade": 3,
+        "lesson": 4.10
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "seventeen",
+        "ruWord": "семнадцать",
+        "enSynonyms": "seventeen",
+        "ruSynonyms": "семнадцать",
+        "grade": 4,
+        "lesson": 2.5
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "seventeen",
+        "ruWord": "семнадцать",
+        "enSynonyms": "seventeen",
+        "ruSynonyms": "семнадцать",
+        "grade": 3,
+        "lesson": 4.10
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "eighteen",
+        "ruWord": "восемнадцать",
+        "enSynonyms": "eighteen",
+        "ruSynonyms": "восемнадцать",
+        "grade": 4,
+        "lesson": 2.5
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "eighteen",
+        "ruWord": "восемнадцать",
+        "enSynonyms": "eighteen",
+        "ruSynonyms": "восемнадцать",
+        "grade": 3,
+        "lesson": 4.10
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "nineteen",
+        "ruWord": "девятнадцать",
+        "enSynonyms": "nineteen",
+        "ruSynonyms": "девятнадцать",
+        "grade": 4,
+        "lesson": 2.5
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "nineteen",
+        "ruWord": "девятнадцать",
+        "enSynonyms": "nineteen",
+        "ruSynonyms": "девятнадцать",
+        "grade": 3,
+        "lesson": 4.10
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "ten",
+        "ruWord": "десять",
+        "enSynonyms": "ten",
+        "ruSynonyms": "десять",
+        "grade": 4,
+        "lesson": 2.5
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "twenty",
+        "ruWord": "двадцать",
+        "enSynonyms": "twenty",
+        "ruSynonyms": "двадцать",
+        "grade": 4,
+        "lesson": 2.5
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "twenty",
+        "ruWord": "двадцать",
+        "enSynonyms": "twenty",
+        "ruSynonyms": "двадцать",
+        "grade": 3,
+        "lesson": 4.10
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "thirty",
+        "ruWord": "тридцать",
+        "enSynonyms": "thirty",
+        "ruSynonyms": "тридцать",
+        "grade": 4,
+        "lesson": 2.5
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "forty",
+        "ruWord": "сорок",
+        "enSynonyms": "forty",
+        "ruSynonyms": "сорок",
+        "grade": 4,
+        "lesson": 2.5
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "fifty",
+        "ruWord": "пятьдесят",
+        "enSynonyms": "fifty",
+        "ruSynonyms": "пятьдесят",
+        "grade": 4,
+        "lesson": 2.5
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "sixty",
+        "ruWord": "шестьдесят",
+        "enSynonyms": "sixty",
+        "ruSynonyms": "шестьдесят",
+        "grade": 4,
+        "lesson": 2.5
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "seventy",
+        "ruWord": "семьдесят",
+        "enSynonyms": "seventy",
+        "ruSynonyms": "семьдесят",
+        "grade": 4,
+        "lesson": 2.5
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "eighty",
+        "ruWord": "восемьдесят",
+        "enSynonyms": "eighty",
+        "ruSynonyms": "восемьдесят",
+        "grade": 4,
+        "lesson": 2.5
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "ninety",
+        "ruWord": "девяносто",
+        "enSynonyms": "ninety",
+        "ruSynonyms": "девяносто",
+        "grade": 4,
+        "lesson": 2.5
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "hundred",
+        "ruWord": "сто",
+        "enSynonyms": "hundred",
+        "ruSynonyms": "сто",
+        "grade": 4,
+        "lesson": 2.5
+    },
+    {
+        "wordGroup": "профессии",
+        "enWord": "programmer",
+        "ruWord": "программист",
+        "enSynonyms": "programmer",
+        "ruSynonyms": "программист",
+        "grade": 4,
+        "lesson": 2.6
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "live",
+        "ruWord": "жить",
+        "enSynonyms": "live",
+        "ruSynonyms": "жить",
+        "grade": 4,
+        "lesson": 2.7
+    },
+    {
+        "wordGroup": "человек",
+        "enWord": "name",
+        "ruWord": "имя",
+        "enSynonyms": "name",
+        "ruSynonyms": "имя",
+        "grade": 4,
+        "lesson": 2.7
+    },
+    {
+        "wordGroup": "человек",
+        "enWord": "surname",
+        "ruWord": "фамилия",
+        "enSynonyms": "surname",
+        "ruSynonyms": "фамилия",
+        "grade": 4,
+        "lesson": 2.7
+    },
+    {
+        "wordGroup": "человек",
+        "enWord": "age",
+        "ruWord": "возраст",
+        "enSynonyms": "age",
+        "ruSynonyms": "возраст",
+        "grade": 4,
+        "lesson": 2.7
+    },
+    {
+        "wordGroup": "страны",
+        "enWord": "country",
+        "ruWord": "страна",
+        "enSynonyms": "country",
+        "ruSynonyms": "страна",
+        "grade": 4,
+        "lesson": 2.7
+    },
+    {
+        "wordGroup": "страны",
+        "enWord": "Britain",
+        "ruWord": "Великобритания",
+        "enSynonyms": "Britain",
+        "ruSynonyms": "Великобритания",
+        "grade": 4,
+        "lesson": 2.7
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "address",
+        "ruWord": "адрес",
+        "enSynonyms": "address",
+        "ruSynonyms": "адрес",
+        "grade": 4,
+        "lesson": 2.7
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "telephone number",
+        "ruWord": "номер телефона",
+        "enSynonyms": "telephone number, phone number",
+        "ruSynonyms": "номер телефона",
+        "grade": 4,
+        "lesson": 2.7
+    },
+    {
+        "wordGroup": "спорт",
+        "enWord": "sport",
+        "ruWord": "спорт",
+        "enSynonyms": "sport",
+        "ruSynonyms": "спорт",
+        "grade": 4,
+        "lesson": 2.7
+    },
+    {
+        "wordGroup": "канцтовары",
+        "enWord": "letter",
+        "ruWord": "письмо",
+        "enSynonyms": "letter",
+        "ruSynonyms": "письмо",
+        "grade": 4,
+        "lesson": 2.8
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "bookshop",
+        "ruWord": "книжный магазин",
+        "enSynonyms": "bookshop",
+        "ruSynonyms": "книжный магазин",
+        "grade": 4,
+        "lesson": 2.8
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "shop",
+        "ruWord": "магазин",
+        "enSynonyms": "shop",
+        "ruSynonyms": "магазин",
+        "grade": 3,
+        "lesson": 5.5
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "brave",
+        "ruWord": "смелый",
+        "enSynonyms": "brave",
+        "ruSynonyms": "смелый, храбрый",
+        "grade": 4,
+        "lesson": 2.9
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "wolf",
+        "ruWord": "волк",
+        "enSynonyms": "wolf",
+        "ruSynonyms": "волк",
+        "grade": 4,
+        "lesson": 2.9
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "tiger",
+        "ruWord": "тигр",
+        "enSynonyms": "tiger",
+        "ruSynonyms": "тигр",
+        "grade": 4,
+        "lesson": 2.9
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "tiger",
+        "ruWord": "тигр",
+        "enSynonyms": "tiger",
+        "ruSynonyms": "тигр",
+        "grade": 3,
+        "lesson": 9.1
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "hungry",
+        "ruWord": "голодный",
+        "enSynonyms": "hungry",
+        "ruSynonyms": "голодный",
+        "grade": 4,
+        "lesson": 2.9
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "hungry",
+        "ruWord": "голодный",
+        "enSynonyms": "hungry",
+        "ruSynonyms": "голодный",
+        "grade": 3,
+        "lesson": 5.8
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "angry",
+        "ruWord": "злой",
+        "enSynonyms": "angry",
+        "ruSynonyms": "злой",
+        "grade": 4,
+        "lesson": 2.9
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "want",
+        "ruWord": "хотеть",
+        "enSynonyms": "want",
+        "ruSynonyms": "хотеть",
+        "grade": 4,
+        "lesson": 2.9
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "food",
+        "ruWord": "еда",
+        "enSynonyms": "food, meal",
+        "ruSynonyms": "еда, пища",
+        "grade": 4,
+        "lesson": 2.9
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "call",
+        "ruWord": "звать",
+        "enSynonyms": "call",
+        "ruSynonyms": "звать, называть, звонить",
+        "grade": 4,
+        "lesson": 2.9
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "home",
+        "ruWord": "дом",
+        "enSynonyms": "home, house",
+        "ruSynonyms": "дом",
+        "grade": 4,
+        "lesson": 3.1
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "home",
+        "ruWord": "дом",
+        "enSynonyms": "home, house",
+        "ruSynonyms": "дом",
+        "grade": 3,
+        "lesson": 6.1
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "school",
+        "ruWord": "школа",
+        "enSynonyms": "school",
+        "ruSynonyms": "школа",
+        "grade": 4,
+        "lesson": 3.1
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "school",
+        "ruWord": "школа",
+        "enSynonyms": "school",
+        "ruSynonyms": "школа",
+        "grade": 3,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "park",
+        "ruWord": "парк",
+        "enSynonyms": "park",
+        "ruSynonyms": "парк, парковаться",
+        "grade": 4,
+        "lesson": 3.1
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "zoo",
+        "ruWord": "зоопарк",
+        "enSynonyms": "zoo",
+        "ruSynonyms": "зоопарк",
+        "grade": 4,
+        "lesson": 3.1
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "zoo",
+        "ruWord": "зоопарк",
+        "enSynonyms": "zoo",
+        "ruSynonyms": "зоопарк",
+        "grade": 3,
+        "lesson": 9.2
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "circus",
+        "ruWord": "цирк",
+        "enSynonyms": "circus",
+        "ruSynonyms": "цирк",
+        "grade": 4,
+        "lesson": 3.1
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "circus",
+        "ruWord": "цирк",
+        "enSynonyms": "circus",
+        "ruSynonyms": "цирк",
+        "grade": 3,
+        "lesson": 9.1
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "cafe",
+        "ruWord": "кафе",
+        "enSynonyms": "cafe",
+        "ruSynonyms": "кафе",
+        "grade": 4,
+        "lesson": 3.1
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "cafe",
+        "ruWord": "кафе",
+        "enSynonyms": "cafe",
+        "ruSynonyms": "кафе",
+        "grade": 3,
+        "lesson": 5.7
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "morning",
+        "ruWord": "утро",
+        "enSynonyms": "morning",
+        "ruSynonyms": "утро",
+        "grade": 4,
+        "lesson": 3.2
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "get up",
+        "ruWord": "вставать",
+        "enSynonyms": "get up",
+        "ruSynonyms": "вставать",
+        "grade": 4,
+        "lesson": 3.2
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "make bed",
+        "ruWord": "застилать кровать",
+        "enSynonyms": "make bed",
+        "ruSynonyms": "застилать кровать",
+        "grade": 4,
+        "lesson": 3.2
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "do exercises",
+        "ruWord": "делать зарядку",
+        "enSynonyms": "do exercises",
+        "ruSynonyms": "делать зарядку, делать упражнения",
+        "grade": 4,
+        "lesson": 3.2
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "wash",
+        "ruWord": "мыть",
+        "enSynonyms": "wash",
+        "ruSynonyms": "мыть",
+        "grade": 4,
+        "lesson": 3.2
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "brush",
+        "ruWord": "расчесывать",
+        "enSynonyms": "brush",
+        "ruSynonyms": "расчесывать",
+        "grade": 4,
+        "lesson": 3.2
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "have breakfast",
+        "ruWord": "завтракать",
+        "enSynonyms": "have breakfast",
+        "ruSynonyms": "завтракать",
+        "grade": 4,
+        "lesson": 3.2
+    },
+    {
+        "wordGroup": "тело",
+        "enWord": "teeth",
+        "ruWord": "зубы",
+        "enSynonyms": "teeth",
+        "ruSynonyms": "зубы",
+        "grade": 4,
+        "lesson": 3.2
+    },
+    {
+        "wordGroup": "тело",
+        "enWord": "face",
+        "ruWord": "лицо",
+        "enSynonyms": "face",
+        "ruSynonyms": "лицо",
+        "grade": 4,
+        "lesson": 3.2
+    },
+    {
+        "wordGroup": "тело",
+        "enWord": "hand",
+        "ruWord": "рука",
+        "enSynonyms": "hand, arm",
+        "ruSynonyms": "рука, кисть",
+        "grade": 4,
+        "lesson": 3.2
+    },
+    {
+        "wordGroup": "тело",
+        "enWord": "hand",
+        "ruWord": "рука",
+        "enSynonyms": "hand, arm",
+        "ruSynonyms": "рука, кисть",
+        "grade": 3,
+        "lesson": 4.8
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "get dressed",
+        "ruWord": "одеваться",
+        "enSynonyms": "get dressed",
+        "ruSynonyms": "одеваться",
+        "grade": 4,
+        "lesson": 3.2
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "chair",
+        "ruWord": "стул",
+        "enSynonyms": "chair",
+        "ruSynonyms": "стул",
+        "grade": 4,
+        "lesson": 3.2
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "chair",
+        "ruWord": "стул",
+        "enSynonyms": "chair",
+        "ruSynonyms": "стул",
+        "grade": 3,
+        "lesson": 6.1
+    },
+    {
+        "wordGroup": "служебные слова",
+        "enWord": "usually",
+        "ruWord": "обычно",
+        "enSynonyms": "usually",
+        "ruSynonyms": "обычно",
+        "grade": 4,
+        "lesson": 3.2
+    },
+    {
+        "wordGroup": "служебные слова",
+        "enWord": "then",
+        "ruWord": "затем",
+        "enSynonyms": "then, after that",
+        "ruSynonyms": "затем, после этого",
+        "grade": 4,
+        "lesson": 3.2
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "breakfast",
+        "ruWord": "завтрак",
+        "enSynonyms": "breakfast",
+        "ruSynonyms": "завтрак",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "dinner",
+        "ruWord": "обед",
+        "enSynonyms": "dinner",
+        "ruSynonyms": "обед",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "lunch",
+        "ruWord": "ланч",
+        "enSynonyms": "lunch",
+        "ruSynonyms": "ланч",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "lunch",
+        "ruWord": "ланч",
+        "enSynonyms": "lunch",
+        "ruSynonyms": "ланч",
+        "grade": 3,
+        "lesson": 7.3
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "evening",
+        "ruWord": "вечер",
+        "enSynonyms": "evening",
+        "ruSynonyms": "вечер",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "porridge",
+        "ruWord": "каша",
+        "enSynonyms": "porridge",
+        "ruSynonyms": "каша",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "sandwich",
+        "ruWord": "бутерброд",
+        "enSynonyms": "sandwich",
+        "ruSynonyms": "бутерброд",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "pasta",
+        "ruWord": "паста",
+        "enSynonyms": "pasta, macaroni",
+        "ruSynonyms": "паста, макароны",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "sausage",
+        "ruWord": "колбаса",
+        "enSynonyms": "sausage",
+        "ruSynonyms": "колбаса, сосиска",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "sausage",
+        "ruWord": "колбаса",
+        "enSynonyms": "sausage",
+        "ruSynonyms": "колбаса, сосиска",
+        "grade": 3,
+        "lesson": 5.5
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "egg",
+        "ruWord": "яйцо",
+        "enSynonyms": "egg",
+        "ruSynonyms": "яйцо",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "egg",
+        "ruWord": "яйцо",
+        "enSynonyms": "egg",
+        "ruSynonyms": "яйцо",
+        "grade": 3,
+        "lesson": 5.5
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "tea",
+        "ruWord": "чай",
+        "enSynonyms": "tea",
+        "ruSynonyms": "чай",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "tea",
+        "ruWord": "чай",
+        "enSynonyms": "tea",
+        "ruSynonyms": "чай",
+        "grade": 3,
+        "lesson": 5.1
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "soup",
+        "ruWord": "суп",
+        "enSynonyms": "soup",
+        "ruSynonyms": "суп",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "soup",
+        "ruWord": "суп",
+        "enSynonyms": "soup",
+        "ruSynonyms": "суп",
+        "grade": 3,
+        "lesson": 5.5
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "juice",
+        "ruWord": "сок",
+        "enSynonyms": "juice",
+        "ruSynonyms": "сок",
+        "grade": 3,
+        "lesson": 5.1
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "fish",
+        "ruWord": "рыба",
+        "enSynonyms": "fish",
+        "ruSynonyms": "рыба",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "salad",
+        "ruWord": "салат",
+        "enSynonyms": "salad, lettuce",
+        "ruSynonyms": "салат",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "chicken",
+        "ruWord": "курица",
+        "enSynonyms": "chicken, hen",
+        "ruSynonyms": "курица, цыпленок",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "chicken",
+        "ruWord": "курица",
+        "enSynonyms": "chicken, hen",
+        "ruSynonyms": "курица, цыпленок",
+        "grade": 3,
+        "lesson": 5.5
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "chocolate",
+        "ruWord": "шоколад",
+        "enSynonyms": "chocolate",
+        "ruSynonyms": "шоколад",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "chocolate",
+        "ruWord": "шоколад",
+        "enSynonyms": "chocolate",
+        "ruSynonyms": "шоколад",
+        "grade": 3,
+        "lesson": 5.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "coffee",
+        "ruWord": "кофе",
+        "enSynonyms": "coffee",
+        "ruSynonyms": "кофе",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "coffee",
+        "ruWord": "кофе",
+        "enSynonyms": "coffee",
+        "ruSynonyms": "кофе",
+        "grade": 3,
+        "lesson": 5.1
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "milk",
+        "ruWord": "молоко",
+        "enSynonyms": "milk",
+        "ruSynonyms": "молоко",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "water",
+        "ruWord": "вода",
+        "enSynonyms": "water",
+        "ruSynonyms": "вода",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "water",
+        "ruWord": "вода",
+        "enSynonyms": "water",
+        "ruSynonyms": "вода",
+        "grade": 3,
+        "lesson": 5.1
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "jam",
+        "ruWord": "джэм",
+        "enSynonyms": "jam",
+        "ruSynonyms": "джэм, варенье",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "yoghurt",
+        "ruWord": "йогурт",
+        "enSynonyms": "yoghurt",
+        "ruSynonyms": "йогурт",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "yoghurt",
+        "ruWord": "йогурт",
+        "enSynonyms": "yoghurt",
+        "ruSynonyms": "йогурт",
+        "grade": 3,
+        "lesson": 5.1
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "bread",
+        "ruWord": "хлеб",
+        "enSynonyms": "bread",
+        "ruSynonyms": "хлеб",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "bread",
+        "ruWord": "хлеб",
+        "enSynonyms": "bread",
+        "ruSynonyms": "хлеб",
+        "grade": 3,
+        "lesson": 5.1
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "cheese",
+        "ruWord": "сыр",
+        "enSynonyms": "cheese",
+        "ruSynonyms": "сыр",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "cheese",
+        "ruWord": "сыр",
+        "enSynonyms": "cheese",
+        "ruSynonyms": "сыр",
+        "grade": 3,
+        "lesson": 5.5
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "pizza",
+        "ruWord": "пица",
+        "enSynonyms": "pizza",
+        "ruSynonyms": "пица",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "potatoes",
+        "ruWord": "картошка",
+        "enSynonyms": "potatoes",
+        "ruSynonyms": "картошка, картофель",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "potato",
+        "ruWord": "картошка",
+        "enSynonyms": "potato",
+        "ruSynonyms": "картошка, картофель",
+        "grade": 3,
+        "lesson": 5.4
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "carrots",
+        "ruWord": "морковь",
+        "enSynonyms": "carrots",
+        "ruSynonyms": "морковь, морковка",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "carrots",
+        "ruWord": "морковь",
+        "enSynonyms": "carrots",
+        "ruSynonyms": "морковь, морковка",
+        "grade": 3,
+        "lesson": 5.4
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "tomato",
+        "ruWord": "помидор",
+        "enSynonyms": "tomato",
+        "ruSynonyms": "помидор, томат, томатный",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "tomato",
+        "ruWord": "помидор",
+        "enSynonyms": "tomato",
+        "ruSynonyms": "помидор, томат, томатный",
+        "grade": 3,
+        "lesson": 5.4
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "cucumber",
+        "ruWord": "огурец",
+        "enSynonyms": "cucumber",
+        "ruSynonyms": "огурец",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "cucumber",
+        "ruWord": "огурец",
+        "enSynonyms": "cucumber",
+        "ruSynonyms": "огурец",
+        "grade": 3,
+        "lesson": 5.4
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "apple",
+        "ruWord": "яблоко",
+        "enSynonyms": "apple",
+        "ruSynonyms": "яблоко",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "apple",
+        "ruWord": "яблоко",
+        "enSynonyms": "apple",
+        "ruSynonyms": "яблоко",
+        "grade": 3,
+        "lesson": 5.4
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "banana",
+        "ruWord": "банан",
+        "enSynonyms": "banana",
+        "ruSynonyms": "банан",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "banana",
+        "ruWord": "банан",
+        "enSynonyms": "banana",
+        "ruSynonyms": "банан",
+        "grade": 3,
+        "lesson": 5.4
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "lemon",
+        "ruWord": "лемон",
+        "enSynonyms": "lemon",
+        "ruSynonyms": "лемон",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "orange",
+        "ruWord": "апельсин",
+        "enSynonyms": "orange",
+        "ruSynonyms": "апельсин, оранжевый",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "sweet",
+        "ruWord": "конфета",
+        "enSynonyms": "sweet",
+        "ruSynonyms": "конфета, сладкий",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "sweet",
+        "ruWord": "конфета",
+        "enSynonyms": "sweet",
+        "ruSynonyms": "конфета, сладкий",
+        "grade": 3,
+        "lesson": 5.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "ice-cream",
+        "ruWord": "мороженое",
+        "enSynonyms": "ice-cream",
+        "ruSynonyms": "мороженое",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "jelly",
+        "ruWord": "желе",
+        "enSynonyms": "jelly",
+        "ruSynonyms": "желе",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "jelly",
+        "ruWord": "желе",
+        "enSynonyms": "jelly",
+        "ruSynonyms": "желе",
+        "grade": 3,
+        "lesson": 5.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "cake",
+        "ruWord": "пирог",
+        "enSynonyms": "cake",
+        "ruSynonyms": "пирог, торт, пирожное",
+        "grade": 4,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "come",
+        "ruWord": "приходить",
+        "enSynonyms": "come",
+        "ruSynonyms": "приходить, прийти",
+        "grade": 4,
+        "lesson": 3.4
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "shower",
+        "ruWord": "душ",
+        "enSynonyms": "shower",
+        "ruSynonyms": "душ, ливень",
+        "grade": 4,
+        "lesson": 3.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "take a shower",
+        "ruWord": "принимать душ",
+        "enSynonyms": "take a shower",
+        "ruSynonyms": "принимать душ, принять душ",
+        "grade": 4,
+        "lesson": 3.4
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "dishes",
+        "ruWord": "посуда",
+        "enSynonyms": "dishes",
+        "ruSynonyms": "посуда",
+        "grade": 4,
+        "lesson": 3.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "tidy",
+        "ruWord": "убирать",
+        "enSynonyms": "tidy, clean",
+        "ruSynonyms": "убирать, наводить порядок, прибирать",
+        "grade": 4,
+        "lesson": 3.4
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "housework",
+        "ruWord": "работа по дому",
+        "enSynonyms": "housework",
+        "ruSynonyms": "работа по дому",
+        "grade": 4,
+        "lesson": 3.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "do",
+        "ruWord": "делать",
+        "enSynonyms": "do, make",
+        "ruSynonyms": "делать",
+        "grade": 4,
+        "lesson": 3.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "do",
+        "ruWord": "делать",
+        "enSynonyms": "do, make",
+        "ruSynonyms": "делать",
+        "grade": 3,
+        "lesson": 8.6
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "like",
+        "ruWord": "любить",
+        "enSynonyms": "like, love",
+        "ruSynonyms": "любить, нравиться, как",
+        "grade": 4,
+        "lesson": 3.5
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "bed",
+        "ruWord": "кровать",
+        "enSynonyms": "bed",
+        "ruSynonyms": "кровать",
+        "grade": 4,
+        "lesson": 3.4
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "bed",
+        "ruWord": "кровать",
+        "enSynonyms": "bed",
+        "ruSynonyms": "кровать",
+        "grade": 3,
+        "lesson": 6.1
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "night",
+        "ruWord": "ночь",
+        "enSynonyms": "night",
+        "ruSynonyms": "ночь",
+        "grade": 4,
+        "lesson": 3.6
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "owl",
+        "ruWord": "сова",
+        "enSynonyms": "owl",
+        "ruSynonyms": "сова",
+        "grade": 4,
+        "lesson": 3.6
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "fly",
+        "ruWord": "летать",
+        "enSynonyms": "fly",
+        "ruSynonyms": "летать",
+        "grade": 4,
+        "lesson": 3.6
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "frog",
+        "ruWord": "лягушка",
+        "enSynonyms": "frog",
+        "ruSynonyms": "лягушка, жаба",
+        "grade": 4,
+        "lesson": 3.6
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "snake",
+        "ruWord": "змея",
+        "enSynonyms": "snake",
+        "ruSynonyms": "змея",
+        "grade": 4,
+        "lesson": 3.6
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "bear",
+        "ruWord": "медведь",
+        "enSynonyms": "bear",
+        "ruSynonyms": "медведь",
+        "grade": 4,
+        "lesson": 3.9
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "bear",
+        "ruWord": "медведь",
+        "enSynonyms": "bear",
+        "ruSynonyms": "медведь",
+        "grade": 3,
+        "lesson": 9.1
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "guess",
+        "ruWord": "угадать",
+        "enSynonyms": "guess",
+        "ruSynonyms": "угадать, догадаться, догадываться, считать, полагать, угадывать",
+        "grade": 4,
+        "lesson": 3.9
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "understand",
+        "ruWord": "понимать",
+        "enSynonyms": "understand",
+        "ruSynonyms": "понимать, понять",
+        "grade": 4,
+        "lesson": 3.9
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "table",
+        "ruWord": "стол",
+        "enSynonyms": "table, desk",
+        "ruSynonyms": "стол",
+        "grade": 4,
+        "lesson": 3.9
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "table",
+        "ruWord": "стол",
+        "enSynonyms": "table, desk",
+        "ruSynonyms": "стол",
+        "grade": 3,
+        "lesson": 6.1
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "drink",
+        "ruWord": "пить",
+        "enSynonyms": "drink",
+        "ruSynonyms": "пить, напиток",
+        "grade": 4,
+        "lesson": 3.9
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "drink",
+        "ruWord": "пить",
+        "enSynonyms": "drink",
+        "ruSynonyms": "пить, напиток",
+        "grade": 3,
+        "lesson": 5.1
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "window",
+        "ruWord": "окно",
+        "enSynonyms": "window",
+        "ruSynonyms": "окно",
+        "grade": 4,
+        "lesson": 3.9
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "museum",
+        "ruWord": "музей",
+        "enSynonyms": "museum",
+        "ruSynonyms": "музей",
+        "grade": 4,
+        "lesson": 4.1
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "theatre",
+        "ruWord": "театр",
+        "enSynonyms": "theatre",
+        "ruSynonyms": "театр",
+        "grade": 4,
+        "lesson": 4.1
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "cinema",
+        "ruWord": "кинотеатр",
+        "enSynonyms": "cinema",
+        "ruSynonyms": "кинотеатр, кино",
+        "grade": 4,
+        "lesson": 4.1
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "disco",
+        "ruWord": "дискотека",
+        "enSynonyms": "disco",
+        "ruSynonyms": "дискотека, диско",
+        "grade": 4,
+        "lesson": 4.1
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "swimming pool",
+        "ruWord": "бассейн",
+        "enSynonyms": "swimming pool",
+        "ruSynonyms": "бассейн",
+        "grade": 4,
+        "lesson": 4.1
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "spend time",
+        "ruWord": "проводить время",
+        "enSynonyms": "spend time",
+        "ruSynonyms": "проводить время",
+        "grade": 4,
+        "lesson": 4.1
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "interesting",
+        "ruWord": "интересный",
+        "enSynonyms": "interesting",
+        "ruSynonyms": "интересный",
+        "grade": 4,
+        "lesson": 4.1
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "help",
+        "ruWord": "помогать",
+        "enSynonyms": "help",
+        "ruSynonyms": "помогать",
+        "grade": 4,
+        "lesson": 4.3
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "help",
+        "ruWord": "помогать",
+        "enSynonyms": "help",
+        "ruSynonyms": "помогать",
+        "grade": 3,
+        "lesson": 4.7
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "feed",
+        "ruWord": "кормить",
+        "enSynonyms": "feed",
+        "ruSynonyms": "кормить",
+        "grade": 4,
+        "lesson": 4.3
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "walk",
+        "ruWord": "выгуливать",
+        "enSynonyms": "walk",
+        "ruSynonyms": "выгуливать, гулять, идти пешком",
+        "grade": 4,
+        "lesson": 4.3
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "lay the table",
+        "ruWord": "накрывать на стол",
+        "enSynonyms": "lay the table, lay table",
+        "ruSynonyms": "накрывать на стол, накрыть на стол",
+        "grade": 4,
+        "lesson": 4.3
+    },
+    {
+        "wordGroup": "семья",
+        "enWord": "stepmother",
+        "ruWord": "мачеха",
+        "enSynonyms": "stepmother",
+        "ruSynonyms": "мачеха",
+        "grade": 4,
+        "lesson": 4.4
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "floor",
+        "ruWord": "пол",
+        "enSynonyms": "floor",
+        "ruSynonyms": "пол",
+        "grade": 4,
+        "lesson": 4.5
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "floor",
+        "ruWord": "пол",
+        "enSynonyms": "floor",
+        "ruSynonyms": "пол",
+        "grade": 3,
+        "lesson": 6.3
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "flat",
+        "ruWord": "квартира",
+        "enSynonyms": "flat",
+        "ruSynonyms": "квартира",
+        "grade": 4,
+        "lesson": 4.5
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "flat",
+        "ruWord": "квартира",
+        "enSynonyms": "flat",
+        "ruSynonyms": "квартира",
+        "grade": 3,
+        "lesson": 6.1
+    },
+    {
+        "wordGroup": "местоимения",
+        "enWord": "this",
+        "ruWord": "это",
+        "enSynonyms": "this, it",
+        "ruSynonyms": "это, этот",
+        "grade": 3,
+        "lesson": 6.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "horse",
+        "ruWord": "лошадь",
+        "enSynonyms": "horse",
+        "ruSynonyms": "лошадь",
+        "grade": 4,
+        "lesson": 4.6
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "animal",
+        "ruWord": "животное",
+        "enSynonyms": "animal",
+        "ruSynonyms": "животное",
+        "grade": 4,
+        "lesson": 4.6
+    },
+    {
+        "wordGroup": "отдых",
+        "enWord": "film",
+        "ruWord": "фильм",
+        "enSynonyms": "film",
+        "ruSynonyms": "фильм",
+        "grade": 4,
+        "lesson": 4.6
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "fridge",
+        "ruWord": "холодильник",
+        "enSynonyms": "film",
+        "ruSynonyms": "fridge, refrigerator",
+        "grade": 4,
+        "lesson": 4.7
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "mess",
+        "ruWord": "беспорядок",
+        "enSynonyms": "mess",
+        "ruSynonyms": "беспорядок, бардак, мусор",
+        "grade": 4,
+        "lesson": 4.7
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "Christmas",
+        "ruWord": "Рождество",
+        "enSynonyms": "Christmas",
+        "ruSynonyms": "Рождество",
+        "grade": 4,
+        "lesson": 4.9
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "Christmas",
+        "ruWord": "Рождество",
+        "enSynonyms": "Christmas",
+        "ruSynonyms": "Рождество",
+        "grade": 3,
+        "lesson": 8.9
+    },
+    {
+        "wordGroup": "природа",
+        "enWord": "branch",
+        "ruWord": "ветка",
+        "enSynonyms": "branch",
+        "ruSynonyms": "ветка",
+        "grade": 4,
+        "lesson": 4.9
+    },
+    {
+        "wordGroup": "погода",
+        "enWord": "snow",
+        "ruWord": "снег",
+        "enSynonyms": "snow",
+        "ruSynonyms": "снег",
+        "grade": 4,
+        "lesson": 4.9
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "show",
+        "ruWord": "показывать",
+        "enSynonyms": "show",
+        "ruSynonyms": "показывать, показать, шоу, представление",
+        "grade": 4,
+        "lesson": 4.9
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "coat",
+        "ruWord": "пальто",
+        "enSynonyms": "coat",
+        "ruSynonyms": "пальто, плащ, куртка",
+        "grade": 4,
+        "lesson": 4.9
+    },
+    {
+        "wordGroup": "канцтовары",
+        "enWord": "envelope",
+        "ruWord": "конверт",
+        "enSynonyms": "envelope",
+        "ruSynonyms": "конверт",
+        "grade": 4,
+        "lesson": 4.9
+    },
+    {
+        "wordGroup": "канцтовары",
+        "enWord": "card",
+        "ruWord": "открытка",
+        "enSynonyms": "card, post card",
+        "ruSynonyms": "открытка, карточка, карта",
+        "grade": 4,
+        "lesson": 4.9
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "rabbit",
+        "ruWord": "кролик",
+        "enSynonyms": "rabbit",
+        "ruSynonyms": "кролик",
+        "grade": 4,
+        "lesson": 5.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "hamster",
+        "ruWord": "хомяк",
+        "enSynonyms": "hamster",
+        "ruSynonyms": "хомяк",
+        "grade": 4,
+        "lesson": 5.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "kitten",
+        "ruWord": "котенок",
+        "enSynonyms": "kitten",
+        "ruSynonyms": "котенок, котёнок",
+        "grade": 4,
+        "lesson": 5.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "tortoise",
+        "ruWord": "черепаха",
+        "enSynonyms": "tortoise",
+        "ruSynonyms": "черепаха",
+        "grade": 4,
+        "lesson": 5.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "goldfish",
+        "ruWord": "золотая рыбка",
+        "enSynonyms": "goldfish",
+        "ruSynonyms": "золотая рыбка",
+        "grade": 4,
+        "lesson": 5.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "rat",
+        "ruWord": "крыса",
+        "enSynonyms": "rat",
+        "ruSynonyms": "крыса",
+        "grade": 4,
+        "lesson": 5.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "guinea-pig",
+        "ruWord": "морская свинка",
+        "enSynonyms": "guinea-pig",
+        "ruSynonyms": "морская свинка",
+        "grade": 4,
+        "lesson": 5.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "budgie",
+        "ruWord": "волнистый попугай",
+        "enSynonyms": "budgie",
+        "ruSynonyms": "волнистый попугай, волнистый попугайчик",
+        "grade": 4,
+        "lesson": 5.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "parrot",
+        "ruWord": "попугай",
+        "enSynonyms": "parrot, budgie",
+        "ruSynonyms": "попугай",
+        "grade": 4,
+        "lesson": 5.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "tail",
+        "ruWord": "хвост",
+        "enSynonyms": "tail",
+        "ruSynonyms": "хвост",
+        "grade": 4,
+        "lesson": 5.1
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "sad",
+        "ruWord": "грустный",
+        "enSynonyms": "sad",
+        "ruSynonyms": "грустный, печальный",
+        "grade": 4,
+        "lesson": 5.1
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "friendly",
+        "ruWord": "дружелюбный",
+        "enSynonyms": "friendly",
+        "ruSynonyms": "дружелюбный",
+        "grade": 4,
+        "lesson": 5.1
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "old",
+        "ruWord": "старый",
+        "enSynonyms": "old",
+        "ruSynonyms": "старый",
+        "grade": 4,
+        "lesson": 5.1
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "young",
+        "ruWord": "молодой",
+        "enSynonyms": "young",
+        "ruSynonyms": "молодой",
+        "grade": 4,
+        "lesson": 5.1
+    },
+    {
+        "wordGroup": "тело",
+        "enWord": "bone",
+        "ruWord": "кость",
+        "enSynonyms": "bone",
+        "ruSynonyms": "кость",
+        "grade": 4,
+        "lesson": 5.2
+    },
+    {
+        "wordGroup": "природа",
+        "enWord": "seeds",
+        "ruWord": "семена",
+        "enSynonyms": "seeds",
+        "ruSynonyms": "семена",
+        "grade": 4,
+        "lesson": 5.2
+    },
+    {
+        "wordGroup": "природа",
+        "enWord": "grass",
+        "ruWord": "трава",
+        "enSynonyms": "grass",
+        "ruSynonyms": "трава",
+        "grade": 4,
+        "lesson": 5.2
+    },
+    {
+        "wordGroup": "природа",
+        "enWord": "leaves",
+        "ruWord": "листья",
+        "enSynonyms": "leaves",
+        "ruSynonyms": "листья",
+        "grade": 4,
+        "lesson": 5.2
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "cabbage",
+        "ruWord": "капуста",
+        "enSynonyms": "cabbage",
+        "ruSynonyms": "капуста",
+        "grade": 4,
+        "lesson": 5.2
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "meat",
+        "ruWord": "мясо",
+        "enSynonyms": "meat",
+        "ruSynonyms": "мясо",
+        "grade": 4,
+        "lesson": 5.2
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "meat",
+        "ruWord": "мясо",
+        "enSynonyms": "meat",
+        "ruSynonyms": "мясо",
+        "grade": 3,
+        "lesson": 5.2
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "fruit",
+        "ruWord": "фрукт",
+        "enSynonyms": "fruit",
+        "ruSynonyms": "фрукт",
+        "grade": 4,
+        "lesson": 5.2
+    },
+    {
+        "wordGroup": "служебные слова",
+        "enWord": "never",
+        "ruWord": "никогда",
+        "enSynonyms": "never",
+        "ruSynonyms": "никогда",
+        "grade": 4,
+        "lesson": 5.2
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "pink",
+        "ruWord": "розовый",
+        "enSynonyms": "pink",
+        "ruSynonyms": "розовый",
+        "grade": 4,
+        "lesson": 5.2
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "kilogram",
+        "ruWord": "килограмм",
+        "enSynonyms": "kilogram",
+        "ruSynonyms": "килограмм",
+        "grade": 4,
+        "lesson": 5.2
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "ugly",
+        "ruWord": "противный",
+        "enSynonyms": "ugly, unpleasant",
+        "ruSynonyms": "противный, неприятный, уродливый, отталкивающий, безобразный",
+        "grade": 4,
+        "lesson": 5.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "noisy",
+        "ruWord": "шумный",
+        "enSynonyms": "noisy",
+        "ruSynonyms": "шумный",
+        "grade": 4,
+        "lesson": 5.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "quiet",
+        "ruWord": "тихий",
+        "enSynonyms": "quiet",
+        "ruSynonyms": "тихий",
+        "grade": 4,
+        "lesson": 5.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "interesting",
+        "ruWord": "интересный",
+        "enSynonyms": "interesting",
+        "ruSynonyms": "интересный",
+        "grade": 4,
+        "lesson": 5.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "boring",
+        "ruWord": "скучный",
+        "enSynonyms": "boring",
+        "ruSynonyms": "скучный",
+        "grade": 4,
+        "lesson": 5.3
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "butterfly",
+        "ruWord": "бабочка",
+        "enSynonyms": "butterfly",
+        "ruSynonyms": "бабочка",
+        "grade": 4,
+        "lesson": 5.3
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "caterpillar",
+        "ruWord": "гусеница",
+        "enSynonyms": "caterpillar",
+        "ruSynonyms": "гусеница",
+        "grade": 4,
+        "lesson": 5.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "fast",
+        "ruWord": "быстрый",
+        "enSynonyms": "fast, quick",
+        "ruSynonyms": "быстрый, быстро",
+        "grade": 4,
+        "lesson": 5.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "slow",
+        "ruWord": "медленный",
+        "enSynonyms": "slow",
+        "ruSynonyms": "медленный",
+        "grade": 4,
+        "lesson": 5.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "tired",
+        "ruWord": "уставший",
+        "enSynonyms": "tired",
+        "ruSynonyms": "уставший",
+        "grade": 4,
+        "lesson": 5.3
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "buy",
+        "ruWord": "покупать",
+        "enSynonyms": "buy, purchase",
+        "ruSynonyms": "покупать, купить",
+        "grade": 4,
+        "lesson": 5.6
+    },
+    {
+        "wordGroup": "природа",
+        "enWord": "flower",
+        "ruWord": "цветок",
+        "enSynonyms": "flower",
+        "ruSynonyms": "цветок",
+        "grade": 4,
+        "lesson": 5.6
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "worry",
+        "ruWord": "волноваться",
+        "enSynonyms": "worry, bother",
+        "ruSynonyms": "волноваться, беспокоиться, волновать, беспокоить",
+        "grade": 4,
+        "lesson": 5.6
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "sit",
+        "ruWord": "сидеть",
+        "enSynonyms": "sit",
+        "ruSynonyms": "сидеть, сесть",
+        "grade": 4,
+        "lesson": 5.6
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "spell",
+        "ruWord": "произносить по буквам",
+        "enSynonyms": "spell",
+        "ruSynonyms": "произносить по буквам, произнести по буквам, заклинание, заговор, чары",
+        "grade": 4,
+        "lesson": 5.6
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "need",
+        "ruWord": "нуждаться",
+        "enSynonyms": "need",
+        "ruSynonyms": "нуждаться, нужда, необходимость",
+        "grade": 4,
+        "lesson": 5.6
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "give",
+        "ruWord": "давать",
+        "enSynonyms": "give",
+        "ruSynonyms": "давать, дать",
+        "grade": 4,
+        "lesson": 5.6
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "give",
+        "ruWord": "давать",
+        "enSynonyms": "give",
+        "ruSynonyms": "давать, дать",
+        "grade": 3,
+        "lesson": 7.2
+    },
+    {
+        "wordGroup": "медицина",
+        "enWord": "vitamins",
+        "ruWord": "витамины",
+        "enSynonyms": "vitamins",
+        "ruSynonyms": "витамины",
+        "grade": 4,
+        "lesson": 5.6
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "ill",
+        "ruWord": "больной",
+        "enSynonyms": "ill, sick",
+        "ruSynonyms": "больной",
+        "grade": 4,
+        "lesson": 5.6
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "think",
+        "ruWord": "думать",
+        "enSynonyms": "think",
+        "ruSynonyms": "думать, считать, полагать",
+        "grade": 4,
+        "lesson": 5.6
+    },
+    {
+        "wordGroup": "природа",
+        "enWord": "garden",
+        "ruWord": "сад",
+        "enSynonyms": "garden",
+        "ruSynonyms": "сад",
+        "grade": 4,
+        "lesson": 5.7
+    },
+    {
+        "wordGroup": "человек",
+        "enWord": "owner",
+        "ruWord": "владелец",
+        "enSynonyms": "owner",
+        "ruSynonyms": "владелец",
+        "grade": 4,
+        "lesson": 5.8
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "hall",
+        "ruWord": "холл",
+        "enSynonyms": "hall",
+        "ruSynonyms": "холл, прихожая, коридор, зал",
+        "grade": 4,
+        "lesson": 5.8
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "look after",
+        "ruWord": "присматривать",
+        "enSynonyms": "look after",
+        "ruSynonyms": "присматривать, ухаживать",
+        "grade": 4,
+        "lesson": 5.8
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "cheetah",
+        "ruWord": "гепард",
+        "enSynonyms": "cheetah",
+        "ruSynonyms": "гепард",
+        "grade": 4,
+        "lesson": 5.9
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "whale",
+        "ruWord": "кит",
+        "enSynonyms": "whale",
+        "ruSynonyms": "кит",
+        "grade": 4,
+        "lesson": 5.9
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "elephant",
+        "ruWord": "слон",
+        "enSynonyms": "elephant",
+        "ruSynonyms": "слон",
+        "grade": 4,
+        "lesson": 5.9
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "monkey",
+        "ruWord": "обезьяна",
+        "enSynonyms": "monkey",
+        "ruSynonyms": "обезьяна",
+        "grade": 4,
+        "lesson": 5.9
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "monkey",
+        "ruWord": "обезьяна",
+        "enSynonyms": "monkey",
+        "ruSynonyms": "обезьяна",
+        "grade": 3,
+        "lesson": 9.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "giraffe",
+        "ruWord": "жираф",
+        "enSynonyms": "giraffe",
+        "ruSynonyms": "жираф",
+        "grade": 4,
+        "lesson": 5.9
+    },
+    {
+        "wordGroup": "природа",
+        "enWord": "land",
+        "ruWord": "земля",
+        "enSynonyms": "land, ground",
+        "ruSynonyms": "земля, приземляться, приземлиться",
+        "grade": 4,
+        "lesson": 5.9
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "minute",
+        "ruWord": "минута",
+        "enSynonyms": "minute",
+        "ruSynonyms": "минута",
+        "grade": 4,
+        "lesson": 5.9
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "second",
+        "ruWord": "секунда",
+        "enSynonyms": "second",
+        "ruSynonyms": "секунда",
+        "grade": 4,
+        "lesson": 5.9
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "hour",
+        "ruWord": "час",
+        "enSynonyms": "hour",
+        "ruSynonyms": "час",
+        "grade": 4,
+        "lesson": 5.9
+    },
+    {
+        "wordGroup": "страны",
+        "enWord": "Africa",
+        "ruWord": "Африка",
+        "enSynonyms": "Africa",
+        "ruSynonyms": "Африка",
+        "grade": 4,
+        "lesson": 5.9
+    },
+    {
+        "wordGroup": "страны",
+        "enWord": "America",
+        "ruWord": "Америка",
+        "enSynonyms": "America",
+        "ruSynonyms": "Америка",
+        "grade": 4,
+        "lesson": 5.9
+    },
+    {
+        "wordGroup": "страны",
+        "enWord": "India",
+        "ruWord": "Индия",
+        "enSynonyms": "India",
+        "ruSynonyms": "Индия",
+        "grade": 4,
+        "lesson": 5.9
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "bathroom",
+        "ruWord": "ванная",
+        "enSynonyms": "bathroom",
+        "ruSynonyms": "ванная",
+        "grade": 4,
+        "lesson": 6.1
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "bedroom",
+        "ruWord": "спальня",
+        "enSynonyms": "bedroom",
+        "ruSynonyms": "спальня",
+        "grade": 4,
+        "lesson": 6.1
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "living-room",
+        "ruWord": "зал",
+        "enSynonyms": "living-room, sitting-room, lounge",
+        "ruSynonyms": "зал, гостиная",
+        "grade": 4,
+        "lesson": 6.1
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "kitchen",
+        "ruWord": "кухня",
+        "enSynonyms": "kitchen",
+        "ruSynonyms": "кухня",
+        "grade": 4,
+        "lesson": 6.1
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "hall",
+        "ruWord": "прихожая",
+        "enSynonyms": "hall, lounge",
+        "ruSynonyms": "прихожая, холл",
+        "grade": 4,
+        "lesson": 6.1
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "smell",
+        "ruWord": "пахнуть",
+        "enSynonyms": "smell",
+        "ruSynonyms": "пахнуть, нюхать",
+        "grade": 4,
+        "lesson": 6.1
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "cupboard",
+        "ruWord": "шкаф",
+        "enSynonyms": "cupboard, wardrobe",
+        "ruSynonyms": "шкаф, комод, сервант",
+        "grade": 4,
+        "lesson": 6.2
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "wardrobe",
+        "ruWord": "платяной шкаф",
+        "enSynonyms": "wardrobe, cupboard",
+        "ruSynonyms": "платяной шкаф",
+        "grade": 4,
+        "lesson": 6.2
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "cooker",
+        "ruWord": "плита",
+        "enSynonyms": "cooker",
+        "ruSynonyms": "плита",
+        "grade": 4,
+        "lesson": 6.2
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "fridge",
+        "ruWord": "холодильник",
+        "enSynonyms": "fridge, refrigerator",
+        "ruSynonyms": "холодильник",
+        "grade": 4,
+        "lesson": 6.2
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "pot",
+        "ruWord": "кастрюля",
+        "enSynonyms": "pot",
+        "ruSynonyms": "кастрюля, чайник",
+        "grade": 4,
+        "lesson": 6.2
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "pan",
+        "ruWord": "сковорода",
+        "enSynonyms": "pan",
+        "ruSynonyms": "сковорода",
+        "grade": 4,
+        "lesson": 6.2
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "plate",
+        "ruWord": "тарелка",
+        "enSynonyms": "plate",
+        "ruSynonyms": "тарелка",
+        "grade": 4,
+        "lesson": 6.2
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "cup",
+        "ruWord": "чашка",
+        "enSynonyms": "cup",
+        "ruSynonyms": "чашка, кружка",
+        "grade": 4,
+        "lesson": 6.2
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "knife",
+        "ruWord": "нож",
+        "enSynonyms": "knife",
+        "ruSynonyms": "нож",
+        "grade": 4,
+        "lesson": 6.2
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "fork",
+        "ruWord": "вилка",
+        "enSynonyms": "fork",
+        "ruSynonyms": "вилка, вилы",
+        "grade": 4,
+        "lesson": 6.2
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "spoon",
+        "ruWord": "ложка",
+        "enSynonyms": "spoon",
+        "ruSynonyms": "ложка",
+        "grade": 4,
+        "lesson": 6.2
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "put",
+        "ruWord": "класть",
+        "enSynonyms": "put",
+        "ruSynonyms": "класть, ложить, положить, ставить, поместить",
+        "grade": 4,
+        "lesson": 6.2
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "put",
+        "ruWord": "класть",
+        "enSynonyms": "put",
+        "ruSynonyms": "класть, ложить, положить, ставить, поместить",
+        "grade": 3,
+        "lesson": 7.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "cosy",
+        "ruWord": "уютный",
+        "enSynonyms": "cosy",
+        "ruSynonyms": "уютный",
+        "grade": 4,
+        "lesson": 6.2
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "mirror",
+        "ruWord": "зеркало",
+        "enSynonyms": "mirror",
+        "ruSynonyms": "зеркало",
+        "grade": 4,
+        "lesson": 6.2
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "mirror",
+        "ruWord": "зеркало",
+        "enSynonyms": "mirror",
+        "ruSynonyms": "зеркало",
+        "grade": 3,
+        "lesson": 6.2
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "sell",
+        "ruWord": "продавать",
+        "enSynonyms": "sell",
+        "ruSynonyms": "продавать",
+        "grade": 4,
+        "lesson": 6.2
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "armchair",
+        "ruWord": "кресло",
+        "enSynonyms": "armchair",
+        "ruSynonyms": "кресло",
+        "grade": 4,
+        "lesson": 6.3
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "armchair",
+        "ruWord": "кресло",
+        "enSynonyms": "armchair",
+        "ruSynonyms": "кресло",
+        "grade": 3,
+        "lesson": 6.1
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "bookcase",
+        "ruWord": "книжный шкаф",
+        "enSynonyms": "bookcase",
+        "ruSynonyms": "книжный шкаф",
+        "grade": 3,
+        "lesson": 6.1
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "bath",
+        "ruWord": "ванна",
+        "enSynonyms": "bath, bathtub",
+        "ruSynonyms": "ванна",
+        "grade": 4,
+        "lesson": 6.4
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "basket",
+        "ruWord": "корзина",
+        "enSynonyms": "basket",
+        "ruSynonyms": "корзина",
+        "grade": 4,
+        "lesson": 6.4
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "basket",
+        "ruWord": "корзина",
+        "enSynonyms": "basket",
+        "ruSynonyms": "корзина",
+        "grade": 3,
+        "lesson": 5.9
+    },
+    {
+        "wordGroup": "природа",
+        "enWord": "plant",
+        "ruWord": "растение",
+        "enSynonyms": "plant",
+        "ruSynonyms": "растение, садить, сажать",
+        "grade": 4,
+        "lesson": 6.4
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "wall",
+        "ruWord": "стена",
+        "enSynonyms": "wall",
+        "ruSynonyms": "стена",
+        "grade": 4,
+        "lesson": 6.4
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "wall",
+        "ruWord": "стена",
+        "enSynonyms": "wall",
+        "ruSynonyms": "стена",
+        "grade": 3,
+        "lesson": 7.5
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "lamp",
+        "ruWord": "лампа",
+        "enSynonyms": "lamp",
+        "ruSynonyms": "лампа, светильник, лампочка, люстра",
+        "grade": 4,
+        "lesson": 6.5
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "lamp",
+        "ruWord": "лампа",
+        "enSynonyms": "lamp",
+        "ruSynonyms": "лампа, светильник, лампочка, люстра",
+        "grade": 3,
+        "lesson": 6.2
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "sofa",
+        "ruWord": "диван",
+        "enSynonyms": "sofa, couch",
+        "ruSynonyms": "диван, софа",
+        "grade": 4,
+        "lesson": 6.5
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "sofa",
+        "ruWord": "диван",
+        "enSynonyms": "sofa, couch",
+        "ruSynonyms": "диван, софа",
+        "grade": 3,
+        "lesson": 6.1
+    },
+    {
+        "wordGroup": "профессии",
+        "enWord": "model",
+        "ruWord": "модель",
+        "enSynonyms": "model",
+        "ruSynonyms": "модель",
+        "grade": 4,
+        "lesson": 6.7
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "shelf",
+        "ruWord": "полка",
+        "enSynonyms": "shelf",
+        "ruSynonyms": "полка",
+        "grade": 4,
+        "lesson": 6.8
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "carpet",
+        "ruWord": "ковер",
+        "enSynonyms": "carpet",
+        "ruSynonyms": "ковер",
+        "grade": 4,
+        "lesson": 6.8
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "carpet",
+        "ruWord": "ковер",
+        "enSynonyms": "carpet",
+        "ruSynonyms": "ковер",
+        "grade": 3,
+        "lesson": 6.1
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "make a mess",
+        "ruWord": "наводить беспорядок",
+        "enSynonyms": "make a mess",
+        "ruSynonyms": "наводить беспорядок, мусорить",
+        "grade": 4,
+        "lesson": 6.8
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "plan",
+        "ruWord": "план",
+        "enSynonyms": "plan",
+        "ruSynonyms": "план",
+        "grade": 4,
+        "lesson": 6.8
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "yard",
+        "ruWord": "двор",
+        "enSynonyms": "yard",
+        "ruSynonyms": "двор, ярд",
+        "grade": 4,
+        "lesson": 6.9
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "street",
+        "ruWord": "улица",
+        "enSynonyms": "street, lane",
+        "ruSynonyms": "улица",
+        "grade": 4,
+        "lesson": 6.9
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "lane",
+        "ruWord": "улица",
+        "enSynonyms": "lane, street",
+        "ruSynonyms": "улица",
+        "grade": 4,
+        "lesson": 6.9
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "city",
+        "ruWord": "город",
+        "enSynonyms": "city, town",
+        "ruSynonyms": "город",
+        "grade": 4,
+        "lesson": 6.9
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "town",
+        "ruWord": "город",
+        "enSynonyms": "town, city",
+        "ruSynonyms": "город",
+        "grade": 3,
+        "lesson": 6.9
+    },
+    {
+        "wordGroup": "страны",
+        "enWord": "kingdom",
+        "ruWord": "королевство",
+        "enSynonyms": "kingdom",
+        "ruSynonyms": "королевство",
+        "grade": 4,
+        "lesson": 6.9
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "clothes",
+        "ruWord": "одежда",
+        "enSynonyms": "clothes",
+        "ruSynonyms": "одежда",
+        "grade": 4,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "dress",
+        "ruWord": "платье",
+        "enSynonyms": "dress",
+        "ruSynonyms": "платье, одеваться, одевать",
+        "grade": 4,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "blouse",
+        "ruWord": "блузка",
+        "enSynonyms": "blouse",
+        "ruSynonyms": "блузка",
+        "grade": 4,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "trousers",
+        "ruWord": "штаны",
+        "enSynonyms": "trousers",
+        "ruSynonyms": "штаны, брюки",
+        "grade": 4,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "jeans",
+        "ruWord": "джинсы",
+        "enSynonyms": "jeans",
+        "ruSynonyms": "джинсы",
+        "grade": 4,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "shorts",
+        "ruWord": "шорты",
+        "enSynonyms": "shorts",
+        "ruSynonyms": "шорты",
+        "grade": 4,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "skirt",
+        "ruWord": "юбка",
+        "enSynonyms": "skirt",
+        "ruSynonyms": "юбка",
+        "grade": 4,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "t-shirt",
+        "ruWord": "майка",
+        "enSynonyms": "t-shirt",
+        "ruSynonyms": "майка, тениска",
+        "grade": 4,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "tights",
+        "ruWord": "колготы",
+        "enSynonyms": "tights",
+        "ruSynonyms": "колготы, колготки, чулки",
+        "grade": 4,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "shirt",
+        "ruWord": "рубашка",
+        "enSynonyms": "shirt",
+        "ruSynonyms": "рубашка",
+        "grade": 4,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "socks",
+        "ruWord": "носки",
+        "enSynonyms": "socks",
+        "ruSynonyms": "носки",
+        "grade": 4,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "trainers",
+        "ruWord": "кроссовки",
+        "enSynonyms": "trainers",
+        "ruSynonyms": "кроссовки, кеды",
+        "grade": 4,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "shoes",
+        "ruWord": "туфли",
+        "enSynonyms": "shoes",
+        "ruSynonyms": "туфли, обувь",
+        "grade": 4,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "pack",
+        "ruWord": "паковать",
+        "enSynonyms": "pack",
+        "ruSynonyms": "паковать, упаковывать, упаковка, пакет",
+        "grade": 4,
+        "lesson": 7.2
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "pack",
+        "ruWord": "паковать",
+        "enSynonyms": "pack",
+        "ruSynonyms": "паковать, упаковывать, упаковка, пакет",
+        "grade": 3,
+        "lesson": 8.7
+    },
+    {
+        "wordGroup": "природа",
+        "enWord": "spring",
+        "ruWord": "весна",
+        "enSynonyms": "spring",
+        "ruSynonyms": "весна, росток, родник",
+        "grade": 4,
+        "lesson": 7.2
+    },
+    {
+        "wordGroup": "природа",
+        "enWord": "spring",
+        "ruWord": "весна",
+        "enSynonyms": "spring",
+        "ruSynonyms": "весна, росток, родник",
+        "grade": 3,
+        "lesson": 8.3
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "sweater",
+        "ruWord": "свитер",
+        "enSynonyms": "sweater",
+        "ruSynonyms": "свитер",
+        "grade": 4,
+        "lesson": 7.2
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "sweatshirt",
+        "ruWord": "байка",
+        "enSynonyms": "sweatshirt",
+        "ruSynonyms": "байка",
+        "grade": 4,
+        "lesson": 7.2
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "jacket",
+        "ruWord": "куртка",
+        "enSynonyms": "jacket",
+        "ruSynonyms": "куртка",
+        "grade": 4,
+        "lesson": 7.2
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "coat",
+        "ruWord": "пальто",
+        "enSynonyms": "coat",
+        "ruSynonyms": "пальто",
+        "grade": 4,
+        "lesson": 7.2
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "scarf",
+        "ruWord": "шарф",
+        "enSynonyms": "scarf",
+        "ruSynonyms": "шарф",
+        "grade": 4,
+        "lesson": 7.2
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "boots",
+        "ruWord": "ботинки",
+        "enSynonyms": "boots",
+        "ruSynonyms": "ботинки, сапоги",
+        "grade": 4,
+        "lesson": 7.2
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "hat",
+        "ruWord": "шапка",
+        "enSynonyms": "hat",
+        "ruSynonyms": "шапка",
+        "grade": 4,
+        "lesson": 7.2
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "gloves",
+        "ruWord": "перчатки",
+        "enSynonyms": "gloves",
+        "ruSynonyms": "перчатки",
+        "grade": 4,
+        "lesson": 7.2
+    },
+    {
+        "wordGroup": "погода",
+        "enWord": "winter",
+        "ruWord": "зима",
+        "enSynonyms": "winter",
+        "ruSynonyms": "зима",
+        "grade": 4,
+        "lesson": 7.3
+    },
+    {
+        "wordGroup": "погода",
+        "enWord": "summer",
+        "ruWord": "лето",
+        "enSynonyms": "summer",
+        "ruSynonyms": "лето",
+        "grade": 4,
+        "lesson": 7.3
+    },
+    {
+        "wordGroup": "погода",
+        "enWord": "summer",
+        "ruWord": "лето",
+        "enSynonyms": "summer",
+        "ruSynonyms": "лето",
+        "grade": 3,
+        "lesson": 8.3
+    },
+    {
+        "wordGroup": "погода",
+        "enWord": "autumn",
+        "ruWord": "осень",
+        "enSynonyms": "autumn",
+        "ruSynonyms": "осень",
+        "grade": 4,
+        "lesson": 7.3
+    },
+    {
+        "wordGroup": "погода",
+        "enWord": "autumn",
+        "ruWord": "осень",
+        "enSynonyms": "autumn",
+        "ruSynonyms": "осень",
+        "grade": 3,
+        "lesson": 8.3
+    },
+    {
+        "wordGroup": "погода",
+        "enWord": "rain",
+        "ruWord": "дождь",
+        "enSynonyms": "rain",
+        "ruSynonyms": "дождь",
+        "grade": 4,
+        "lesson": 7.3
+    },
+    {
+        "wordGroup": "погода",
+        "enWord": "fog",
+        "ruWord": "туман",
+        "enSynonyms": "fog, mist",
+        "ruSynonyms": "туман",
+        "grade": 4,
+        "lesson": 7.3
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "wear",
+        "ruWord": "носить",
+        "enSynonyms": "wear, carry",
+        "ruSynonyms": "носить",
+        "grade": 4,
+        "lesson": 7.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "expensive",
+        "ruWord": "дорогой",
+        "enSynonyms": "expensive, dear, costly",
+        "ruSynonyms": "дорогой",
+        "grade": 4,
+        "lesson": 7.4
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "cheap",
+        "ruWord": "дешевый",
+        "enSynonyms": "cheap",
+        "ruSynonyms": "дешевый, дешёвый",
+        "grade": 4,
+        "lesson": 7.4
+    },
+    {
+        "wordGroup": "служебные слова",
+        "enWord": "much",
+        "ruWord": "много",
+        "enSynonyms": "much, many, a lot, lots",
+        "ruSynonyms": "много",
+        "grade": 4,
+        "lesson": 7.4
+    },
+    {
+        "wordGroup": "служебные слова",
+        "enWord": "how much",
+        "ruWord": "сколько",
+        "enSynonyms": "how much, how many",
+        "ruSynonyms": "сколько, как много",
+        "grade": 4,
+        "lesson": 7.4
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "comfortable",
+        "ruWord": "удобный",
+        "enSynonyms": "comfortable, convenient",
+        "ruSynonyms": "удобный",
+        "grade": 4,
+        "lesson": 7.8
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "popular",
+        "ruWord": "популярный",
+        "enSynonyms": "popular",
+        "ruSynonyms": "популярный",
+        "grade": 4,
+        "lesson": 7.8
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "ideal",
+        "ruWord": "идеальный",
+        "enSynonyms": "ideal",
+        "ruSynonyms": "идеальный",
+        "grade": 4,
+        "lesson": 7.8
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "outfit",
+        "ruWord": "наряд",
+        "enSynonyms": "outfit",
+        "ruSynonyms": "наряд",
+        "grade": 4,
+        "lesson": 7.8
+    },
+    {
+        "wordGroup": "учеба",
+        "enWord": "maths",
+        "ruWord": "математика",
+        "enSynonyms": "maths",
+        "ruSynonyms": "математика",
+        "grade": 4,
+        "lesson": 8.1
+    },
+    {
+        "wordGroup": "учеба",
+        "enWord": "science",
+        "ruWord": "наука",
+        "enSynonyms": "science",
+        "ruSynonyms": "наука",
+        "grade": 4,
+        "lesson": 8.1
+    },
+    {
+        "wordGroup": "учеба",
+        "enWord": "art",
+        "ruWord": "искусство",
+        "enSynonyms": "art",
+        "ruSynonyms": "искусство",
+        "grade": 4,
+        "lesson": 8.1
+    },
+    {
+        "wordGroup": "природа",
+        "enWord": "nature",
+        "ruWord": "природа",
+        "enSynonyms": "nature",
+        "ruSynonyms": "природа",
+        "grade": 4,
+        "lesson": 8.1
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "learn",
+        "ruWord": "учить",
+        "enSynonyms": "learn, study",
+        "ruSynonyms": "учить",
+        "grade": 4,
+        "lesson": 8.1
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "count",
+        "ruWord": "считать",
+        "enSynonyms": "count, think, consider",
+        "ruSynonyms": "считать",
+        "grade": 4,
+        "lesson": 8.1
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "count",
+        "ruWord": "считать",
+        "enSynonyms": "count, think, consider",
+        "ruSynonyms": "считать",
+        "grade": 3,
+        "lesson": 7.8
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "solve problems",
+        "ruWord": "решать задачи",
+        "enSynonyms": "solve problems",
+        "ruSynonyms": "решать задачи",
+        "grade": 4,
+        "lesson": 8.1
+    },
+    {
+        "wordGroup": "учеба",
+        "enWord": "experiment",
+        "ruWord": "опыт",
+        "enSynonyms": "experiment, experience",
+        "ruSynonyms": "опыт, эксперимент",
+        "grade": 4,
+        "lesson": 8.1
+    },
+    {
+        "wordGroup": "учеба",
+        "enWord": "project",
+        "ruWord": "проект",
+        "enSynonyms": "project",
+        "ruSynonyms": "проект",
+        "grade": 4,
+        "lesson": 8.1
+    },
+    {
+        "wordGroup": "учеба",
+        "enWord": "presentation",
+        "ruWord": "презентация",
+        "enSynonyms": "presentation",
+        "ruSynonyms": "презентация",
+        "grade": 4,
+        "lesson": 8.1
+    },
+    {
+        "wordGroup": "учеба",
+        "enWord": "history",
+        "ruWord": "история",
+        "enSynonyms": "history",
+        "ruSynonyms": "история",
+        "grade": 4,
+        "lesson": 8.2
+    },
+    {
+        "wordGroup": "учеба",
+        "enWord": "planet",
+        "ruWord": "планета",
+        "enSynonyms": "planet",
+        "ruSynonyms": "планета",
+        "grade": 4,
+        "lesson": 8.2
+    },
+    {
+        "wordGroup": "учеба",
+        "enWord": "mission",
+        "ruWord": "миссия",
+        "enSynonyms": "mission",
+        "ruSynonyms": "миссия",
+        "grade": 4,
+        "lesson": 8.2
+    },
+    {
+        "wordGroup": "учеба",
+        "enWord": "day off",
+        "ruWord": "выходной",
+        "enSynonyms": "day off",
+        "ruSynonyms": "выходной, выходной день",
+        "grade": 4,
+        "lesson": 8.2
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "first",
+        "ruWord": "первый",
+        "enSynonyms": "first",
+        "ruSynonyms": "первый",
+        "grade": 4,
+        "lesson": 8.3
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "second",
+        "ruWord": "второй",
+        "enSynonyms": "second",
+        "ruSynonyms": "второй",
+        "grade": 4,
+        "lesson": 8.3
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "third",
+        "ruWord": "третий",
+        "enSynonyms": "third",
+        "ruSynonyms": "третий",
+        "grade": 4,
+        "lesson": 8.3
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "turn off",
+        "ruWord": "выключать",
+        "enSynonyms": "turn off, switch off",
+        "ruSynonyms": "выключать, выключить",
+        "grade": 4,
+        "lesson": 8.6
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "ring",
+        "ruWord": "звонить",
+        "enSynonyms": "ring, call, phone",
+        "ruSynonyms": "звонить, звенеть",
+        "grade": 4,
+        "lesson": 8.6
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "free",
+        "ruWord": "свободный",
+        "enSynonyms": "free",
+        "ruSynonyms": "свободный, бесплатный",
+        "grade": 4,
+        "lesson": 8.7
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "hide",
+        "ruWord": "прятать",
+        "enSynonyms": "hide",
+        "ruSynonyms": "прятать, спрятать, прятаться",
+        "grade": 4,
+        "lesson": 8.9
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "January",
+        "ruWord": "январь",
+        "enSynonyms": "January",
+        "ruSynonyms": "январь",
+        "grade": 4,
+        "lesson": 9.1
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "February",
+        "ruWord": "февраль",
+        "enSynonyms": "February",
+        "ruSynonyms": "февраль",
+        "grade": 4,
+        "lesson": 9.1
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "March",
+        "ruWord": "март",
+        "enSynonyms": "March",
+        "ruSynonyms": "март",
+        "grade": 4,
+        "lesson": 9.1
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "April",
+        "ruWord": "апрель",
+        "enSynonyms": "April",
+        "ruSynonyms": "апрель",
+        "grade": 4,
+        "lesson": 9.1
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "May",
+        "ruWord": "май",
+        "enSynonyms": "May",
+        "ruSynonyms": "май",
+        "grade": 4,
+        "lesson": 9.1
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "June",
+        "ruWord": "июнь",
+        "enSynonyms": "June",
+        "ruSynonyms": "июнь",
+        "grade": 4,
+        "lesson": 9.1
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "July",
+        "ruWord": "июль",
+        "enSynonyms": "July",
+        "ruSynonyms": "июль",
+        "grade": 4,
+        "lesson": 9.1
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "August",
+        "ruWord": "август",
+        "enSynonyms": "August",
+        "ruSynonyms": "август",
+        "grade": 4,
+        "lesson": 9.1
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "September",
+        "ruWord": "сентябрь",
+        "enSynonyms": "September",
+        "ruSynonyms": "сентябрь",
+        "grade": 4,
+        "lesson": 9.1
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "October",
+        "ruWord": "октябрь",
+        "enSynonyms": "October",
+        "ruSynonyms": "октябрь",
+        "grade": 4,
+        "lesson": 9.1
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "November",
+        "ruWord": "ноябрь",
+        "enSynonyms": "November",
+        "ruSynonyms": "ноябрь",
+        "grade": 4,
+        "lesson": 9.1
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "December",
+        "ruWord": "декабрь",
+        "enSynonyms": "December",
+        "ruSynonyms": "декабрь",
+        "grade": 4,
+        "lesson": 9.1
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "candle",
+        "ruWord": "свеча",
+        "enSynonyms": "candle",
+        "ruSynonyms": "свеча",
+        "grade": 4,
+        "lesson": 9.3
+    },
+    {
+        "wordGroup": "отдых",
+        "enWord": "present",
+        "ruWord": "подарок",
+        "enSynonyms": "present",
+        "ruSynonyms": "подарок",
+        "grade": 4,
+        "lesson": 9.3
+    },
+    {
+        "wordGroup": "отдых",
+        "enWord": "balloon",
+        "ruWord": "шар",
+        "enSynonyms": "balloon",
+        "ruSynonyms": "шар, шарик, балон",
+        "grade": 4,
+        "lesson": 9.3
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "tomorrow",
+        "ruWord": "завтра",
+        "enSynonyms": "tomorrow",
+        "ruSynonyms": "завтра",
+        "grade": 4,
+        "lesson": 9.3
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "send",
+        "ruWord": "посылать",
+        "enSynonyms": "send, post",
+        "ruSynonyms": "посылать, послать, отправить",
+        "grade": 4,
+        "lesson": 9.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "invite",
+        "ruWord": "приглашать",
+        "enSynonyms": "invite, ask",
+        "ruSynonyms": "приглашать, пригласить",
+        "grade": 4,
+        "lesson": 9.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "give",
+        "ruWord": "дарить",
+        "enSynonyms": "give, present",
+        "ruSynonyms": "дарить, подарить, дать, давать",
+        "grade": 4,
+        "lesson": 9.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "come",
+        "ruWord": "приходить",
+        "enSynonyms": "come",
+        "ruSynonyms": "приходить, прийти",
+        "grade": 4,
+        "lesson": 9.4
+    },
+    {
+        "wordGroup": "человек",
+        "enWord": "name",
+        "ruWord": "имя",
+        "enSynonyms": "name",
+        "ruSynonyms": "имя",
+        "grade": 3,
+        "lesson": 1.2
+    },
+    {
+        "wordGroup": "местоимения",
+        "enWord": "I",
+        "ruWord": "я",
+        "enSynonyms": "I",
+        "ruSynonyms": "я",
+        "grade": 3,
+        "lesson": 1.2
+    },
+    {
+        "wordGroup": "местоимения",
+        "enWord": "you",
+        "ruWord": "ты",
+        "enSynonyms": "you",
+        "ruSynonyms": "ты, вы, Вы",
+        "grade": 3,
+        "lesson": 1.2
+    },
+    {
+        "wordGroup": "местоимения",
+        "enWord": "your",
+        "ruWord": "твой",
+        "enSynonyms": "your",
+        "ruSynonyms": "твой, ваш, Ваш",
+        "grade": 3,
+        "lesson": 1.2
+    },
+    {
+        "wordGroup": "человек",
+        "enWord": "boy",
+        "ruWord": "мальчик",
+        "enSynonyms": "boy",
+        "ruSynonyms": "мальчик",
+        "grade": 3,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "fine",
+        "ruWord": "хороший",
+        "enSynonyms": "fine",
+        "ruSynonyms": "хорошо, хороший",
+        "grade": 3,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "one",
+        "ruWord": "один",
+        "enSynonyms": "one",
+        "ruSynonyms": "один",
+        "grade": 3,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "two",
+        "ruWord": "два",
+        "enSynonyms": "two",
+        "ruSynonyms": "два",
+        "grade": 3,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "three",
+        "ruWord": "три",
+        "enSynonyms": "three",
+        "ruSynonyms": "три",
+        "grade": 3,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "four",
+        "ruWord": "четыре",
+        "enSynonyms": "four",
+        "ruSynonyms": "четыре",
+        "grade": 3,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "five",
+        "ruWord": "пять",
+        "enSynonyms": "five",
+        "ruSynonyms": "пять",
+        "grade": 3,
+        "lesson": 1.3
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "six",
+        "ruWord": "шесть",
+        "enSynonyms": "six",
+        "ruSynonyms": "шесть",
+        "grade": 3,
+        "lesson": 1.4
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "seven",
+        "ruWord": "семь",
+        "enSynonyms": "seven",
+        "ruSynonyms": "семь",
+        "grade": 3,
+        "lesson": 1.4
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "eight",
+        "ruWord": "восемь",
+        "enSynonyms": "eight",
+        "ruSynonyms": "восемь",
+        "grade": 3,
+        "lesson": 1.4
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "nine",
+        "ruWord": "девять",
+        "enSynonyms": "nine",
+        "ruSynonyms": "девять",
+        "grade": 3,
+        "lesson": 1.4
+    },
+    {
+        "wordGroup": "числительные",
+        "enWord": "ten",
+        "ruWord": "десять",
+        "enSynonyms": "ten",
+        "ruSynonyms": "десять",
+        "grade": 3,
+        "lesson": 1.4
+    },
+    {
+        "wordGroup": "служебные слова",
+        "enWord": "how old",
+        "ruWord": "сколько лет",
+        "enSynonyms": "how old",
+        "ruSynonyms": "сколько лет",
+        "grade": 3,
+        "lesson": 1.4
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "phone",
+        "ruWord": "телефон",
+        "enSynonyms": "phone, telephone",
+        "ruSynonyms": "телефон",
+        "grade": 3,
+        "lesson": 1.5
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "number",
+        "ruWord": "номер",
+        "enSynonyms": "number",
+        "ruSynonyms": "номер",
+        "grade": 3,
+        "lesson": 1.5
+    },
+    {
+        "wordGroup": "служебные слова",
+        "enWord": "what",
+        "ruWord": "какой",
+        "enSynonyms": "what",
+        "ruSynonyms": "какой, что",
+        "grade": 3,
+        "lesson": 1.5
+    },
+    {
+        "wordGroup": "цвета",
+        "enWord": "colour",
+        "ruWord": "цвет",
+        "enSynonyms": "colour, color",
+        "ruSynonyms": "цвет",
+        "grade": 3,
+        "lesson": 1.6
+    },
+    {
+        "wordGroup": "цвета",
+        "enWord": "red",
+        "ruWord": "красный",
+        "enSynonyms": "red",
+        "ruSynonyms": "красный",
+        "grade": 3,
+        "lesson": 1.6
+    },
+    {
+        "wordGroup": "цвета",
+        "enWord": "blue",
+        "ruWord": "синий",
+        "enSynonyms": "blue",
+        "ruSynonyms": "синий, голубой",
+        "grade": 3,
+        "lesson": 1.6
+    },
+    {
+        "wordGroup": "цвета",
+        "enWord": "green",
+        "ruWord": "зеленый",
+        "enSynonyms": "green",
+        "ruSynonyms": "зеленый",
+        "grade": 3,
+        "lesson": 1.6
+    },
+    {
+        "wordGroup": "цвета",
+        "enWord": "black",
+        "ruWord": "черный",
+        "enSynonyms": "black",
+        "ruSynonyms": "черный",
+        "grade": 3,
+        "lesson": 1.6
+    },
+    {
+        "wordGroup": "цвета",
+        "enWord": "white",
+        "ruWord": "белый",
+        "enSynonyms": "white",
+        "ruSynonyms": "белый",
+        "grade": 3,
+        "lesson": 1.6
+    },
+    {
+        "wordGroup": "цвета",
+        "enWord": "brown",
+        "ruWord": "коричневый",
+        "enSynonyms": "brown",
+        "ruSynonyms": "коричневый",
+        "grade": 3,
+        "lesson": 1.6
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "horse",
+        "ruWord": "лошадь",
+        "enSynonyms": "horse",
+        "ruSynonyms": "лошадь",
+        "grade": 3,
+        "lesson": 1.6
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "giraffe",
+        "ruWord": "жираф",
+        "enSynonyms": "giraffe",
+        "ruSynonyms": "жираф",
+        "grade": 3,
+        "lesson": 1.6
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "ice-cream",
+        "ruWord": "мороженое",
+        "enSynonyms": "ice-cream",
+        "ruSynonyms": "мороженое",
+        "grade": 3,
+        "lesson": 1.6
+    },
+    {
+        "wordGroup": "цвета",
+        "enWord": "orange",
+        "ruWord": "оранжевый",
+        "enSynonyms": "orange",
+        "ruSynonyms": "оранжевый, апельсин",
+        "grade": 3,
+        "lesson": 1.7
+    },
+    {
+        "wordGroup": "цвета",
+        "enWord": "purple",
+        "ruWord": "фиолетовый",
+        "enSynonyms": "purple",
+        "ruSynonyms": "фиолетовый",
+        "grade": 3,
+        "lesson": 1.7
+    },
+    {
+        "wordGroup": "цвета",
+        "enWord": "pink",
+        "ruWord": "розовый",
+        "enSynonyms": "pink",
+        "ruSynonyms": "розовый",
+        "grade": 3,
+        "lesson": 1.7
+    },
+    {
+        "wordGroup": "цвета",
+        "enWord": "grey",
+        "ruWord": "серый",
+        "enSynonyms": "grey, gray",
+        "ruSynonyms": "серый, седой",
+        "grade": 3,
+        "lesson": 1.7
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "make",
+        "ruWord": "делать",
+        "enSynonyms": "make, do",
+        "ruSynonyms": "делать, сделать",
+        "grade": 3,
+        "lesson": 1.7
+    },
+    {
+        "wordGroup": "природа",
+        "enWord": "rainbow",
+        "ruWord": "радуга",
+        "enSynonyms": "rainbow",
+        "ruSynonyms": "радуга",
+        "grade": 3,
+        "lesson": 1.7
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "nice",
+        "ruWord": "красивый",
+        "enSynonyms": "nice, beautiful",
+        "ruSynonyms": "красивый, милый, мило",
+        "grade": 3,
+        "lesson": 1.7
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "wrong",
+        "ruWord": "неверный",
+        "enSynonyms": "wrong, false",
+        "ruSynonyms": "неверный, неправильный",
+        "grade": 3,
+        "lesson": 1.7
+    },
+    {
+        "wordGroup": "семья",
+        "enWord": "family",
+        "ruWord": "семья",
+        "enSynonyms": "family",
+        "ruSynonyms": "семья",
+        "grade": 3,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "семья",
+        "enWord": "mum",
+        "ruWord": "мама",
+        "enSynonyms": "mum, mother, mom",
+        "ruSynonyms": "мама, мать",
+        "grade": 3,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "семья",
+        "enWord": "dad",
+        "ruWord": "папа",
+        "enSynonyms": "dad, daddy, father",
+        "ruSynonyms": "папа, отец",
+        "grade": 3,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "семья",
+        "enWord": "sister",
+        "ruWord": "сестра",
+        "enSynonyms": "sister",
+        "ruSynonyms": "сестра",
+        "grade": 3,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "семья",
+        "enWord": "brother",
+        "ruWord": "брат",
+        "enSynonyms": "brother",
+        "ruSynonyms": "брат",
+        "grade": 3,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "семья",
+        "enWord": "granny",
+        "ruWord": "бабушка",
+        "enSynonyms": "granny, grandmother",
+        "ruSynonyms": "бабушка",
+        "grade": 3,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "семья",
+        "enWord": "grandad",
+        "ruWord": "дедушка",
+        "enSynonyms": "grandad, grandfather",
+        "ruSynonyms": "дедушка",
+        "grade": 3,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "местоимения",
+        "enWord": "my",
+        "ruWord": "мой",
+        "enSynonyms": "my",
+        "ruSynonyms": "мой",
+        "grade": 3,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "местоимения",
+        "enWord": "our",
+        "ruWord": "наш",
+        "enSynonyms": "our",
+        "ruSynonyms": "наш",
+        "grade": 3,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "местоимения",
+        "enWord": "their",
+        "ruWord": "их",
+        "enSynonyms": "their",
+        "ruSynonyms": "их",
+        "grade": 3,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "местоимения",
+        "enWord": "its",
+        "ruWord": "его",
+        "enSynonyms": "its, his, him",
+        "ruSynonyms": "его",
+        "grade": 3,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "lemon",
+        "ruWord": "лемон",
+        "enSynonyms": "lemon",
+        "ruSynonyms": "лемон",
+        "grade": 3,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "kangaroo",
+        "ruWord": "кенгуру",
+        "enSynonyms": "kangaroo",
+        "ruSynonyms": "кенгуру",
+        "grade": 3,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "big",
+        "ruWord": "большой",
+        "enSynonyms": "big",
+        "ruSynonyms": "большой",
+        "grade": 3,
+        "lesson": 2.2
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "mouse",
+        "ruWord": "мышь",
+        "enSynonyms": "mouse",
+        "ruSynonyms": "мышь",
+        "grade": 3,
+        "lesson": 2.2
+    },
+    {
+        "wordGroup": "природа",
+        "enWord": "oval",
+        "ruWord": "овал",
+        "enSynonyms": "oval",
+        "ruSynonyms": "овал",
+        "grade": 3,
+        "lesson": 2.2
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "have",
+        "ruWord": "иметь",
+        "enSynonyms": "have",
+        "ruSynonyms": "иметь",
+        "grade": 3,
+        "lesson": 2.3
+    },
+    {
+        "wordGroup": "человек",
+        "enWord": "queen",
+        "ruWord": "королева",
+        "enSynonyms": "queen",
+        "ruSynonyms": "королева",
+        "grade": 3,
+        "lesson": 2.3
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "rat",
+        "ruWord": "крыса",
+        "enSynonyms": "rat",
+        "ruSynonyms": "крыса",
+        "grade": 3,
+        "lesson": 2.3
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "cat",
+        "ruWord": "кот",
+        "enSynonyms": "cat",
+        "ruSynonyms": "кот",
+        "grade": 3,
+        "lesson": 2.1
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "uniform",
+        "ruWord": "униформа",
+        "enSynonyms": "uniform",
+        "ruSynonyms": "униформа, форма",
+        "grade": 3,
+        "lesson": 2.4
+    },
+    {
+        "wordGroup": "принадлежности",
+        "enWord": "umbrella",
+        "ruWord": "зонт",
+        "enSynonyms": "umbrella",
+        "ruSynonyms": "зонт, зонтик",
+        "grade": 3,
+        "lesson": 2.4
+    },
+    {
+        "wordGroup": "профессии",
+        "enWord": "policeman",
+        "ruWord": "полицейский",
+        "enSynonyms": "policeman",
+        "ruSynonyms": "полицейский",
+        "grade": 3,
+        "lesson": 2.5
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "vase",
+        "ruWord": "ваза",
+        "enSynonyms": "vase",
+        "ruSynonyms": "ваза",
+        "grade": 3,
+        "lesson": 2.5
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "window",
+        "ruWord": "окно",
+        "enSynonyms": "window",
+        "ruSynonyms": "окно",
+        "grade": 3,
+        "lesson": 2.5
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "window",
+        "ruWord": "окно",
+        "enSynonyms": "window",
+        "ruSynonyms": "окно",
+        "grade": 3,
+        "lesson": 6.3
+    },
+    {
+        "wordGroup": "дом",
+        "enWord": "door",
+        "ruWord": "дверь",
+        "enSynonyms": "door",
+        "ruSynonyms": "дверь",
+        "grade": 3,
+        "lesson": 6.3
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "hen",
+        "ruWord": "курица",
+        "enSynonyms": "hen, chicken",
+        "ruSynonyms": "курица",
+        "grade": 3,
+        "lesson": 2.5
+    },
+    {
+        "wordGroup": "местоимения",
+        "enWord": "he",
+        "ruWord": "он",
+        "enSynonyms": "he",
+        "ruSynonyms": "он",
+        "grade": 3,
+        "lesson": 2.7
+    },
+    {
+        "wordGroup": "местоимения",
+        "enWord": "she",
+        "ruWord": "она",
+        "enSynonyms": "she",
+        "ruSynonyms": "она",
+        "grade": 3,
+        "lesson": 2.7
+    },
+    {
+        "wordGroup": "местоимения",
+        "enWord": "we",
+        "ruWord": "мы",
+        "enSynonyms": "we",
+        "ruSynonyms": "мы",
+        "grade": 3,
+        "lesson": 5.9
+    },
+    {
+        "wordGroup": "местоимения",
+        "enWord": "they",
+        "ruWord": "они",
+        "enSynonyms": "they",
+        "ruSynonyms": "они",
+        "grade": 3,
+        "lesson": 5.9
+    },
+    {
+        "wordGroup": "местоимения",
+        "enWord": "it",
+        "ruWord": "оно",
+        "enSynonyms": "it, this",
+        "ruSynonyms": "оно, это",
+        "grade": 3,
+        "lesson": 5.9
+    },
+    {
+        "wordGroup": "служебные слова",
+        "enWord": "how",
+        "ruWord": "как",
+        "enSynonyms": "how",
+        "ruSynonyms": "как",
+        "grade": 3,
+        "lesson": 2.7
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "fine",
+        "ruWord": "хорошо",
+        "enSynonyms": "fine, nice, good",
+        "ruSynonyms": "хорошо, хороший",
+        "grade": 3,
+        "lesson": 2.7
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "zebra",
+        "ruWord": "зебра",
+        "enSynonyms": "zebra",
+        "ruSynonyms": "зебра",
+        "grade": 3,
+        "lesson": 2.7
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "fly",
+        "ruWord": "муха",
+        "enSynonyms": "fly",
+        "ruSynonyms": "муха, летать",
+        "grade": 3,
+        "lesson": 2.7
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "pig",
+        "ruWord": "свинья",
+        "enSynonyms": "pig, swine",
+        "ruSynonyms": "свинья",
+        "grade": 3,
+        "lesson": 2.7
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "fox",
+        "ruWord": "лиса",
+        "enSynonyms": "fox",
+        "ruSynonyms": "лиса",
+        "grade": 3,
+        "lesson": 2.7
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "hippo",
+        "ruWord": "бегемот",
+        "enSynonyms": "hippo",
+        "ruSynonyms": "бегемот, гипопотам",
+        "grade": 3,
+        "lesson": 9.2
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "frog",
+        "ruWord": "лягушка",
+        "enSynonyms": "frog",
+        "ruSynonyms": "лягушка, жаба",
+        "grade": 3,
+        "lesson": 3.1
+    },
+    {
+        "wordGroup": "транспорт",
+        "enWord": "bus",
+        "ruWord": "автобус",
+        "enSynonyms": "bus",
+        "ruSynonyms": "автобус",
+        "grade": 3,
+        "lesson": 2.7
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "nut",
+        "ruWord": "орех",
+        "enSynonyms": "nut",
+        "ruSynonyms": "орех",
+        "grade": 3,
+        "lesson": 2.7
+    },
+    {
+        "wordGroup": "человек",
+        "enWord": "baby",
+        "ruWord": "малыш",
+        "enSynonyms": "baby",
+        "ruSynonyms": "малыш",
+        "grade": 3,
+        "lesson": 2.7
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "dog",
+        "ruWord": "собака",
+        "enSynonyms": "dog",
+        "ruSynonyms": "собака",
+        "grade": 3,
+        "lesson": 2.7
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "jam",
+        "ruWord": "варенье",
+        "enSynonyms": "jam",
+        "ruSynonyms": "варенье, джэм, джем",
+        "grade": 3,
+        "lesson": 2.7
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "word",
+        "ruWord": "слово",
+        "enSynonyms": "word",
+        "ruSynonyms": "слово",
+        "grade": 3,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "elephant",
+        "ruWord": "слон",
+        "enSynonyms": "elephant",
+        "ruSynonyms": "слон",
+        "grade": 3,
+        "lesson": 1.5
+    },
+    {
+        "wordGroup": "страны",
+        "enWord": "Egypt",
+        "ruWord": "Египет",
+        "enSynonyms": "Egypt",
+        "ruSynonyms": "Египет",
+        "grade": 3,
+        "lesson": 1.5
+    },
+    {
+        "wordGroup": "транспорт",
+        "enWord": "rocket",
+        "ruWord": "ракета",
+        "enSynonyms": "rocket",
+        "ruSynonyms": "ракета",
+        "grade": 3,
+        "lesson": 2.3
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "snake",
+        "ruWord": "змея",
+        "enSynonyms": "snake",
+        "ruSynonyms": "змея",
+        "grade": 3,
+        "lesson": 2.3
+    },
+    {
+        "wordGroup": "человек",
+        "enWord": "people",
+        "ruWord": "люди",
+        "enSynonyms": "people",
+        "ruSynonyms": "люди",
+        "grade": 3,
+        "lesson": 3.1
+    },
+    {
+        "wordGroup": "местоимения",
+        "enWord": "this",
+        "ruWord": "это",
+        "enSynonyms": "this, it",
+        "ruSynonyms": "это, этот",
+        "grade": 3,
+        "lesson": 3.1
+    },
+    {
+        "wordGroup": "местоимения",
+        "enWord": "his",
+        "ruWord": "его",
+        "enSynonyms": "his",
+        "ruSynonyms": "его",
+        "grade": 3,
+        "lesson": 3.2
+    },
+    {
+        "wordGroup": "местоимения",
+        "enWord": "her",
+        "ruWord": "ее",
+        "enSynonyms": "her",
+        "ruSynonyms": "ее, её",
+        "grade": 3,
+        "lesson": 3.2
+    },
+    {
+        "wordGroup": "природа",
+        "enWord": "acorn",
+        "ruWord": "желудь",
+        "enSynonyms": "acorn",
+        "ruSynonyms": "желудь, жёлудь",
+        "grade": 3,
+        "lesson": 1.2
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "take",
+        "ruWord": "брать",
+        "enSynonyms": "take",
+        "ruSynonyms": "брать",
+        "grade": 3,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "одежда",
+        "enWord": "hat",
+        "ruWord": "шляпа",
+        "enSynonyms": "hat",
+        "ruSynonyms": "шляпа, шапка, колпак",
+        "grade": 3,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "cake",
+        "ruWord": "торт",
+        "enSynonyms": "cake, tart",
+        "ruSynonyms": "торт, пирог, пирожное",
+        "grade": 3,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "материалы",
+        "enWord": "paper",
+        "ruWord": "бумага",
+        "enSynonyms": "paper",
+        "ruSynonyms": "бумага",
+        "grade": 3,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "sad",
+        "ruWord": "грустный",
+        "enSynonyms": "sad",
+        "ruSynonyms": "грустный, печальный",
+        "grade": 3,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "happy",
+        "ruWord": "счастливый",
+        "enSynonyms": "happy",
+        "ruSynonyms": "счастливый, довольный",
+        "grade": 3,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "bad",
+        "ruWord": "плохой",
+        "enSynonyms": "bad",
+        "ruSynonyms": "плохой",
+        "grade": 3,
+        "lesson": 3.3
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "true",
+        "ruWord": "верно",
+        "enSynonyms": "true, right, correct",
+        "ruSynonyms": "верно, верный, правильно, правильный",
+        "grade": 3,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "задания",
+        "enWord": "false",
+        "ruWord": "неверно",
+        "enSynonyms": "false, wrong",
+        "ruSynonyms": "неверно, неверный, неправильно, неправильный",
+        "grade": 3,
+        "lesson": 0.1
+    },
+    {
+        "wordGroup": "служебные слова",
+        "enWord": "where",
+        "ruWord": "где",
+        "enSynonyms": "where",
+        "ruSynonyms": "где, куда",
+        "grade": 3,
+        "lesson": 3.4
+    },
+    {
+        "wordGroup": "страны",
+        "enWord": "Africa",
+        "ruWord": "Африка",
+        "enSynonyms": "Africa",
+        "ruSynonyms": "Африка",
+        "grade": 3,
+        "lesson": 3.4
+    },
+    {
+        "wordGroup": "страны",
+        "enWord": "America",
+        "ruWord": "Америка",
+        "enSynonyms": "America",
+        "ruSynonyms": "Америка",
+        "grade": 3,
+        "lesson": 3.4
+    },
+    {
+        "wordGroup": "страны",
+        "enWord": "Britain",
+        "ruWord": "Великобритания",
+        "enSynonyms": "Britain",
+        "ruSynonyms": "Великобритания",
+        "grade": 3,
+        "lesson": 3.4
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "pizza",
+        "ruWord": "пицца",
+        "enSynonyms": "pizza",
+        "ruSynonyms": "пицца",
+        "grade": 3,
+        "lesson": 3.5
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "fish",
+        "ruWord": "рыба",
+        "enSynonyms": "fish",
+        "ruSynonyms": "рыба",
+        "grade": 3,
+        "lesson": 3.5
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "milkshake",
+        "ruWord": "молочный коктейль",
+        "enSynonyms": "milkshake",
+        "ruSynonyms": "молочный коктейль",
+        "grade": 3,
+        "lesson": 3.5
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "mint",
+        "ruWord": "мята",
+        "enSynonyms": "mint",
+        "ruSynonyms": "мята, мятный",
+        "grade": 3,
+        "lesson": 3.5
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "dinner",
+        "ruWord": "обед",
+        "enSynonyms": "dinner, lunch",
+        "ruSynonyms": "обед, ужин",
+        "grade": 3,
+        "lesson": 3.5
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "milk",
+        "ruWord": "молоко",
+        "enSynonyms": "milk",
+        "ruSynonyms": "молоко",
+        "grade": 3,
+        "lesson": 3.5
+    },
+    {
+        "wordGroup": "человек",
+        "enWord": "mouth",
+        "ruWord": "рот",
+        "enSynonyms": "mouth",
+        "ruSynonyms": "рот",
+        "grade": 3,
+        "lesson": 3.6
+    },
+    {
+        "wordGroup": "человек",
+        "enWord": "nose",
+        "ruWord": "нос",
+        "enSynonyms": "nose",
+        "ruSynonyms": "нос",
+        "grade": 3,
+        "lesson": 3.6
+    },
+    {
+        "wordGroup": "человек",
+        "enWord": "eyes",
+        "ruWord": "глаза",
+        "enSynonyms": "eyes",
+        "ruSynonyms": "глаза",
+        "grade": 3,
+        "lesson": 3.6
+    },
+    {
+        "wordGroup": "человек",
+        "enWord": "ears",
+        "ruWord": "уши",
+        "enSynonyms": "ears",
+        "ruSynonyms": "уши",
+        "grade": 3,
+        "lesson": 3.6
+    },
+    {
+        "wordGroup": "человек",
+        "enWord": "hair",
+        "ruWord": "волосы",
+        "enSynonyms": "hair",
+        "ruSynonyms": "волосы",
+        "grade": 3,
+        "lesson": 3.6
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "long",
+        "ruWord": "длинный",
+        "enSynonyms": "long, tall",
+        "ruSynonyms": "длинный",
+        "grade": 3,
+        "lesson": 3.6
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "short",
+        "ruWord": "корткий",
+        "enSynonyms": "short",
+        "ruSynonyms": "короткий, низкий",
+        "grade": 3,
+        "lesson": 3.6
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "mirror",
+        "ruWord": "зеркало",
+        "enSynonyms": "mirror",
+        "ruSynonyms": "зеркало",
+        "grade": 3,
+        "lesson": 3.6
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "fair",
+        "ruWord": "светлый",
+        "enSynonyms": "fair",
+        "ruSynonyms": "светлый",
+        "grade": 3,
+        "lesson": 3.7
+    },
+    {
+        "wordGroup": "профессии",
+        "enWord": "clown",
+        "ruWord": "клоун",
+        "enSynonyms": "clown",
+        "ruSynonyms": "клоун",
+        "grade": 3,
+        "lesson": 3.7
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "sheep",
+        "ruWord": "овца",
+        "enSynonyms": "sheep",
+        "ruSynonyms": "овца",
+        "grade": 3,
+        "lesson": 3.8
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "like",
+        "ruWord": "любить",
+        "enSynonyms": "like, love",
+        "ruSynonyms": "любить, нравиться, как",
+        "grade": 3,
+        "lesson": 3.8
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "like",
+        "ruWord": "как",
+        "enSynonyms": "like, as",
+        "ruSynonyms": "любить, нравиться, как",
+        "grade": 3,
+        "lesson": 3.8
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "street",
+        "ruWord": "улица",
+        "enSynonyms": "street",
+        "ruSynonyms": "улица",
+        "grade": 3,
+        "lesson": 3.8
+    },
+    {
+        "wordGroup": "транспорт",
+        "enWord": "jeep",
+        "ruWord": "джип",
+        "enSynonyms": "jeep",
+        "ruSynonyms": "джип",
+        "grade": 3,
+        "lesson": 3.8
+    },
+    {
+        "wordGroup": "город",
+        "enWord": "petshop",
+        "ruWord": "зоомагазин",
+        "enSynonyms": "petshop",
+        "ruSynonyms": "зоомагазин, магазин животных",
+        "grade": 3,
+        "lesson": 4.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "budgie",
+        "ruWord": "волнистый попугай",
+        "enSynonyms": "budgie",
+        "ruSynonyms": "волнистый попугай, волнистый попугайчик, попугай",
+        "grade": 3,
+        "lesson": 4.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "goldfish",
+        "ruWord": "золотая рыбка",
+        "enSynonyms": "goldfish",
+        "ruSynonyms": "золотая рыбка",
+        "grade": 3,
+        "lesson": 4.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "guinea-pig",
+        "ruWord": "морская свинка",
+        "enSynonyms": "guinea-pig",
+        "ruSynonyms": "морская свинка",
+        "grade": 3,
+        "lesson": 4.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "tortoise",
+        "ruWord": "черепаха",
+        "enSynonyms": "tortoise, turtle",
+        "ruSynonyms": "черепаха",
+        "grade": 3,
+        "lesson": 4.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "kitten",
+        "ruWord": "котенок",
+        "enSynonyms": "kitten",
+        "ruSynonyms": "котенок, котёнок",
+        "grade": 3,
+        "lesson": 4.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "puppy",
+        "ruWord": "щенок",
+        "enSynonyms": "puppy",
+        "ruSynonyms": "щенок",
+        "grade": 3,
+        "lesson": 4.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "rat",
+        "ruWord": "крыса",
+        "enSynonyms": "rat",
+        "ruSynonyms": "крыса",
+        "grade": 3,
+        "lesson": 4.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "pet",
+        "ruWord": "любимец",
+        "enSynonyms": "pet",
+        "ruSynonyms": "любимец, питомец, домашнее животное",
+        "grade": 3,
+        "lesson": 4.1
+    },
+    {
+        "wordGroup": "местоимения",
+        "enWord": "me",
+        "ruWord": "мне",
+        "enSynonyms": "me",
+        "ruSynonyms": "мне, меня",
+        "grade": 3,
+        "lesson": 4.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "parrot",
+        "ruWord": "попугай",
+        "enSynonyms": "parrot, budgie",
+        "ruSynonyms": "попугай",
+        "grade": 3,
+        "lesson": 4.2
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "rabbit",
+        "ruWord": "кролик",
+        "enSynonyms": "rabbit",
+        "ruSynonyms": "кролик",
+        "grade": 3,
+        "lesson": 4.2
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "hamster",
+        "ruWord": "хомяк",
+        "enSynonyms": "hamster",
+        "ruSynonyms": "хомяк",
+        "grade": 3,
+        "lesson": 4.2
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "funny",
+        "ruWord": "смешной",
+        "enSynonyms": "funny",
+        "ruSynonyms": "смешной",
+        "grade": 3,
+        "lesson": 4.2
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "want",
+        "ruWord": "хотеть",
+        "enSynonyms": "want",
+        "ruSynonyms": "хотеть",
+        "grade": 3,
+        "lesson": 4.3
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "can",
+        "ruWord": "уметь",
+        "enSynonyms": "can",
+        "ruSynonyms": "уметь, мочь",
+        "grade": 3,
+        "lesson": 4.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "jump",
+        "ruWord": "прыгать",
+        "enSynonyms": "jump",
+        "ruSynonyms": "прыгать",
+        "grade": 3,
+        "lesson": 4.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "dance",
+        "ruWord": "танцевать",
+        "enSynonyms": "dance",
+        "ruSynonyms": "танцевать, танец",
+        "grade": 3,
+        "lesson": 4.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "swim",
+        "ruWord": "плавать",
+        "enSynonyms": "swim",
+        "ruSynonyms": "плавать, плыть",
+        "grade": 3,
+        "lesson": 4.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "run",
+        "ruWord": "бежать",
+        "enSynonyms": "run",
+        "ruSynonyms": "бежать, бегать",
+        "grade": 3,
+        "lesson": 4.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "hide",
+        "ruWord": "прятаться",
+        "enSynonyms": "hide",
+        "ruSynonyms": "прятаться, прятать, спрятать, спрятаться",
+        "grade": 3,
+        "lesson": 4.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "sing",
+        "ruWord": "петь",
+        "enSynonyms": "sing",
+        "ruSynonyms": "петь, спеть",
+        "grade": 3,
+        "lesson": 4.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "fly",
+        "ruWord": "летать",
+        "enSynonyms": "fly",
+        "ruSynonyms": "летать, лететь, муха",
+        "grade": 3,
+        "lesson": 4.4
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "walk",
+        "ruWord": "ходить пешком",
+        "enSynonyms": "walk",
+        "ruSynonyms": "ходить пешком, ходить, идти, гулять",
+        "grade": 3,
+        "lesson": 4.4
+    },
+    {
+        "wordGroup": "служебные слова",
+        "enWord": "too",
+        "ruWord": "тоже",
+        "enSynonyms": "too, either, also",
+        "ruSynonyms": "тоже",
+        "grade": 3,
+        "lesson": 4.5
+    },
+    {
+        "wordGroup": "отдых",
+        "enWord": "surprise",
+        "ruWord": "сюрприз",
+        "enSynonyms": "surprise",
+        "ruSynonyms": "сюрприз, удивление",
+        "grade": 3,
+        "lesson": 4.6
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "stand",
+        "ruWord": "стоять",
+        "enSynonyms": "stand",
+        "ruSynonyms": "стоять, встать, терпеть, выносить",
+        "grade": 3,
+        "lesson": 4.8
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "pat",
+        "ruWord": "гладить",
+        "enSynonyms": "pat",
+        "ruSynonyms": "гладить",
+        "grade": 3,
+        "lesson": 4.8
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "go",
+        "ruWord": "идти",
+        "enSynonyms": "go",
+        "ruSynonyms": "идти, ехать, ходить",
+        "grade": 3,
+        "lesson": 4.8
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "stop",
+        "ruWord": "остановиться",
+        "enSynonyms": "stop",
+        "ruSynonyms": "остановиться, останавливаться, прекращать",
+        "grade": 3,
+        "lesson": 4.8
+    },
+    {
+        "wordGroup": "служебные слова",
+        "enWord": "how many",
+        "ruWord": "сколько",
+        "enSynonyms": "stop",
+        "ruSynonyms": "how many, how much",
+        "grade": 3,
+        "lesson": 4.10
+    },
+    {
+        "wordGroup": "отдых",
+        "enWord": "doll",
+        "ruWord": "кукла",
+        "enSynonyms": "doll",
+        "ruSynonyms": "кукла",
+        "grade": 3,
+        "lesson": 4.10
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "New Year",
+        "ruWord": "Новый Год",
+        "enSynonyms": "New Year",
+        "ruSynonyms": "Новый Год",
+        "grade": 3,
+        "lesson": 4.10
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "eat",
+        "ruWord": "есть",
+        "enSynonyms": "eat",
+        "ruSynonyms": "есть",
+        "grade": 3,
+        "lesson": 5.1
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "hot dog",
+        "ruWord": "хотдог",
+        "enSynonyms": "hot dog",
+        "ruSynonyms": "хотдог",
+        "grade": 3,
+        "lesson": 5.2
+    },
+    {
+        "wordGroup": "погода",
+        "enWord": "ice",
+        "ruWord": "лед",
+        "enSynonyms": "ice",
+        "ruSynonyms": "лед, лёд",
+        "grade": 3,
+        "lesson": 5.3
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "seal",
+        "ruWord": "тюлень",
+        "enSynonyms": "seal",
+        "ruSynonyms": "тюлень, морской котик, печать",
+        "grade": 3,
+        "lesson": 5.6
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "eel",
+        "ruWord": "угорь",
+        "enSynonyms": "eel",
+        "ruSynonyms": "угорь",
+        "grade": 3,
+        "lesson": 5.6
+    },
+    {
+        "wordGroup": "природа",
+        "enWord": "tree",
+        "ruWord": "дерево",
+        "enSynonyms": "tree",
+        "ruSynonyms": "дерево",
+        "grade": 3,
+        "lesson": 5.6
+    },
+    {
+        "wordGroup": "природа",
+        "enWord": "sea",
+        "ruWord": "море",
+        "enSynonyms": "sea",
+        "ruSynonyms": "море",
+        "grade": 3,
+        "lesson": 5.6
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "cold",
+        "ruWord": "холодный",
+        "enSynonyms": "cold",
+        "ruSynonyms": "холодный, холодно, холод",
+        "grade": 3,
+        "lesson": 5.6
+    },
+    {
+        "wordGroup": "транспорт",
+        "enWord": "wheel",
+        "ruWord": "колесо",
+        "enSynonyms": "wheel",
+        "ruSynonyms": "колесо",
+        "grade": 3,
+        "lesson": 5.6
+    },
+    {
+        "wordGroup": "служебные слова",
+        "enWord": "in",
+        "ruWord": "в",
+        "enSynonyms": "in",
+        "ruSynonyms": "в",
+        "grade": 3,
+        "lesson": 6.4
+    },
+    {
+        "wordGroup": "служебные слова",
+        "enWord": "on",
+        "ruWord": "на",
+        "enSynonyms": "on",
+        "ruSynonyms": "на",
+        "grade": 3,
+        "lesson": 6.4
+    },
+    {
+        "wordGroup": "служебные слова",
+        "enWord": "under",
+        "ruWord": "под",
+        "enSynonyms": "under",
+        "ruSynonyms": "под",
+        "grade": 3,
+        "lesson": 6.4
+    },
+    {
+        "wordGroup": "служебные слова",
+        "enWord": "who",
+        "ruWord": "кто",
+        "enSynonyms": "who",
+        "ruSynonyms": "кто, кому, кого",
+        "grade": 3,
+        "lesson": 6.10
+    },
+    {
+        "wordGroup": "учеба",
+        "enWord": "pupil",
+        "ruWord": "ученик",
+        "enSynonyms": "pupil, schoolboy",
+        "ruSynonyms": "ученик, школьник",
+        "grade": 3,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "учеба",
+        "enWord": "exercise-book",
+        "ruWord": "тетрадь",
+        "enSynonyms": "exercise-book",
+        "ruSynonyms": "тетрадь",
+        "grade": 3,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "учеба",
+        "enWord": "book",
+        "ruWord": "книга",
+        "enSynonyms": "book",
+        "ruSynonyms": "книга",
+        "grade": 3,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "канцтовары",
+        "enWord": "pencil",
+        "ruWord": "карандаш",
+        "enSynonyms": "pencil",
+        "ruSynonyms": "карандаш",
+        "grade": 3,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "канцтовары",
+        "enWord": "pencil-case",
+        "ruWord": "пенал",
+        "enSynonyms": "pencil-case",
+        "ruSynonyms": "пенал",
+        "grade": 3,
+        "lesson": 7.1
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "plum",
+        "ruWord": "слива",
+        "enSynonyms": "plum",
+        "ruSynonyms": "слива",
+        "grade": 3,
+        "lesson": 7.3
+    },
+    {
+        "wordGroup": "отдых",
+        "enWord": "net",
+        "ruWord": "сеть",
+        "enSynonyms": "net",
+        "ruSynonyms": "сеть, сетка",
+        "grade": 3,
+        "lesson": 7.3
+    },
+    {
+        "wordGroup": "погода",
+        "enWord": "sun",
+        "ruWord": "солнце",
+        "enSynonyms": "sun",
+        "ruSynonyms": "солнце",
+        "grade": 3,
+        "lesson": 7.3
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "use",
+        "ruWord": "пользоваться",
+        "enSynonyms": "use",
+        "ruSynonyms": "пользоваться, польза, использовать",
+        "grade": 3,
+        "lesson": 7.3
+    },
+    {
+        "wordGroup": "мебель",
+        "enWord": "board",
+        "ruWord": "доска",
+        "enSynonyms": "board",
+        "ruSynonyms": "доска",
+        "grade": 3,
+        "lesson": 7.3
+    },
+    {
+        "wordGroup": "служебные слова",
+        "enWord": "near",
+        "ruWord": "возле",
+        "enSynonyms": "near, at",
+        "ruSynonyms": "возле, рядом, около",
+        "grade": 3,
+        "lesson": 7.3
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "open",
+        "ruWord": "открывать",
+        "enSynonyms": "open, launch",
+        "ruSynonyms": "открывать, открыть, открытый",
+        "grade": 3,
+        "lesson": 7.7
+    },
+    {
+        "wordGroup": "глаголы",
+        "enWord": "close",
+        "ruWord": "закрывать",
+        "enSynonyms": "close",
+        "ruSynonyms": "закрывать, закрыть, закрытый",
+        "grade": 3,
+        "lesson": 7.7
+    },
+    {
+        "wordGroup": "служебные слова",
+        "enWord": "sure",
+        "ruWord": "конечно",
+        "enSynonyms": "sure, of course",
+        "ruSynonyms": "конечно",
+        "grade": 3,
+        "lesson": 7.9
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "sunny",
+        "ruWord": "солнечный",
+        "enSynonyms": "sunny",
+        "ruSynonyms": "солнечный, солнечно",
+        "grade": 3,
+        "lesson": 8.1
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "cloudy",
+        "ruWord": "пасмурный",
+        "enSynonyms": "cloudy",
+        "ruSynonyms": "пасмурный, пасмурно, облачный, облачно",
+        "grade": 3,
+        "lesson": 8.1
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "foggy",
+        "ruWord": "туманный",
+        "enSynonyms": "foggy",
+        "ruSynonyms": "туманный, туманно",
+        "grade": 3,
+        "lesson": 8.1
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "windy",
+        "ruWord": "ветренный",
+        "enSynonyms": "windy",
+        "ruSynonyms": "ветренный, ветренно",
+        "grade": 3,
+        "lesson": 8.1
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "rainy",
+        "ruWord": "дождливый",
+        "enSynonyms": "rainy",
+        "ruSynonyms": "дождливый",
+        "grade": 3,
+        "lesson": 8.1
+    },
+    {
+        "wordGroup": "прилагательные",
+        "enWord": "snowy",
+        "ruWord": "снежный",
+        "enSynonyms": "snowy",
+        "ruSynonyms": "снежный",
+        "grade": 3,
+        "lesson": 8.1
+    },
+    {
+        "wordGroup": "страны",
+        "enWord": "Canada",
+        "ruWord": "Канада",
+        "enSynonyms": "Canada",
+        "ruSynonyms": "Канада",
+        "grade": 3,
+        "lesson": 8.1
+    },
+    {
+        "wordGroup": "страны",
+        "enWord": "Russia",
+        "ruWord": "Россия",
+        "enSynonyms": "Russia",
+        "ruSynonyms": "Россия",
+        "grade": 3,
+        "lesson": 8.1
+    },
+    {
+        "wordGroup": "животные",
+        "enWord": "crocodile",
+        "ruWord": "крокодил",
+        "enSynonyms": "crocodile",
+        "ruSynonyms": "крокодил",
+        "grade": 3,
+        "lesson": 8.3
+    },
+    {
+        "wordGroup": "отдых",
+        "enWord": "snowballs",
+        "ruWord": "снежки",
+        "enSynonyms": "snowballs",
+        "ruSynonyms": "снежки",
+        "grade": 3,
+        "lesson": 8.3
+    },
+    {
+        "wordGroup": "отдых",
+        "enWord": "football",
+        "ruWord": "футбол",
+        "enSynonyms": "football",
+        "ruSynonyms": "футбол",
+        "grade": 3,
+        "lesson": 8.3
+    },
+    {
+        "wordGroup": "отдых",
+        "enWord": "volleyball",
+        "ruWord": "волейбол",
+        "enSynonyms": "volleyball",
+        "ruSynonyms": "волейбол",
+        "grade": 3,
+        "lesson": 8.3
+    },
+    {
+        "wordGroup": "отдых",
+        "enWord": "tennis",
+        "ruWord": "тенис",
+        "enSynonyms": "tennis",
+        "ruSynonyms": "тенис",
+        "grade": 3,
+        "lesson": 8.3
+    },
+    {
+        "wordGroup": "отдых",
+        "enWord": "ice-hockey",
+        "ruWord": "хоккей",
+        "enSynonyms": "ice-hockey, hockey",
+        "ruSynonyms": "хоккей",
+        "grade": 3,
+        "lesson": 8.3
+    },
+    {
+        "wordGroup": "отдых",
+        "enWord": "badminton",
+        "ruWord": "бадминтон",
+        "enSynonyms": "badminton",
+        "ruSynonyms": "бадминтон",
+        "grade": 3,
+        "lesson": 8.3
+    },
+    {
+        "wordGroup": "отдых",
+        "enWord": "basketball",
+        "ruWord": "баскетбол",
+        "enSynonyms": "basketball",
+        "ruSynonyms": "баскетбол",
+        "grade": 3,
+        "lesson": 8.3
+    },
+    {
+        "wordGroup": "природа",
+        "enWord": "rock",
+        "ruWord": "скала",
+        "enSynonyms": "rock",
+        "ruSynonyms": "скала, гора",
+        "grade": 3,
+        "lesson": 8.7
+    },
+    {
+        "wordGroup": "время",
+        "enWord": "clock",
+        "ruWord": "часы",
+        "enSynonyms": "clock, watch",
+        "ruSynonyms": "часы",
+        "grade": 3,
+        "lesson": 8.7
+    },
+    {
+        "wordGroup": "материалы",
+        "enWord": "brick",
+        "ruWord": "кирпич",
+        "enSynonyms": "brick",
+        "ruSynonyms": "кирпич, кирпичный",
+        "grade": 3,
+        "lesson": 8.7
+    },
+    {
+        "wordGroup": "еда",
+        "enWord": "breadstick",
+        "ruWord": "батон",
+        "enSynonyms": "breadstick, loaf",
+        "ruSynonyms": "батон",
+        "grade": 3,
+        "lesson": 8.7
+    }
+
+]
