@@ -7,7 +7,7 @@ var _ = require('underscore');
 exports.get = function(req, res) {
 
     User.findOne({'_id': req.session.user._id}, function (err, user) {
-        if (err) return console.log(err);
+        if (err) return next(err);
 
         User.
             find({ '_id': req.session.user._id }).
@@ -33,7 +33,7 @@ exports.get = function(req, res) {
                 user.markModified('selectOptions');
 
                 user.save(function(err) {
-                    if (err) return console.log(err);
+                    if (err) return next(err);
 
                     return res.redirect('/list');
                 });

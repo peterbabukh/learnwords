@@ -1,14 +1,11 @@
 var passport = require('passport');
 
 exports.get = function(req, res){
-    res.render('register', {
-        message: req.flash('message'),
-        title: 'learn English words'
-    });
+    res.render('register');
 };
 
 exports.post = passport.authenticate('signup', {
-    successRedirect: '/home',
+    successRedirect: '/signup',
     failureRedirect: '/signup',
     failureFlash : true
 });

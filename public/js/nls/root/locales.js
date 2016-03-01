@@ -1,100 +1,100 @@
 define({
-	"title": "learn English words",
+	"title": "Learn words",
 
 	"nav": {
-		"home": "На главную",
-		"fieldset": "Выбрать группу слов",
-		"list": "Создать / редактировать свою группу слов",
-		"begin": "Начать",
-		"logOut": "Выйти",
-		"signOut": "Удалить свой аккаунт"
+		"home": "Main page",
+		"fieldset": "Choose word group",
+		"list": "Create / edit your word group",
+		"begin": "Begin",
+		"logOut": "Log Out",
+		"signOut": "Delete account"
 	},
 
 	"alert": {
-		"chooseWordGroup": "Выберите группу слов!",
-		"enterWordTranslation": "Введите перевод слова!",
-		"fillAllInputs": "Есть не заполненное поле!",
-		"suchModelExists": "Такая позиция уже есть в списке!"
+		"chooseWordGroup": "Choose word group!",
+		"enterWordTranslation": "Enter translation!",
+		"fillAllInputs": "Fill all input fields!",
+		"suchModelExists": "Such item already exists!"
 	},
 
 	"conf": {
-		"countersWillBeZero": "Внимание! Счетчики будут обнулены!",
-		"confirmModelDelete": "Хотите удалить эту позицию?",
+		"countersWillBeZero": "The counters will be set to zero!",
+		"confirmModelDelete": "Do you really want to delete this item?",
 		"baseReloadFirstWarning": [
-			"Все изменения, внесенные Вами в предустановленные группы слов,",
-			" будут удалены. Программа обновится до исходной версии. ",
-			"Без изменения останется только блок слов ",
-			"'факультатив'. Перейти к сбросу изменений?"
+			"All changes made by you to the preinstalled words",
+			" will be removed. The program will be reset to the initial settings. ",
+			"Only word group 'optional' will remain unchanged. ",
+			"Reset?"
 		],
 		"baseReloadSecondWarning": [
-			"Вы уверены? В случае удаления восстановить Ваши",
-			" корректировки будет не возможно!"
+			"Are you sure? In case of reset it will be impossible ",
+			"to restore your changes!"
 		],
 		"fullReloadFirstWarning": [
-			"Все внесенные Вами изменения будут удалены.",
-			" Программа обновится до исходной версии.",
-			" Перейти к перезагрузке?"
+			"All changes made by you will be removed.",
+			" The program will be reset to the initial settings.",
+			" Reset?"
 		],
 		"fullReloadSecondWarning": [
-			"Вы уверены? После перезагрузки восстановить",
-			" добавленнные Вами списки слов будет не возможно!"
+			"Are you sure? In case of reset it will be impossible",
+			" to restore the word groups created by you!"
 		],
-		"signOutWarning": "Внимание! Ваш аккаунт будет удален. Продолжить?"
+		"signOutWarning": "Your account will be deleted. Delete anyway?"
 	},
 
 	"msg": {
-		"correct": "Правильно!",
-		"answerIs": "Правильный ответ:",
-		"wrongAnswer": "Где-то есть ошибка!",
-		"systemErrorMessage": "Извините, произошел какой-то сбой."
+		"correct": "True!",
+		"answerIs": "The correct answer is:",
+		"wrongAnswer": "Something's wrong!",
+		"systemErrorMessage": "Sorry, something's gone wrong."
 	},
 
 	"text": {
-		"totallyTranslated": "Всего переведено слов:",
-		"translatedWithoutHint": "Переведено без подсказок:",
-		"usedHints": "Использовано подсказок:",
-		"displayWords": "Выводить слова:",
-		"inRandomOrder": "В произвольном порядке",
-		"inAlphabeticFromBeginning": "По алфавиту с начала",
-		"inAlphabeticFromEnd": "По алфавиту с конца",
-		"translateFrom": "Переводить с:",
-		"English": "английского",
-		"Russian": "русского",
-		"chooseCheckType": "Выбрать вид проверки:",
-		"withoutSynonyms": "точная (без синонимов)",
-		"withSynonyms": "с синонимами",
-		"wordForTranslation": "Слово для перевода:",
-		"typeTranslationHere": "Здесь пишите перевод:",
-		"showHint": "Показать подсказку",
-		"clickTo": "Нажми, чтобы...",
-		"answer": "Ответить",
-		"showChosenWordsList": "Показать список выбранных слов",
-		"hideList": "Спрятать список",
-		"chooseAll": "Выбрать все",
-		"chooseWordGroup": "Выберите группу слов",
-		"chooseWordSortType": "Выберите вид сортировки слов:",
-		"chooseByLessons": "Выбирать по урокам",
-		"chooseByTopics": "Выбирать по темам",
-		"edit": "править",
-		"save": "сохранить",
-		"delete": "удалить",
-		"fillFormToAddItem": "Для добавления новой позиции заполните форму ниже:",
-		"EnglishVariant": "вариант на английском",
-		"RussianVariant": "вариант на русском",
-		"wordGroup": "группа слов",
-		"EnglishSynonyms": "синонимы на английском",
-		"RussianSynonyms": "синонимы на русском",
-		"EnglishWord": "Слово на АНГЛИЙСКОМ: ",
-		"RussianTranslation": "Перевод на РУССКОМ: ",
-		"EnglishSynonymsArray": "Синонимы на АНГЛИЙСКОМ через ' , ': ",
-		"RussianSynonymsArray": "Синонимы на РУССКОМ через ' , ': ",
-		"typeOrChooseWordGroup": "Напишите или выберите ниже название группы слов: ",
-		"existingGroups": "Список уже заведенных групп:",
-		"addItem": "Добавить позицию",
-		"baseReload": " Перезагрузить только базовую версию ",
-		"fullReload": " Перезагрузить всё ",
-		"gradeLocale": " класс",
-		"optionalLocale": "факультатив"
+		"totallyTranslated": "Words translated:",
+		"translatedWithoutHint": "Done without hints:",
+		"usedHints": "Hints used:",
+		"displayWords": "Display words:",
+		"inRandomOrder": "in random order",
+		"inAlphabeticFromBeginning": "in alphabetic order",
+		"inAlphabeticFromEnd": "in reverse order",
+		"translateFrom": "Translate from:",
+		"English": "English",
+		"Russian": "Russian",
+		"chooseCheckType": "Choose check type:",
+		"withoutSynonyms": "precise (without synonyms)",
+		"withSynonyms": "with synonyms",
+		"wordForTranslation": "Word for translation:",
+		"typeTranslationHere": "Type translation here:",
+		"showHint": "Show hint",
+		"clickTo": "Click to...",
+		"answer": "Answer",
+		"showChosenWordsList": "Show list of the chosen words",
+		"hideList": "Hide list",
+		"chooseAll": "Choose all",
+		"chooseWordGroup": "Choose word group",
+		"chooseWordSortType": "Choose sort type:",
+		"chooseByLessons": "sort by lessons",
+		"chooseByTopics": "sort by topics",
+		"edit": "edit",
+		"save": "save",
+		"delete": "delete",
+		"fillFormToAddItem": "Fill out this form to add a new item:",
+		"EnglishVariant": "English variant",
+		"RussianVariant": "Russian variant",
+		"wordGroup": "Word group",
+		"EnglishSynonyms": "English synonyms",
+		"RussianSynonyms": "Russian synonyms",
+		"EnglishWord": "Word in ENGLISH: ",
+		"RussianTranslation": "RUSSIAN translation: ",
+		"EnglishSynonymsArray": "Synonyms in ENGLISH separated by ' , ': ",
+		"RussianSynonymsArray": "Synonyms in RUSSIAN separated by ' , ': ",
+		"typeOrChooseWordGroup": "Type or choose a word group below: ",
+		"existingGroups": "Existing word groups:",
+		"addItem": "Add a new item",
+		"baseReload": " Reset base version only ",
+		"fullReload": " Reset all ",
+		"gradeLocale": " grade",
+		"optionalLocale": "optional"
 	},
 
 	"value": {

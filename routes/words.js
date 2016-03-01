@@ -5,18 +5,18 @@ var WordSchema = require('../models/WordSchema');
 exports.delete = function(req, res) {
 
     User.findOne({'_id': req.session.user._id}, function (err, user) {
-        if (err) return console.log(err);
+        if (err) return next(err);
 
         // remove a word item by id
         user.words.id( req.params.id ).remove(function (err) {
-            if (err) return console.log(err);
+            if (err) return next(err);
 
             // reset selectOptions to [] to avoid conflict in mainInterfaceView rendering
             user.selectOptions = [];
             user.markModified('selectOptions');
 
             user.save(function(err) {
-                if (err) return console.log(err);
+                if (err) return next(err);
 
                 res.send(user);
 
@@ -40,7 +40,7 @@ exports.put = function(req, res) {
             }
         },
         function(err,word) {
-            if (err) return console.log(err);
+            if (err) return next(err);
             res.end();
         }
     );
@@ -51,7 +51,7 @@ exports.put = function(req, res) {
 exports.post = function(req, res) {
 
     User.findOne({'_id': req.session.user._id}, function (err, user) {
-        if (err) return console.log(err);
+        if (err) return next(err);
 
         var obj = {};
         obj.wordGroup = req.body.wordGroup;
@@ -69,11 +69,8 @@ exports.post = function(req, res) {
         user.words.push( word );
 
         user.save(function(err) {
-            if (err){
-                console.log('Error in Saving user: ' + err);
-                throw err;
-            }
-
+            if (err) return next(err);
+			
             res.send(user);
 
         });

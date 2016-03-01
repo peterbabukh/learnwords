@@ -20,8 +20,15 @@ router.get('/', require('./login').get);
 router.post('/login', require('./login').post);
 router.get('/signup', require('./signup').get);
 router.post('/signup', require('./signup').post);
+router.get('/signupconf/:token', require('./signupconf').get);
 router.get('/logout', require('./logout').get);
 router.get('/signout', require('./signout').get);
+
+// forgot password routes
+router.get('/forgot', require('./forgot').get);
+router.post('/forgot', require('./forgot').post);
+router.get('/reset/:token', require('./reset').get);
+router.post('/reset/:token', require('./reset').post);
 
 // page render routes
 router.get('/home', requireLogin, require('./home').get);

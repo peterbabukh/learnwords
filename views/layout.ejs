@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="<%= t('lang') %>">
 <head>
     <meta charset="UTF-8">
     <title><%= t('title') %></title>
     <!-- Here we pass already transpiled and minified single css file from dist folder -->
-    <link rel="stylesheet" type="text/css" href="./css/learnwords.css" />
-    <!-- <script data-main="./js/main.js" src="./js/lib/require-2.1.20.js"></script> -->
-    <script src="./req/learnwords.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/learnwords.css" />
+    <script data-main="./js/main.js" src="/js/lib/require-2.1.20.js"></script>
+    <!-- <script src="/req/learnwords.js"></script> -->
 </head>
 <body>
 <!--[if lt IE 10]>

@@ -1,1 +1,49 @@
-define(function(a){"use strict";var b=a("backbone"),c=a("app/WordModel"),d=b.Collection.extend({model:c,url:"/words",comparator:function(a){return a.get("enWord")},fetch:function(a){return a=a||{},a.cache=!1,b.Collection.prototype.fetch.call(this,a)},fetchCollection:function(){var a=this;this.fetch({reset:!0,success:function(b,c,d){a.trigger("successOnFetch")},error:function(b,c,d){a.trigger("errorOnFetch")}})}});return d});
+define( function(require) {
+
+	'use strict';
+
+	var Backbone = require('backbone');
+	var WordModel = require('app/WordModel');
+
+	var WordsCollection = Backbone.Collection.extend({
+
+		model: WordModel,
+
+		url: '/words',
+
+		comparator: function(model) {
+			return model.get('enWord');
+		},
+
+		// prevents caching of fetched data
+		fetch: function (options) {
+			options = options || {};
+			options.cache = false;
+			return Backbone.Collection.prototype.fetch.call(this, options);
+		},
+
+		// handle success / error when fetch() fires
+		fetchCollection: function () {
+
+			var self = this;
+
+			this.fetch({
+				reset: true,
+				success: function (collection, response, options) {
+					// one can pass here additional options to the event one triggers
+					self.trigger('successOnFetch');
+				},
+				error: function (collection, response, options) {
+					// one can pass here additional options to the event one triggers
+					self.trigger('errorOnFetch');
+				}
+			});
+
+		}
+
+
+	});
+
+	return WordsCollection;
+
+});

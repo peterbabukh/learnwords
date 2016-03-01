@@ -1,33 +1,37 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="<%= t('lang') %>">
 <head>
     <meta charset="UTF-8">
     <title><%= t('title') %></title>
-    <!-- Here we pass already transpiled and minified single css file from dist folder -->
-    <link rel="stylesheet" type="text/css" href="./css/learnwords.css" />
+    <link rel="stylesheet" type="text/css" href="/css/learnwords.css" />
     <!-- Google reCaptcha -->
     <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>
-<div id="learnwords" class="layout-box">
+<div class="layout-box">
     <div class="content-box">
         <form name="loginForm" class="loginForm" action="/login" method="post">
             <div>
                 <%= t('text.itIsLoginPage') %>
             </div>
             <div>
-                <% if (message) {%>
-                <span class="login-form-msg"><%= message %></span>
+                <% if (messages && messages.error) { %>
+                <div class="msg-wrong runningBorder"><%= messages.error %></div>
+                <% } else if (messages && messages.info) { %>
+                <div class="msg-right runningBorder"><%= messages.info %></div>
                 <% } %>
             </div>
             <div>
                 <label class="login-label"><%= t('text.password') %><input type="password" name="password"
-                required minlength="6" pattern=".{6,50}" title="<%- t('text.inputLength') %>" maxlength="50" placeholder="password"/></label>
+                                                                           required minlength="6"  pattern=".{6,50}" title="<%- t('text.inputLength') %>" maxlength="50" placeholder="password"/></label>
+            </div>
+            <div>
+                <a href="/forgot"><%= t('text.forgotPassword') %></a>
             </div>
             <div>
                 <label class="login-label"><%= t('text.email') %>
-                    <input type="email" name="username" required placeholder="email" /></label>
+                    <input type="email" name="email" required placeholder="email" /></label>
             </div>
             <div class="g-recaptcha" data-sitekey="6Ld6vBQTAAAAABu1v2KbVv9ZfnpqZxA1A1aHFA5y"></div>
             <div>

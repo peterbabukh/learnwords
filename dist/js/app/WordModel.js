@@ -1,1 +1,31 @@
-define(function(a){"use strict";var b=a("backbone"),c=b.Model.extend({defaults:function(){return{enWord:"blank",ruWord:"blank",enSynonyms:"blank",ruSynonyms:"blank",grade:"optional",wordGroup:"my group",lesson:1.1,creator:"admin"}},urlRoot:"/words"});return c});
+define( function(require) {
+
+    'use strict';
+
+    var Backbone = require('backbone');
+
+    var WordModel = Backbone.Model.extend({
+
+        defaults: function() {
+
+            return {
+                enWord: 'blank',
+                ruWord: 'blank',
+                enSynonyms: 'blank',
+                ruSynonyms: 'blank',
+                grade: 'optional',
+                wordGroup: 'my group',
+                lesson: 1.1,
+                creator: 'admin'
+            };
+        },
+
+        // urlRoot (not just url) to pass /:id to the backend
+        // upon DELETE and PUT methods
+        urlRoot: '/words'
+
+    });
+
+    return WordModel;
+
+});

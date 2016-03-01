@@ -11,9 +11,9 @@ i18n.init({
     supportedLngs: ['ru', 'en'],
     detectLngFromPath: false,
     ignoreRoutes: [],
-    lng: process.env.NODE_LANG || 'ru',
+    lng: process.env.NODE_LANG || 'en',
     saveMissing:   false,
-    sendMissingTo: 'ru'
+    sendMissingTo: 'en'
 });
 app.use(i18n.handle);
 // Registers AppHelper so you can use the translate function inside template
@@ -37,7 +37,7 @@ i18n.serveWebTranslate(app, {
         resGetPath: "locales/resources.json?lng=__lng__&ns=__ns__",
         resChangePath: 'locales/change/__lng__/__ns__',
         resRemovePath: 'locales/remove/__lng__/__ns__',
-        fallbackLng: "ru",
+        fallbackLng: "en",
         dynamicLoad: true
     }
 });

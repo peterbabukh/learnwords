@@ -1,1 +1,6 @@
-define({root:!0,en:!0});
+define({
+
+    "root": true,
+    "ru": true
+
+});

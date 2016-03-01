@@ -1,13 +1,17 @@
-var async = require('async');
+var crypto = require('crypto');
+var config = require('../config');
+var flash = require('express-flash');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
-var flash = require('connect-flash');
 var _ = require('underscore');
 var User = require('../models/User').User;
+var TempUser = require('../models/TempUser').User;
 var Words = require('../Words');
 var WordSchema = require('../models/WordSchema');
 var i18n = require('i18next');
 var googleReCaptcha = require('../lib/googleReCaptcha');
+var nodemailer = require('nodemailer');
+var mg = require('nodemailer-mailgun-transport');
 
 module.exports = function (app) {
 
@@ -22,131 +26,153 @@ module.exports = function (app) {
         });
     });
 
-    passport.use('login', new LocalStrategy({
-            passReqToCallback : true
-        },
-        function(req, username, password, done) {
+	passport.use('login', new LocalStrategy({
+			usernameField : 'email',
+			passwordField : 'password',
+			passReqToCallback : true
+		},
+		function(req, email, password, done) {
 
 
-            // checks googleReCaptcha
-            googleReCaptcha(req.body["g-recaptcha-response"], function(success) {
-                if (!success) {
+			// checks googleReCaptcha
+			googleReCaptcha(req.body["g-recaptcha-response"], function(success) {
+				if (!success) {
 
-                    return done(null, false,
-                        req.flash('message', i18n.t('text.invalidRecaptcha') ) );
+					return done(null, false,
+						req.flash('error', i18n.t('text.invalidRecaptcha') ) );
 
-                } else {
+				} else {
 
-                    // checks in mongodb if a user with username exists or not
-                    User.findOne({ 'username':  username },
-                        function(err, user) {
-                            // In case of any error, return using the done method
-                            if (err)
-                                return done(err);
-                            // Username does not exist, log error & redirect back
-                            if (!user){
-                                console.log('User Not Found with username ' + username);
-                                return done(null, false,
-                                    req.flash('message', i18n.t('text.invalidEmailOrPassword') ) );
-                            }
+					// checks in mongodb if a user with username exists or not
+					User.findOne({ 'email':  email },
+						function(err, user) {
+							// In case of any error, return using the done method
+							if (err)
+								return done(err);
+							// Username does not exist, log error & redirect back
+							if (!user){
 
-                            // User exists but wrong password, log the error
-                            // it uses User.schema.checkPassword method
-                            if (!user.checkPassword(password)){
-                                console.log('Invalid Password');
+								return done(null, false,
+									req.flash('error', i18n.t('text.invalidEmailOrPassword') ) );
+							}
 
-                                return done(null, false,
-                                    req.flash('message', i18n.t('text.invalidEmailOrPassword') ) );
-                            }
+							// User exists but wrong password, log the error
+							// it uses User.schema.checkPassword method
+							if (!user.checkPassword(password)){
 
-                            // User and password both match, return user from
-                            // done method which will be treated like success
-                            req.session.user = user;
-                            return done(null, user);
-                        }
-                    );
+								return done(null, false,
+									req.flash('error', i18n.t('text.invalidEmailOrPassword') ) );
+							}
 
-                }
-            });
+							// User and password both match, return user from
+							// done method which will be treated like success
+							req.session.user = user;
+							return done(null, user);
+						}
+					);
+				}
+			});
 
-
-        }
-    ));
+		}
+	));
 
 
-    passport.use('signup', new LocalStrategy({
-            passReqToCallback : true
-        },
-        function(req, username, password, done) {
+	passport.use('signup', new LocalStrategy({
+			usernameField : 'email',
+			passwordField : 'password',
+			passReqToCallback : true
+		},
+		function(req, email, password, done) {
 
-            // checks googleReCaptcha
-            googleReCaptcha(req.body["g-recaptcha-response"], function (success) {
-                // if recaptcha fails...
-                if (!success) {
+			// checks googleReCaptcha
+			googleReCaptcha(req.body["g-recaptcha-response"], function(success) {
+				if (!success) {
 
-                    return done(null, false,
-                        req.flash('message', i18n.t('text.invalidRecaptcha')));
+					return done(null, false,
+						req.flash('error', i18n.t('text.invalidRecaptcha') ) );
 
-                } else {
+				} else if ( password !== req.body.confirmPassword ) {
 
-                    findOrCreateUser = function () {
+					return done(null, false,
+						req.flash('error', i18n.t('text.passwordsNotMatch') ) );
 
-                        // find a user in Mongo with provided username
-                        User.findOne({'username': username}, function (err, user) {
-                            // In case of any error return
-                            if (err) {
-                                console.log('Error in SignUp: ' + err);
-                                return done(err);
-                            }
-                            // already exists
-                            if (user) {
-                                console.log('User already exists');
-                                return done(null, false,
-                                    req.flash('message', i18n.t('text.suchUserExists')));
-                            } else {
-                                // if there is no user with that email
-                                // create the user
-                                var newUser = new User();
+				} else {
 
-                                // set the user's local credentials
-                                // it is registration by email and password, NOT by name
-                                //so here username is email
-                                newUser.username = username;
-                                newUser.salt = Math.random() + '';
-                                newUser.hashedPassword = newUser.encryptPassword(password);
-                                newUser.words = [];
-                                newUser.selectOptions = [];
+					createTempUser = function() {
 
-                                // create and save word models and push them to user
-                                _.each(Words, function (item) {
-                                    item._user_id = newUser._id;
-                                    var word = new WordSchema(item);
-                                    newUser.words.push(word);
-                                });
+						var token;
+						// creates a token
+						crypto.randomBytes(20, function(err, buf) {
+							if (err) return done(err);
 
-                                // save the user
-                                newUser.save(function (err) {
-                                    if (err) {
-                                        console.log('Error in Saving user: ' + err);
-                                        throw err;
-                                    }
-                                    // set a cookie with the newUser's info
-                                    req.session.user = newUser;
-                                    console.log('User Registration succesful');
-                                    return done(null, newUser);
-                                });
+							token = buf.toString('hex');
+						});
 
-                            }
-                        });
-                    };
+						// looks for a user with provided email in MongoDB
+						User.findOne({'email': email}, function(err, user) {
+							// In case of any error return
+							if (err) return done(err);
 
-                    // Delay the execution of findOrCreateUser and execute
-                    // the method in the next tick of the event loop
-                    process.nextTick(findOrCreateUser);
-                }
-            });
-        }
-    ));
+							// if user with this email already exists
+							if (user) {
+
+								return done(null, false,
+									req.flash('error', i18n.t('text.suchUserExists') ) );
+
+							} else {
+								// if there is no user with that email, creates the tempUser
+								var tempUser = new TempUser();
+
+								// sets the tempUser's local credentials
+								tempUser.email = email;
+								tempUser.salt = Math.random() + '';
+								tempUser.hashedPassword = tempUser.encryptPassword(password);
+								tempUser.token = token;
+								tempUser.validityTime = new Date().getTime() + 3600000; // 1 hour
+
+								// saves the tempUser
+								tempUser.save(function(err) {
+									if (err) return done(err);
+
+									// sends email with further registration instructions
+									// This is the API key that you retrieve from www.mailgun.com/cp
+									var auth = {
+										auth: {
+											api_key: config.get('mailgun:apiKey'),
+											domain: config.get('mailgun:domain')
+										}
+									};
+
+									var nodemailerMailgun = nodemailer.createTransport(mg(auth));
+
+									nodemailerMailgun.sendMail({
+										from: config.get('mailgun:from'),
+										to: tempUser.email, // An array if you have multiple recipients.
+										subject: i18n.t('text.confirmEmail'),
+										html: '<div>' + i18n.t('text.confirmRegistration') + '<br /><br />' +
+										'<a href=\"http://' + req.headers.host + '/signupconf/' + token +
+										'\">' + "http://" + req.headers.host + "/signupconf/" + token + '</a>'
+
+									}, function (err) {
+										if (err) return done(err);
+
+										return done(null, tempUser,
+											req.flash('info', i18n.t('text.emailSentTo') + tempUser.email +
+												i18n.t('text.emailSentTo2') ) );
+
+									});
+								});
+							}
+						});
+					};
+
+					// Delay the execution of findOrCreateUser and execute
+					// the method in the next tick of the event loop
+					process.nextTick(createTempUser);
+				}
+			});
+		}
+	));
 
 
     app.use(passport.initialize());

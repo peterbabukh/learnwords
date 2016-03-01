@@ -126,6 +126,17 @@ module.exports = function(grunt) {
                     ],
                     filter: 'isFile'
                 }]
+            },
+            js: {
+                files: [{
+                    expand: true,
+                    cwd: '<%= appConfig.public %>/js',
+                    dest: '<%= appConfig.dist %>/js',
+                    src: [
+                        '**/*.js'
+                    ],
+                    filter: 'isFile'
+                }]
             }
         },
 
@@ -268,8 +279,9 @@ module.exports = function(grunt) {
         //'jshint:all',
         'less:transpile',
         'cssmin',
-        'uglify',
+        //'uglify',
         'copy:all',
+        'copy:js',
         'imagemin',
         'htmlclean',
         'concurrent:dev'

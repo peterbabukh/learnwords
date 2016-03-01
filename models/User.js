@@ -9,26 +9,27 @@ var Schema = mongoose.Schema;
 
 var schema = new Schema({
 
-    username: {
+    email: {
         type: String,
-        unique: true,
-        required: true
+        unique: true
     },
 
-     hashedPassword: {
-         type: String,
-         required: true
-     },
+    hashedPassword: {
+        type: String
+    },
 
-     salt: {
-         type: String,
-         required: true
-     },
+    salt: {
+        type: String
+    },
 
-     created: {
-         type: Date,
-         default: Date.now
-     },
+    resetPasswordToken: String,
+
+    resetPasswordExpires: Number,
+
+    created: {
+        type: Date,
+        default: Date.now
+    },
 
     modified: {
         type: Date,
