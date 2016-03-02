@@ -29,9 +29,7 @@
         "upgradeYourBrowser": "Извините, старый IE не поддерживается. Используйте другой браузер.",
         "invalidRecaptcha": "Что-то не так с проверкой на робот.",
         "inputLength": "От 6 до 50 символов.",
-        "invalidEmailOrPassword": "Не правильный пароль или Email!",
         "passwordsNotMatch": "Введенные пароли не совпали!",
-        "suchUserExists": "Пользователь с таким Email уже зарегистрирован!",
         "noSuchEmailAccount": "Аккаунта с таким email не существует!",
         "passwordForgotInstructions1": [
             "Вы получили это сообщение, потому что Вы (или кто-то другой)",

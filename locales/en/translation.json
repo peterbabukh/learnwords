@@ -30,7 +30,6 @@
         "invalidRecaptcha": "ReCaptcha failed, try again.",
         "inputLength": "From 6 to 50 characters.",
         "passwordsNotMatch": "Your passwords did not match!",
-        "suchUserExists": "ѕользователь с таким Email уже зарегистрирован!",
         "noSuchEmailAccount": "No account with such email address exists.",
         "passwordForgotInstructions1": [
             "You are receiving this message because you (or someone else)",
