@@ -1,7 +1,9 @@
 {
-    "title": "Learn words",
+    "title": "Practise Words",
 
     "lang": "en",
+
+    "cssJsRouteName": "practisewords",
 
     "nav": {
         "logOut": "Выйти",
@@ -45,19 +47,19 @@
         "invalidToken": "Ссылка для смены пароля неверная либо с истекшим сроком действия.",
         "passwordChanged": "Ваш пароль изменен.",
         "passwordChangeNotification": [
-            "Это сообщение - подтверждение того, что Ваш пароль на сайте Learnwords только что был изменен."
+            "Это сообщение - подтверждение того, что Ваш пароль на сайте Practise Words только что был изменен."
         ],
-        "passwordReset": "Смена пароля на сайте Learnwords.",
-        "confirmEmail": "Подтвердите регистрацию на сайте Learnwords.",
+        "passwordReset": "Смена пароля на сайте Practise Words.",
+        "confirmEmail": "Подтвердите регистрацию на сайте Practise Words.",
         "confirmRegistration": [
             "Вы получили это письмо, потому что Вы (или кто-то другой)",
-            "хочет зарегистрироваться на сайте Learnwords с Вашим email.",
+            "хочет зарегистрироваться на сайте Practise Words с Вашим email.",
             "Если это были Вы, и Вы хотите завершить процедуру регистрации, пожалуйста,",
             "кликните по ссылке ниже или скопируйте ее в браузер.",
             "Если нет, то просто проигнорируйте это письмо:"
         ],
         "registrationCompleted": "Регистрация завершена успешно.",
-        "registrationCompletedSuccessfully": "Регистрация на сайте Learnwords завершена успешно.",
+        "registrationCompletedSuccessfully": "Регистрация на сайте Practise Words завершена успешно.",
         "wait": "Пожалуйста, подождите. Обрабатывается большой объем данных."
     }
 }

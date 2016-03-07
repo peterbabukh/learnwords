@@ -1,5 +1,5 @@
 {
-  "name": "learnwords",
+  "name": "practisewords",
   "version": "2.0.0",
   "private": true,
   "scripts": {
@@ -7,8 +7,13 @@
   },
   "main": "server.js",
   "keywords": [
-    "nodejs project",
-    "learnwords"
+    "nodejs",
+    "practisewords",
+    "express",
+    "mongodb",
+    "mongoose",
+    "backbone",
+    "requirejs"
   ],
   "engines": {
     "node": "4.1.2",
@@ -80,13 +85,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/peterbabukh/learnwords.git"
+    "url": "https://github.com/peterbabukh/practisewords.git"
   },
   "author": "Peter Babukh",
   "contributors": {},
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/peterbabukh/learnwords/issues",
+    "url": "https://github.com/peterbabukh/practisewords/issues",
     "email": "peter_babukh@mail.ru"
   }
 }

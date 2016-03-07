@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title><%= t('title') %></title>
-    <link rel="stylesheet" type="text/css" href="/css/learnwords.css" />
+    <link rel="stylesheet" type="text/css" href="/css/<%= t('cssJsRouteName') %>.css" />
     <!-- <script data-main="./js/main.js" src="./js/lib/require-2.1.20.js"></script> -->
-    <script src="/req/learnwords.js"></script>
+    <script src="/req/<%= t('cssJsRouteName') %>.js"></script>
 </head>
 <body>
 <!--[if lt IE 10]>

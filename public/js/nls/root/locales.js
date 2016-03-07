@@ -1,5 +1,5 @@
 define({
-	"title": "Learn words",
+	"title": "Practise Words",
 
 	"nav": {
 		"home": "Main page",

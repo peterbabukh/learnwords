@@ -1,7 +1,9 @@
 {
-    "title": "Learn words",
+    "title": "Practise Words",
 
     "lang": "en",
+
+    "cssJsRouteName": "practisewords",
 	
     "nav": {
         "logOut": "Log Out",
@@ -45,18 +47,18 @@
         "invalidToken": "Password reset link is invalid or has expired.",
         "passwordChanged": "Your password has been changed.",
         "passwordChangeNotification": [
-            "This is a confirmation that the password for your account on Learnwords has just been changed."
+            "This is a confirmation that the password for your account on Practise Words has just been changed."
         ],
-        "passwordReset": "Learnwords Password Reset.",
-        "confirmEmail": "Confirm your registration on Learnwords.",
+        "passwordReset": "Practise Words Password Reset.",
+        "confirmEmail": "Confirm your registration on Practise Words.",
         "confirmRegistration": [
             "You are receiving this message because you (or someone else)",
-            "wants to get registered on Learnwords with your email.",
+            "wants to get registered on Practise Words with your email.",
             "If it was you and you want to complete the process,",
             "please, click on the following link or put it into your browser, otherwise just ignore this letter:"
         ],
         "registrationCompleted": "Registration completed successfully.",
-        "registrationCompletedSuccessfully": "Registration on Learnwords completed successfully.",
+        "registrationCompletedSuccessfully": "Registration on Practise Words completed successfully.",
         "wait": "Please, wait. Heavy data is being processed."
     }
 }
