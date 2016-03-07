@@ -6,7 +6,7 @@ define( function(require) {
 
     var Backbone = require('backbone');
     var s = require('underscore.string');
-    var i18n = require('i18n!../../js/nls/en');
+    var i18n = require('i18n!../../js/nls/ru/locales');
     var wordItem = require('text!../../templates/wordItem.html');
     var wordItemHeader = require('text!../../templates/wordItemHeader.html');
 

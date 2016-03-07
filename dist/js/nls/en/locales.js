@@ -94,7 +94,8 @@ define({
 		"baseReload": " Reset base version only ",
 		"fullReload": " Reset all ",
 		"gradeLocale": " grade",
-		"optionalLocale": "optional"
+		"optionalLocale": "optional",
+		"wait": "Please, wait. Heavy data is being processed."
 	},
 
 	"value": {

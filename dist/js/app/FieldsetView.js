@@ -4,10 +4,11 @@ define( function(require) {
 
     var Backbone = require('backbone');
     var WordsCollection = require('app/WordsCollection');
-    var i18n = require('i18n!../../js/nls/en');
+    var i18n = require('i18n!../../js/nls/ru/locales');
     var fieldset = require('text!../../templates/fieldset.html');
     var gradeCol = require('text!../../templates/gradeCol.html');
     var gradeTree = require('text!../../templates/gradeTree.html');
+    var popup = require('text!../../templates/popup.html');
     var GradesModel = require('app/GradesModel');
     var User = require('app/UserModel');
     var AppHeaderView = require('app/AppHeaderView');
@@ -131,9 +132,11 @@ define( function(require) {
         },
 
         submitForm: function() {
+
             var self = this;
             var selectOptions = [];
             var elems = this.$el.find('.choose-group-input:checked');
+
 
             _.each( elems, function(el) {
                 var obj = {
@@ -148,6 +151,9 @@ define( function(require) {
                 alert( i18n.alert.chooseWordGroup );
                 return false;
             }
+
+            // so that to prevent more than 1 click
+            this.$el.html( _.template( popup, i18n ) );
 
             this.user.save({ "selectOptions": selectOptions }, {
                 wait: true,

@@ -8,6 +8,7 @@ define( function(require) {
     var fieldset = require('text!../../templates/fieldset.html');
     var gradeCol = require('text!../../templates/gradeCol.html');
     var gradeTree = require('text!../../templates/gradeTree.html');
+    var popup = require('text!../../templates/popup.html');
     var GradesModel = require('app/GradesModel');
     var User = require('app/UserModel');
     var AppHeaderView = require('app/AppHeaderView');
@@ -132,9 +133,6 @@ define( function(require) {
 
         submitForm: function() {
 
-            // disable more than 1 click
-            $('.submit-form').css('display', 'none');
-            
             var self = this;
             var selectOptions = [];
             var elems = this.$el.find('.choose-group-input:checked');
@@ -153,6 +151,9 @@ define( function(require) {
                 alert( i18n.alert.chooseWordGroup );
                 return false;
             }
+
+            // so that to prevent more than 1 click
+            this.$el.html( _.template( popup, i18n ) );
 
             this.user.save({ "selectOptions": selectOptions }, {
                 wait: true,

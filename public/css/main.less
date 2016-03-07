@@ -642,6 +642,7 @@ fieldset {
 }
 
 
+
 /* WordsCollection styles */
 
 .newEntry {
@@ -918,6 +919,26 @@ a.delete {
   });
 }
 
+
+// popup styles
+
+#popup-container {
+  position: relative;
+
+  & #popup {
+    position: absolute;
+
+    & div {
+      .BoxBorderRadius();
+      .ColoredBorder();
+      .boxShadow();
+      font-size: 1.5rem;
+      color: purple;
+      font-weight: bold;
+      padding: 5px;
+    }
+  }
+}
 
 
 /* CSS spinner */
