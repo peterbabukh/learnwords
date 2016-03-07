@@ -11,6 +11,7 @@ define( function(require) {
     var wordsCollectionViewHeader = require('text!../../templates/wordsCollectionViewHeader.html');
     var liTemplate = require('text!../../templates/liTemplate.html');
     var tableTemplate = require('text!../../templates/tableTemplate.html');
+    var popup = require('text!../../templates/popup.html');
     var WordsCollection = require('app/WordsCollection');
     var AppHeaderView = require('app/AppHeaderView');
 

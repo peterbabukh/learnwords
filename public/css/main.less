@@ -922,23 +922,106 @@ a.delete {
 
 // popup styles
 
-#popup-container {
+#popup {
   position: relative;
+  margin: 50px auto 0;
+  height: 300px;
+  width: 300px;
 
-  & #popup {
-    position: absolute;
 
-    & div {
-      .BoxBorderRadius();
-      .ColoredBorder();
-      .boxShadow();
-      font-size: 1.5rem;
-      color: purple;
-      font-weight: bold;
-      padding: 5px;
-    }
+  & div {
+    display: table-cell;
+    font-size: 1.5rem;
+    color: purple;
+    font-weight: bold;
+    padding: 5px;
+    height: 300px;
+    width: 300px;
+    vertical-align: middle;
   }
 }
+// popup border animation
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.border-animation {
+  //position: relative;
+  .BoxBorderRadius();
+  height: 300px;
+  width: 300px;
+}
+
+.border-animation:after,
+.border-animation:before {
+  .BoxBorderRadius();
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  margin: -5px;
+  -webkit-animation: clipMe 3s linear infinite;
+  -moz-animation: clipMe 3s linear infinite;
+  -o-animation: clipMe 3s linear infinite;
+  animation: clipMe 3s linear infinite;
+  box-shadow: inset 0 0 0 2px purple;
+}
+
+.border-animation:before {
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  -o-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+
+@-webkit-keyframes clipMe {
+  0%, 100% {clip: rect(0px, 310px, 2px, 0px); }
+  25% {clip: rect(0px, 2px, 310px, 0px); }
+  50% {clip: rect(308px, 310px, 310px, 0px); }
+  75% {clip: rect(0px, 310px, 310px, 308px); }
+}
+@-webkit-keyframes blink {
+  from {background-color: #ffe6e6;}
+  to {background-color: #ffe6ff;}
+}
+
+@-moz-keyframes clipMe {
+  0%, 100% {clip: rect(0px, 310px, 2px, 0px); }
+  25% {clip: rect(0px, 2px, 310px, 0px); }
+  50% {clip: rect(308px, 310px, 310px, 0px); }
+  75% {clip: rect(0px, 310px, 310px, 308px); }
+}
+@-moz-keyframes blink {
+  from {background-color: #ffe6e6;}
+  to {background-color: #ffe6ff;}
+}
+
+@-o-keyframes clipMe {
+  0%, 100% {clip: rect(0px, 310px, 2px, 0px); }
+  25% {clip: rect(0px, 2px, 310px, 0px); }
+  50% {clip: rect(308px, 310px, 310px, 0px); }
+  75% {clip: rect(0px, 310px, 310px, 308px); }
+}
+@-o-keyframes blink {
+  from {background-color: #ffe6e6;}
+  to {background-color: #ffe6ff;}
+}
+
+@keyframes clipMe {
+  0%, 100% {clip: rect(0px, 310px, 2px, 0px); }
+  25% {clip: rect(0px, 2px, 310px, 0px); }
+  50% {clip: rect(308px, 310px, 310px, 0px); }
+  75% {clip: rect(0px, 310px, 310px, 308px); }
+}
+@keyframes blink {
+  from {background-color: #ffe6e6;}
+  to {background-color: #ffe6ff;}
+}
+
 
 
 /* CSS spinner */
