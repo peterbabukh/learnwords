@@ -56,6 +56,7 @@
             "please, click on the following link or put it into your browser, otherwise just ignore this letter:"
         ],
         "registrationCompleted": "Registration completed successfully.",
-        "registrationCompletedSuccessfully": "Registration on Learnwords completed successfully."
+        "registrationCompletedSuccessfully": "Registration on Learnwords completed successfully.",
+        "wait": "Please, wait. Heavy data is being processed."
     }
 }

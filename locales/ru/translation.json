@@ -57,7 +57,8 @@
             "Если нет, то просто проигнорируйте это письмо:"
         ],
         "registrationCompleted": "Регистрация завершена успешно.",
-        "registrationCompletedSuccessfully": "Регистрация на сайте Learnwords завершена успешно."
+        "registrationCompletedSuccessfully": "Регистрация на сайте Learnwords завершена успешно.",
+        "wait": "Пожалуйста, подождите. Обрабатывается большой объем данных."
     }
 }
 
