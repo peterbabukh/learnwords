@@ -131,9 +131,14 @@ define( function(require) {
         },
 
         submitForm: function() {
+
+            // disable more than 1 click
+            $('.submit-form').css('display', 'none');
+            
             var self = this;
             var selectOptions = [];
             var elems = this.$el.find('.choose-group-input:checked');
+
 
             _.each( elems, function(el) {
                 var obj = {
