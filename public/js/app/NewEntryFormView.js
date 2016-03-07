@@ -8,7 +8,7 @@ define( function(require) {
     var Backbone = require('backbone');
     var WordModel = require('app/WordModel');
     var s = require('underscore.string');
-    var i18n = require('i18n!../../js/nls/locales');
+    var i18n = require('i18n!../../js/nls/ru/locales');
     var newEntry = require('text!../../templates/newEntry.html');
 
     var NewEntryFormView = Backbone.View.extend({

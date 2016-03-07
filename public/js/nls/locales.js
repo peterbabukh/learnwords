@@ -1,6 +1,7 @@
 define({
 
     "root": true,
-    "ru": true
+    "ru": true,
+    "en": true
 
 });

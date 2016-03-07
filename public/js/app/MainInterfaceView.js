@@ -4,7 +4,7 @@ define( function(require) {
 
     var Backbone = require('backbone');
     var User = require('app/UserModel');
-    var i18n = require('i18n!../../js/nls/locales');
+    var i18n = require('i18n!../../js/nls/ru/locales');
     var s = require('underscore.string');
     var mainPage = require('text!../../templates/mainPage.html');
     var trTemplate = require('text!../../templates/trTemplate.html');

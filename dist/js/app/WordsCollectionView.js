@@ -5,7 +5,7 @@ define( function(require) {
     var Backbone = require('backbone');
     var WordModelView = require('app/WordModelView');
     var NewEntryFormView = require('app/NewEntryFormView');
-    var i18n = require('i18n!../../js/nls/locales');
+    var i18n = require('i18n!../../js/nls/en');
     var getStyle = require('helpers/getComputedStyle').getStyle;
     var User = require('app/UserModel');
     var wordsCollectionViewHeader = require('text!../../templates/wordsCollectionViewHeader.html');

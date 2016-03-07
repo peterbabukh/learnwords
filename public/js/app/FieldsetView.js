@@ -4,7 +4,7 @@ define( function(require) {
 
     var Backbone = require('backbone');
     var WordsCollection = require('app/WordsCollection');
-    var i18n = require('i18n!../../js/nls/locales');
+    var i18n = require('i18n!../../js/nls/ru/locales');
     var fieldset = require('text!../../templates/fieldset.html');
     var gradeCol = require('text!../../templates/gradeCol.html');
     var gradeTree = require('text!../../templates/gradeTree.html');
