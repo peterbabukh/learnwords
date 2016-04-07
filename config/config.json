@@ -4,9 +4,9 @@
         "uri": "mongodb://localhost:27017/data"
     },
     "mailgun": {
-        "apiKey": "key-7a7bac10c61cd20aded2192fbbd65232",
-        "domain": "sandbox3c18cfecd88743599362df5d8b3d25fc.mailgun.org",
-        "from": "mailgun@sandbox3c18cfecd88743599362df5d8b3d25fc.mailgun.org"
+        "apiKey": "apiKey",
+        "domain": "domain",
+        "from": "from"
     },
     "session": {
         "secret": "f'[8dEe;-]d4lf9{xcLGH'+d3D}]K3jhkFl78+-7df",
