@@ -1,6 +1,6 @@
 It is a simple Backbone, Requirejs, Nodejs, Express, Mongodb, Mongoose project with practical use.
 
-As I deployed it on Heroku, you can see it in action by the link http://peterbabukh.herokuapp.com
+As I deployed it on Heroku, you can see it in action by the link http://practisewords.herokuapp.com/
 
 Though this is a ready real app with practical use (see far below), it is a simple app with only basics
 implemented in it. Here I used AMD, BACKBONE, UNDERSCORE, templating, REQUIREJS, NODEJS, EXPRESS, PASSPORTJS, MONGODB, MONGOOSE...
